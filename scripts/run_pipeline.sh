@@ -19,34 +19,74 @@
 set -euo pipefail
 
 WIKI_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-PYTHON="/home/lex/miniconda3/envs/311/bin/python"
 LOG_DIR="$WIKI_DIR/logs"
-DATE="$(date '+%B %d, %Y %H:%M %Z')"
+DATE="$(date '+%Y%m%d_%H%M%S')"
 LOG_FILE="$LOG_DIR/pipeline_${DATE}.log"
 
 mkdir -p "$LOG_DIR"
 
-# Activate conda env so gTTS, bs4, anthropic etc. are on PATH
-source /home/lex/miniconda3/etc/profile.d/conda.sh
-conda activate 311
-
-# ANTHROPIC_API_KEY must be in the environment (or ~/.bashrc / crontab).
-# The Anthropic Python SDK reads it automatically — no Claude CLI needed.
-if [[ -z "${ANTHROPIC_API_KEY:-}" ]]; then
-    echo "$(date -Iseconds) [ERROR] ANTHROPIC_API_KEY is not set. Aborting." >> "$LOG_FILE"
-    exit 1
+# --- Resolve a Python interpreter robustly -------------------------------
+# Prefer an explicit $PYTHON, then the project conda env, then PATH.
+# (The knowledge-base compiler is stdlib-only, so any Python 3.9+ works.)
+if [[ -z "${PYTHON:-}" ]]; then
+    if [[ -x "/home/lex/miniconda3/envs/311/bin/python" ]]; then
+        PYTHON="/home/lex/miniconda3/envs/311/bin/python"
+    elif command -v python3 >/dev/null 2>&1; then
+        PYTHON="$(command -v python3)"
+    else
+        PYTHON="$(command -v python)"
+    fi
 fi
 
-echo "$(date -Iseconds) [INFO] PapersWiki pipeline starting (EDT)" >> "$LOG_FILE"
+# Activate conda env if available (provides gTTS, bs4, anthropic for the
+# paper pipeline). Non-fatal if conda is not present.
+for _conda in "$HOME/miniconda3/etc/profile.d/conda.sh" \
+              "/opt/miniconda3/etc/profile.d/conda.sh" \
+              "/home/lex/miniconda3/etc/profile.d/conda.sh"; do
+    if [[ -f "$_conda" ]]; then
+        # shellcheck disable=SC1090
+        source "$_conda"
+        conda activate 311 2>/dev/null || true
+        break
+    fi
+done
+
+log() { echo "$(date -Iseconds) $*" | tee -a "$LOG_FILE"; }
 
 cd "$WIKI_DIR"
 
-if [[ "${1:-}" == "--digest-only" ]]; then
-    # Re-send digest from last run's processed papers (useful if you split cron jobs)
-    echo "$(date -Iseconds) [INFO] Digest-only mode" >> "$LOG_FILE"
-    "$PYTHON" pipeline.py --limit 0 2>> "$LOG_FILE"
-else
-    "$PYTHON" pipeline.py "$@" 2>> "$LOG_FILE"
+# -------------------------------------------------------------------------
+# Step 1: Compile the knowledge base (Karpathy-style LLM Wiki).
+# email_src/ (raw, source of truth) -> wiki/ (compiled, linked).
+# This is OFFLINE and needs no API key, so it always runs.
+# -------------------------------------------------------------------------
+log "[INFO] Compiling knowledge base (email_src/ -> wiki/)"
+"$PYTHON" "$WIKI_DIR/src/wiki.py" >> "$LOG_FILE" 2>&1 \
+    && log "[INFO] Knowledge base compiled -> wiki/" \
+    || log "[ERROR] Knowledge base compile failed (see $LOG_FILE)"
+
+# If the caller only wants the knowledge base, stop here.
+if [[ "${1:-}" == "--wiki-only" ]]; then
+    log "[INFO] --wiki-only: done."
+    exit 0
 fi
 
-echo "$(date -Iseconds) [INFO] Pipeline done" >> "$LOG_FILE"
+# -------------------------------------------------------------------------
+# Step 2: Paper summarization pipeline (fetch + Claude summaries + audio +
+# digest email). This DOES require ANTHROPIC_API_KEY; if it is absent we
+# skip gracefully — the knowledge base above has already been built.
+# -------------------------------------------------------------------------
+if [[ -z "${ANTHROPIC_API_KEY:-}" ]]; then
+    log "[WARN] ANTHROPIC_API_KEY not set — skipping paper summarization."
+    log "[INFO] Pipeline done (knowledge base only)."
+    exit 0
+fi
+
+if [[ "${1:-}" == "--digest-only" ]]; then
+    log "[INFO] Digest-only mode"
+    "$PYTHON" pipeline.py --limit 0 --no-wiki >> "$LOG_FILE" 2>&1
+else
+    "$PYTHON" pipeline.py "$@" >> "$LOG_FILE" 2>&1
+fi
+
+log "[INFO] Pipeline done"

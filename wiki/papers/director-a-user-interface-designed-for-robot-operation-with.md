@@ -1,0 +1,33 @@
+# Director: A User Interface Designed for Robot Operation With Shared Autonomy
+
+**Category**: Other  |  **Link**: <https://scholar.google.co.jp/scholar_url?url=https://dspace.mit.edu/server/api/core/bitstreams/fd2f464c-eb72-406e-8a7f-b02ed9bbc940/content&oi=scholaralrt&folt=art>
+
+**Authors**: P Marion, M Fallon, R Deits, A Valenzuela, C Pérez D'Arpino, T Koolen, J Carter, S Kuindersma, [[researchers/russ-tedrake|Russ Tedrake]]
+
+**Followed researchers**: [[researchers/russ-tedrake|Russ Tedrake]]
+
+---
+
+## Summary
+
+Director: A User Interface Designed for Robot Operation With Shared Autonomy. Pat Marion, Maurice Fallon, Robin Deits, Andrés Valenzuela, Claudia Pérez D'Arpino, Greg Izatt, Lucas Manuelli, Matt Antone, Hongkai Dai, Twan Koolen, John …
+
+## Related
+
+- [[papers/2602.09153|SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes]]
+- [[papers/implicit-graphs-of-convex-sets|Implicit Graphs of Convex Sets]]
+- [[papers/pdf-how-well-do-diffusion-policies-learn-kinematic-constrain|(PDF) How Well do Diffusion Policies Learn Kinematic Constraint Manifolds?]]
+- [[papers/pdf-planning-along-differentiable-charts-of-constraint-manif|(PDF) Planning along Differentiable Charts of Constraint Manifolds with the Inverse Function Theorem]]
+- [[papers/pdf-training-and-evaluating-diffusion-policies-with-long-con|(PDF) Training and Evaluating Diffusion Policies with Long Context Lengths]]
+- [[papers/txt-learning-particle-dynamics-for-manipulating-rigid-bodies|(TXT) Learning Particle Dynamics for Manipulating Rigid Bodies, Deformable Objects, and Fluids]]
+- [[papers/universal-manipulation-interface-us-patent-app-18-731745|Universal manipulation interface (US Patent App. 18/731745)]]
+- [[papers/the-international-journal-of-robotics-research-shkolnik-et-a|The International Journal of Robotics Research (Shkolnik et al.)]]
+
+## Source (raw)
+
+- [[sources/tedrake-0621-eml|tedrake_0621.eml]]
+
+> The raw alert email is the source of truth and is never edited. This page is compiled from it.
+
+---
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*

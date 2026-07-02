@@ -1,4 +1,15 @@
+# Audio artifacts (regenerated; large binaries)
 audio/*.mp3
 audio/**/*.mp3
+audio/**/*.aiff
 src/**/*.mp3
 
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Runtime logs
+logs/
+
+# Per-run seen-ledger (advances every session; noisy to track)
+state/digest_seen.json

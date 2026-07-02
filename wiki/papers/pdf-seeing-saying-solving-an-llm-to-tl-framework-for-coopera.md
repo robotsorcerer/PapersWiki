@@ -1,0 +1,35 @@
+# [PDF] Seeing, Saying, Solving: An LLM-to-TL Framework for Cooperative Robots
+
+**Venue**: arXiv preprint arXiv …, 2025  |  **Category**: [[topics/ml|Ml]]
+
+**Authors**: DBW Choe, SV Sangeetha, S Emanuel, CY Chiu, …
+
+**Followed researchers**: [[researchers/samuel-coogan|Samuel Coogan]]
+
+**Topics**: [[topics/multi-agent-and-games|Multi Agent And Games]], [[topics/language-and-foundation-models|Language And Foundation Models]]
+
+---
+
+## Summary
+
+_No snippet available in the source alert._
+
+## Related
+
+- [[papers/2509.19484|linrax: A JAX Compatible, Simplex Method Linear Program Solver]]
+- [[papers/2606.00985|Make Your VLA More Robust Without More Data By Interleaving Motion Planning]]
+- [[papers/2606.19590|Safe, Real-Time Active Model Discrimination and Fault Diagnosis for Nonlinear Systems via Differentiable Reachability]]
+- [[papers/advances-in-contraction-theory-for-robust-optimization-contr|Advances in Contraction Theory for Robust Optimization, Control, and Neural Computation]]
+- [[papers/pdf-accelerating-large-scale-temporal-logic-based-task-and-m|(PDF) Accelerating Large-scale Temporal-Logic-based Task and Motion Planning with Logic Network Flow]]
+- [[papers/pdf-accelerating-signal-temporal-logic-based-task-and-motion|(PDF) Accelerating Signal-Temporal-Logic-Based Task and Motion Planning of Bipedal Navigation using Benders Decomposition]]
+- [[papers/2509.24226|Multi-Agent Guided Policy Search for Non-Cooperative Dynamic Games]]
+- [[papers/2510.18211|Distributed Stochastic Search for Multi-Agent Model Predictive Control]]
+
+## Source (raw)
+
+- [[sources/coogan-0523-eml|coogan_0523.eml]]
+
+> The raw alert email is the source of truth and is never edited. This page is compiled from it.
+
+---
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*

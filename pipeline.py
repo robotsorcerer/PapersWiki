@@ -59,18 +59,41 @@ def run(
     ingest_only: bool = False,
     limit: int | None = None,
     force_rescan: bool = False,
+    wiki_only: bool = False,
+    build_wiki: bool = True,
 ) -> None:
     # Late imports so stages can be used standalone
     sys.path.insert(0, str(WIKI_DIR / "src"))
     import ingest as _ingest
+    import wiki as _wiki
+
+    log.info("=" * 60)
+    log.info("PapersWiki pipeline starting — %s", datetime.now(EDT).isoformat())
+
+    # -------------------------------------------------------------------
+    # Stage 0: Knowledge base (Karpathy-style LLM Wiki)
+    # Compile the raw email_src/ source of truth into a linked wiki/.
+    # Deterministic + offline: no API key required. Runs first so the
+    # knowledge base always reflects the latest raw alerts.
+    # -------------------------------------------------------------------
+    if build_wiki or wiki_only:
+        log.info("Stage 0: Compile knowledge base (email_src/ -> wiki/)")
+        try:
+            stats = _wiki.build()
+            log.info("Knowledge base: %s", stats)
+        except Exception as e:
+            log.error("Knowledge base build failed (non-fatal): %s", e, exc_info=True)
+        if wiki_only:
+            log.info("--wiki-only: skipping paper summarization stages.")
+            return
+
+    # Heavy stage imports deferred until we know we need them (so --wiki-only
+    # works offline without anthropic/gtts installed).
     import fetch as _fetch
     import summarize as _summarize
     import render as _render
     import audio as _audio
     import digest as _digest
-
-    log.info("=" * 60)
-    log.info("PapersWiki pipeline starting — %s", datetime.now(EDT).isoformat())
 
     # -------------------------------------------------------------------
     # Stage 1: Ingest
@@ -171,6 +194,10 @@ if __name__ == "__main__":
                         help="Process at most N papers per run")
     parser.add_argument("--force-rescan", action="store_true",
                         help="Reprocess all known papers (clears processed state)")
+    parser.add_argument("--wiki-only", action="store_true",
+                        help="Only compile the knowledge base (email_src/ -> wiki/) and exit")
+    parser.add_argument("--no-wiki", action="store_true",
+                        help="Skip the knowledge-base compile step")
     args = parser.parse_args()
 
     run(
@@ -178,4 +205,6 @@ if __name__ == "__main__":
         ingest_only=args.ingest_only,
         limit=args.limit,
         force_rescan=args.force_rescan,
+        wiki_only=args.wiki_only,
+        build_wiki=not args.no_wiki,
     )

@@ -1,0 +1,14 @@
+# Source: fox_0518.eml
+
+- **Followed researcher**: Dieter Fox
+- **Alert date**: 18 May 2026 09:45:48 +0000
+- **Raw file**: [`email_src/fox_0518.eml`](../../email_src/fox_0518.eml)
+
+> Raw source of truth — never edited. The pages below are compiled from it.
+
+## Papers introduced (1)
+
+- [[papers/simulation-of-tasks-using-neural-networks-us-patent-app-19-1|Simulation of tasks using neural networks (US Patent App. 19/177335)]]
+
+---
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*

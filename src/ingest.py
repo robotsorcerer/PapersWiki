@@ -156,6 +156,198 @@ def _parse_eml(path: Path) -> list[tuple[str, str]]:
 
 
 # ---------------------------------------------------------------------------
+# Rich record parsing (for the knowledge-base / wiki compiler)
+# ---------------------------------------------------------------------------
+# Unlike _parse_eml (which only yields (title, url) pairs for the paper
+# pipeline), parse_eml_records() extracts a structured record per paper:
+# title, url, authors, venue, year, snippet and the *followed researcher*
+# that surfaced the alert. It is implemented with the standard library only
+# (no BeautifulSoup) so the wiki compiler runs in any environment.
+
+import html as _html_mod
+
+# A Google Scholar alert article block: an <h3> title (optionally a link),
+# a green author/venue line (color:#006621) and a snippet div.
+_H3_SPLIT_RE = re.compile(r'<h3\b', re.IGNORECASE)
+_TITLE_LINK_RE = re.compile(
+    r'<a\b[^>]*class="[^"]*gse_alrt_title[^"]*"[^>]*href="([^"]+)"[^>]*>(.*?)</a>',
+    re.IGNORECASE | re.DOTALL,
+)
+_TITLE_ANY_LINK_RE = re.compile(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>',
+                                re.IGNORECASE | re.DOTALL)
+_TITLE_TEXT_RE = re.compile(r'>(.*?)</h3>', re.IGNORECASE | re.DOTALL)
+_META_RE = re.compile(r'color:#006621[^>]*>(.*?)</div>', re.IGNORECASE | re.DOTALL)
+_SNIPPET_RE = re.compile(
+    r'<div\b[^>]*(?:class="[^"]*gse_alrt_sni[^"]*"|style="[^"]*)[^>]*>(.*?)</div>',
+    re.IGNORECASE | re.DOTALL,
+)
+_FOLLOWING_ANCHOR_RE = re.compile(
+    r'following new articles (?:written by|related to|in)\s*<a\b[^>]*>(.*?)</a>',
+    re.IGNORECASE | re.DOTALL,
+)
+_FOLLOWING_PLAIN_RE = re.compile(
+    r'following new articles (?:written by|related to|in)\s*([^<]+?)\s*\.?\s*</p>',
+    re.IGNORECASE | re.DOTALL,
+)
+_YEAR_RE = re.compile(r'(19|20)\d{2}\b')
+# adsabs / other wrappers that embed an arxiv id, e.g. 2026arXiv260520676N
+_ARXIV_EMBED_RE = re.compile(r'arxiv[:/]?(\d{2})(\d{2})\.?(\d{4,5})', re.IGNORECASE)
+
+
+def _strip_tags(fragment: str) -> str:
+    """Remove HTML tags and unescape entities, collapsing whitespace."""
+    text = re.sub(r'<[^>]+>', '', fragment or '')
+    text = _html_mod.unescape(text)
+    return re.sub(r'\s+', ' ', text).strip()
+
+
+def canonical_arxiv_id(url: str) -> str | None:
+    """Return a YYMM.NNNNN arxiv id if one can be recovered from the URL."""
+    m = _ARXIV_URL_RE.search(url)
+    if m:
+        return m.group(1)
+    m = _ARXIV_EMBED_RE.search(url)
+    if m:
+        return f"{m.group(1)}{m.group(2)}.{m.group(3)}"
+    return None
+
+
+def _split_authors(authors_str: str) -> tuple[list[str], bool]:
+    """Split a Scholar author line into a list; flag if it was truncated (…)."""
+    truncated = "…" in authors_str or "..." in authors_str
+    cleaned = authors_str.replace("…", "").replace("...", "").strip()
+    authors = [a.strip() for a in cleaned.split(",") if a.strip()]
+    return authors, truncated
+
+
+def _followed_from_subject(subject: str) -> str:
+    """'Daniela Rus - new articles' -> 'Daniela Rus'."""
+    subj = (subject or "").strip()
+    for sep in (" - new articles", " - new citations", " - new results"):
+        if subj.endswith(sep):
+            return subj[: -len(sep)].strip()
+    # Fallback: drop a trailing ' - ...' clause
+    if " - " in subj:
+        return subj.rsplit(" - ", 1)[0].strip()
+    return subj
+
+
+def parse_eml_records(path: Path) -> list[dict]:
+    """
+    Parse a Google Scholar Alert email into structured per-paper records.
+
+    Returns a list of dicts, one per article:
+      {
+        "title", "url", "arxiv_id", "authors" (list), "authors_truncated",
+        "venue", "year", "snippet", "followed", "source", "date"
+      }
+    Implemented with the stdlib only (regex over the decoded HTML body).
+    """
+    with open(path, "rb") as f:
+        msg = email.message_from_binary_file(f)
+
+    subject = str(msg.get("Subject", "") or "")
+    date_hdr = str(msg.get("Date", "") or "")
+    followed = _followed_from_subject(subject)
+
+    html = None
+    for part in msg.walk():
+        if part.get_content_type() == "text/html":
+            payload = part.get_payload(decode=True)
+            html = payload.decode("utf-8", errors="replace") if isinstance(payload, bytes) else payload
+            break
+    if not html:
+        return []
+
+    # Refine the followed researcher from the body footer when present.
+    m = _FOLLOWING_ANCHOR_RE.search(html) or _FOLLOWING_PLAIN_RE.search(html)
+    if m:
+        body_followed = _strip_tags(m.group(1))
+        if body_followed:
+            followed = body_followed
+
+    records: list[dict] = []
+    # Each article begins at an <h3>. Split and process the trailing chunks.
+    chunks = _H3_SPLIT_RE.split(html)
+    for chunk in chunks[1:]:
+        block = "<h3" + chunk
+
+        # Title + URL
+        url, title = "", ""
+        lm = _TITLE_LINK_RE.search(block)
+        if not lm:
+            lm = _TITLE_ANY_LINK_RE.search(block)
+        if lm:
+            url = lm.group(1).strip()
+            title = _strip_tags(lm.group(2))
+        else:
+            tm = _TITLE_TEXT_RE.search(block)
+            if tm:
+                title = _strip_tags(tm.group(1))
+
+        if not title:
+            continue
+
+        if url and "scholar.google.com/scholar_url" in url:
+            url = _decode_scholar_redirect(url)
+        url = _html_mod.unescape(url)
+
+        # Authors / venue / year
+        authors, authors_truncated, venue, year = [], False, "", ""
+        mm = _META_RE.search(block)
+        if mm:
+            meta = _strip_tags(mm.group(1))
+            authors_part, venue_part = meta, ""
+            if " - " in meta:
+                authors_part, venue_part = meta.rsplit(" - ", 1)
+            authors, authors_truncated = _split_authors(authors_part)
+            ym = _YEAR_RE.search(venue_part)
+            if ym:
+                year = ym.group(0)
+                venue = venue_part[: ym.start()].strip(" ,")
+            else:
+                venue = venue_part.strip(" ,")
+
+        # Snippet: first content div that is not the author line.
+        snippet = ""
+        for sm in _SNIPPET_RE.finditer(block):
+            cand = _strip_tags(sm.group(1))
+            if cand and "color:#006621" not in sm.group(0) and cand != ", ".join(authors):
+                # Skip the footer "This message was sent by Google Scholar…"
+                if cand.lower().startswith("this message was sent"):
+                    continue
+                snippet = cand
+                break
+
+        records.append({
+            "title": title,
+            "url": url,
+            "arxiv_id": canonical_arxiv_id(url) if url else None,
+            "authors": authors,
+            "authors_truncated": authors_truncated,
+            "venue": venue,
+            "year": year,
+            "snippet": snippet,
+            "followed": followed,
+            "source": path.name,
+            "date": date_hdr,
+        })
+
+    return records
+
+
+def parse_all_records(email_src: Path = EMAIL_SRC) -> list[dict]:
+    """Parse every *.eml file in email_src/ into a flat list of records."""
+    all_records: list[dict] = []
+    for eml_path in sorted(email_src.glob("*.eml")):
+        try:
+            all_records.extend(parse_eml_records(eml_path))
+        except Exception as e:  # pragma: no cover - defensive
+            logging.warning("Failed to parse records from %s: %s", eml_path.name, e)
+    return all_records
+
+
+# ---------------------------------------------------------------------------
 # Paper URL fetching
 # ---------------------------------------------------------------------------
 

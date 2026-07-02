@@ -1,0 +1,53 @@
+# Category: CONTROL
+
+Coarse category bucket (mirrors `summaries/control/`). 44 paper(s), classified from title + snippet keywords.
+
+## Papers
+
+- [[papers/2603.02642|cuNRTO: GPU-Accelerated Nonlinear Robust Trajectory Optimization]] (2026) — [[topics/navigation-and-planning|Navigation And Planning]], [[topics/optimization|Optimization]], [[topics/uncertainty-and-bayesian|Uncertainty And Bayesian]]
+- [[papers/pdf-explicit-safety-filters-for-linear-systems-dynamical-pro|(PDF) Explicit Safety Filters for Linear Systems: Dynamical Properties and Robustness Margins]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]]
+- [[papers/2604.01985|World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry]] (2026) — [[topics/optimization|Optimization]], [[topics/world-models|World Models]]
+- [[papers/2604.04235|Structure, Feasibility, and Explicit Safety Filters for Linear Systems]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]], [[topics/optimization|Optimization]]
+- [[papers/2604.04234|Stability Margins of CBF-QP Safety Filters: Analysis and Synthesis]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]], [[topics/uncertainty-and-bayesian|Uncertainty And Bayesian]]
+- [[papers/2606.15942|Stability Analysis in Multi-Constraint Safety Filters for Linear Systems]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]]
+- [[papers/2602.05124|Scalable Fixed-Point Framework for High-Dimensional Hamilton-Jacobi Equations]] (2026) — [[topics/hamilton-jacobi-reachability|Hamilton Jacobi Reachability]]
+- [[papers/2605.02147|Sampling-Based Control via Entropy-Regularized Optimal Transport]] (2026) — [[topics/model-predictive-control|Model Predictive Control]], [[topics/optimization|Optimization]]
+- [[papers/2604.15477|Safety Filtering with an Infinite Number of Constraints]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]]
+- [[papers/2604.03536|SafeSpace: Aggregating Safe Sets from Backup Control Barrier Functions under Input Constraints]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]]
+- [[papers/2606.19590|Safe, Real-Time Active Model Discrimination and Fault Diagnosis for Nonlinear Systems via Differentiable Reachability]] (2026) — [[topics/hamilton-jacobi-reachability|Hamilton Jacobi Reachability]]
+- [[papers/2602.08813|Robust Policy Optimization to Prevent Catastrophic Forgetting]] (2026) — [[topics/safe-control|Safe Control]], [[topics/optimization|Optimization]], [[topics/language-and-foundation-models|Language And Foundation Models]]
+- [[papers/2606.17292|Robust Direct Data-Driven Hamiltonian for Safe Set Computation under Measurement Noise and Disturbances]] (2026) — [[topics/safe-control|Safe Control]]
+- [[papers/2604.08831|Probabilistic Control Barrier Functions for Systems with State Estimation Uncertainty using Sub-Gaussian Concentration]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]], [[topics/uncertainty-and-bayesian|Uncertainty And Bayesian]]
+- [[papers/2601.22356|PoSafeNet: Safe Learning with Poset-Structured Neural Nets]] (2026) — [[topics/safe-control|Safe Control]]
+- [[papers/2602.00921|On the Convergence of Jacobian-Free Backpropagation for Optimal Control Problems with Implicit Hamiltonians]] (2026) — [[topics/model-predictive-control|Model Predictive Control]]
+- [[papers/2605.03065|OGPO: Sample Efficient Full-Finetuning of Generative Control Policies]] (2026) — [[topics/optimization|Optimization]]
+- [[papers/2604.02687|Inverse Safety Filtering: Inferring Constraints from Safety Filters for Decentralized Coordination]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]], [[topics/multi-agent-and-games|Multi Agent And Games]]
+- [[papers/2603.24566|Integral Control Barrier Functions with Input Delay: Prediction, Feasibility, and Robustness]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]]
+- [[papers/2605.10792|Implicit Neural Optimal Transport via Fixed-Point Optimization]] (2026) — [[topics/optimization|Optimization]]
+- [[papers/implicit-graphs-of-convex-sets|Implicit Graphs of Convex Sets]] (2026) — [[topics/optimization|Optimization]]
+- [[papers/2604.03450|High-Order Matrix Control Barrier Functions: Well-Posedness and Feasibility via Matrix Relative Degree]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]]
+- [[papers/2602.17601|Graph Neural Model Predictive Control for High-Dimensional Systems]] (2026) — [[topics/model-predictive-control|Model Predictive Control]]
+- [[papers/2603.24990|From Global to Local: Hierarchical Probabilistic Verification for Reachability Learning]] (2026) — [[topics/hamilton-jacobi-reachability|Hamilton Jacobi Reachability]], [[topics/safe-control|Safe Control]], [[topics/uncertainty-and-bayesian|Uncertainty And Bayesian]]
+- [[papers/2604.04499|Distributed Covariance Steering via Non-Convex ADMM for Large-Scale Multi-Agent Systems]] (2026) — [[topics/optimization|Optimization]], [[topics/multi-agent-and-games|Multi Agent And Games]], [[topics/uncertainty-and-bayesian|Uncertainty And Bayesian]]
+- [[papers/2606.19920|Deep-Unfolded Coordination]] (2026) — [[topics/optimization|Optimization]], [[topics/multi-agent-and-games|Multi Agent And Games]]
+- [[papers/2604.04772|Collaborative Altruistic Safety in Coupled Multi-Agent Systems]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]], [[topics/multi-agent-and-games|Multi Agent And Games]]
+- [[papers/2606.25056|BFMTrack: Latent Sequence Optimization for Physics-Based Motion Tracking with Behavioral Foundation Models]] (2026) — [[topics/optimization|Optimization]], [[topics/language-and-foundation-models|Language And Foundation Models]]
+- [[papers/2603.24894|Active Calibration of Reachable Sets Using Approximate Pick-to-Learn]] (2026) — [[topics/hamilton-jacobi-reachability|Hamilton Jacobi Reachability]]
+- [[papers/2603.19813|A Spectral Perspective on Stochastic Control Barrier Functions]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]], [[topics/uncertainty-and-bayesian|Uncertainty And Bayesian]]
+- [[papers/2603.28707|A Convex Route to Thermomechanics: Learning Internal Energy and Dissipation]] (2026) — [[topics/optimization|Optimization]]
+- [[papers/pdf-safety-critical-control-with-bounded-inputs-a-closed-for|(PDF) Safety-Critical Control with Bounded Inputs: A Closed-Form Solution for Backup Control Barrier Functions]] (2025) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]]
+- [[papers/pdf-optimal-control-for-transformer-architectures-enhancing|(PDF) Optimal Control for Transformer Architectures: Enhancing Generalization, Robustness and Efficiency]] (2025) — [[topics/model-predictive-control|Model Predictive Control]], [[topics/language-and-foundation-models|Language And Foundation Models]]
+- [[papers/2506.09979|Locomotion on Constrained Footholds via Layered Architectures and Model Predictive Control]] (2025) — [[topics/model-predictive-control|Model Predictive Control]], [[topics/locomotion|Locomotion]]
+- [[papers/2510.20202|From Bundles to Backstepping: Geometric Control Barrier Functions for Safety-Critical Control on Manifolds]] (2025) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]]
+- [[papers/2510.18211|Distributed Stochastic Search for Multi-Agent Model Predictive Control]] (2025) — [[topics/model-predictive-control|Model Predictive Control]], [[topics/multi-agent-and-games|Multi Agent And Games]], [[topics/uncertainty-and-bayesian|Uncertainty And Bayesian]]
+- [[papers/2512.01565|Deep FlexQP: Accelerated Nonlinear Programming via Deep Unfolding]] (2025) — [[topics/optimization|Optimization]]
+- [[papers/clf-rl-control-lyapunov-function-guided-reinforcement-learni|CLF-RL: Control Lyapunov Function Guided Reinforcement Learning]] (2025) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/reinforcement-learning|Reinforcement Learning]]
+- [[papers/2511.18703|Asynchronous Distributed Multi-Robot Motion Planning Under Imperfect Communication]] (2025) — [[topics/navigation-and-planning|Navigation And Planning]], [[topics/optimization|Optimization]]
+- [[papers/advances-in-contraction-theory-for-robust-optimization-contr|Advances in Contraction Theory for Robust Optimization, Control, and Neural Computation]] (2025) — [[topics/optimization|Optimization]]
+- [[papers/2505.19241|ActiveDPO: Active Direct Preference Optimization for Sample-Efficient Alignment]] (2025) — [[topics/optimization|Optimization]]
+- [[papers/pdf-biconvex-optimization-for-smooth-minimum-time-trajectori|(PDF) Biconvex Optimization for Smooth Minimum-Time Trajectories around Convex Obstacles]] — [[topics/optimization|Optimization]]
+- [[papers/2603.18422|Topological Obstructions to the Existence of Control Barrier Functions]] — [[topics/control-barrier-functions|Control Barrier Functions]]
+- [[papers/semantic-constraint-synthesis-for-adaptive-trajectory-optimi|Semantic Constraint Synthesis for Adaptive Trajectory Optimization via Large Language Models]] — [[topics/navigation-and-planning|Navigation And Planning]], [[topics/optimization|Optimization]], [[topics/language-and-foundation-models|Language And Foundation Models]]
+
+---
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*

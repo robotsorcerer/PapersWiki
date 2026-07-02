@@ -1,325 +1,288 @@
-# PapersWiki — Automated Paper Processing & Digestion
-
-A fully automated pipeline that processes research papers from multiple sources, generates detailed 1-2 page summaries with strength/weakness analysis, synthesizes audio narration, and delivers daily digests via email. Built for researchers who need to stay current with rapidly-evolving literature.
-
-**Timezone:** All timestamps are in EDT (Eastern Daylight Time, UTC-4).
-
-## What It Does
-
-**Input Sources:**
-- Google Scholar Alert emails (`.eml` files in `email_src/`)
-- Manual paper links (`papers_to_read.md`)
-
-**Processing Pipeline (5 Stages):**
-
-1. **Ingest** — Scan for new papers, deduplicate against `state/processed.json`
-2. **Fetch** — Retrieve metadata via arXiv API or HTML scraping
-3. **Summarize** — Generate detailed analysis using Claude API with prompt caching
-4. **Render** — Output rich Markdown summaries to `summaries/<category>/`
-5. **Audio** — Synthesize 3-5 minute MP3 narration via gTTS
-
-**Daily Delivery:**
-- Morning email digest (configurable time)
-- MP3 attachments of new paper summaries
-- Connections to your research highlighted
-
-## Output: Detailed Summaries
-
-Each paper generates a markdown file with:
-- **Problem Statement** — What research question does this paper address?
-- **Methodology** — How do they solve it? Key technical contributions.
-- **Results & Claims** — Experiments, benchmarks, evidence.
-- **Strengths** — What's novel or solid about this work?
-- **Weaknesses** — Limitations, gaps, experimental design flaws.
-- **Related Work Placement** — Where does this fit in the literature?
-- **Connections to Your Research** — How could ideas from this paper improve your work? (InfDiff, HJ safety, manufacturing control, etc.)
-
-Example output path: `summaries/control/2603.24566_integral_cbf_input_delay.md`
-
-## Directory Structure
-
-```
-.
-├── README.md                   # This file
-├── SKILLS.md                   # Original task specification
-├── pipeline.py                 # Main orchestrator
-├── scripts/
-│   └── run_pipeline.sh        # Cron entry point
-├── src/
-│   ├── ingest.py              # Stage 1: paper discovery
-│   ├── fetch.py               # Stage 2: metadata retrieval
-│   ├── summarize.py           # Stage 3: Claude summarization
-│   ├── render.py              # Stage 4: markdown rendering
-│   ├── audio.py               # Stage 5: TTS synthesis
-│   ├── digest.py              # Morning email sender
-│   └── context.py             # Research context for Claude
-├── state/
-│   └── processed.json         # Deduplication ledger
-├── summaries/                 # Output markdown files
-│   ├── control/
-│   ├── robotics/
-│   └── ml/
-├── audio/                     # Persisted MP3 files
-│   ├── control/
-│   ├── robotics/
-│   └── ml/
-├── logs/                      # Pipeline execution logs
-├── papers_to_read.md          # Manual paper intake
-└── email_src/
-    └── *.eml                  # Google Scholar alert emails
-```
-
-## Quick Start
-
-### Prerequisites
-
-- Python 3.11+ (conda env `311`)
-- Anthropic API key with credits
-- Gmail account with App Password
-- Cron daemon
-
-### Installation
-
-1. **Set environment variables** in `~/.bashrc`:
-   ```bash
-   export ANTHROPIC_API_KEY="sk-ant-..."
-   export SMTP_PASS="xxxx xxxx xxxx xxxx"  # Gmail App Password
-   ```
-
-2. **Verify dependencies**:
-   ```bash
-   source /home/lex/miniconda3/etc/profile.d/conda.sh
-   conda activate 311
-   python -c "import anthropic, gtts, bs4; print('✓ Ready')"
-   ```
-
-3. **Test with one paper**:
-   ```bash
-   cd ~/Documents/Papers/PapersWiki
-   python pipeline.py --limit 1 --dry-run
-   ```
-   Check `logs/pipeline_*.log` for details. All timestamps are in EDT.
-
-### Schedule with Cron
-
-Edit `crontab -e` and add (all times in EDT):
-
-```bash
-# Process new papers at midnight EDT daily
-0 0 * * * /home/lex/Documents/Papers/PapersWiki/scripts/run_pipeline.sh
-
-# Send digest at 6 AM EDT daily (optional: if you want to separate processing from email)
-0 6 * * * /home/lex/Documents/Papers/PapersWiki/scripts/run_pipeline.sh --digest-only
-```
-
-## Usage
-
-### Full pipeline (all stages):
-```bash
-python pipeline.py
-```
-
-### Dry run (skip email):
-```bash
-python pipeline.py --dry-run
-```
-
-### Process only N papers:
-```bash
-python pipeline.py --limit 5
-```
-
-### Only ingest (debug paper detection):
-```bash
-python pipeline.py --ingest-only
-```
-
-### Reprocess all papers (clear state):
-```bash
-python pipeline.py --force-rescan
-```
-
-## How It Works
-
-### Stage 1: Ingest
-
-Scans two input sources:
-1. `.eml` files in `email_src/` directory (Google Scholar Alert emails)
-   - Parses HTML from quoted-printable encoded email bodies
-   - Extracts arxiv/doi links and paper titles
-2. `papers_to_read.md` — Markdown links in format `[Title](URL)`
-
-Deduplicates against `state/processed.json`. Each candidate gets a stable `id` (either `arxiv:<id>` or `url:<hash>`). Timestamps are in EDT.
-
-### Stage 2: Fetch
-
-For each candidate URL:
-- **arXiv URLs**: Query the arXiv API for title, authors, abstract, category, year
-- **Other URLs**: Scrape `<meta name="description">` and `<title>` tags as fallback
-
-Returns enriched metadata dict.
-
-### Stage 3: Summarize
-
-Calls Claude Sonnet via Anthropic SDK with:
-- **System prompt** (cached): Categorization rules, research context (InfDiff, HJ safety, manufacturing)
-- **User message**: Paper abstract + title, request for detailed analysis
-
-Returns JSON output with sections:
-```json
-{
-  "category": "control" | "robotics" | "ml",
-  "problem_statement": "...",
-  "methodology": "...",
-  "results": "...",
-  "strengths": "...",
-  "weaknesses": "...",
-  "related_work": "...",
-  "connections_to_infdiff": "...",
-  "connections_to_hj_safety": "..."
-}
-```
-
-**Prompt Caching:** System prompt cached with `cache_control: {"type": "ephemeral"}` — first call writes cache (~1.25× cost), subsequent calls read at ~0.1× cost. ~90% savings on stable prefix.
-
-### Stage 4: Render
-
-Converts summarized JSON to rich Markdown with fixed template:
-- Header (title, authors, venue, category)
-- All 7 sections from summary
-- Audio file path
-- Generation timestamp
-
-Output: `summaries/<category>/<arxiv_id>_<slug>.md`
-
-### Stage 5: Audio
-
-Extracts narrative text from markdown, strips formatting, synthesizes MP3 via gTTS:
-```python
-from gtts import gTTS
-gTTS(summary_text, lang="en", tld="com").save(mp3_path)
-```
-
-Typical 800-word summary → ~3-5 minutes of audio.
-
-Output: `audio/<category>/<arxiv_id>_<slug>.mp3`
-
-### Digest Email
-
-Morning job that reads `audio/` directory, attaches new MP3s, and sends to `you@example.com` with:
-- List of papers processed (count by category)
-- Brief snippet of each paper's problem statement
-- Link to full markdown summary
-- Audio MP3 attachment
-
-## Architecture Decisions
-
-### Why 5 stages?
-- **Separation of concerns**: each stage can be tested/debugged independently
-- **Resilience**: if stage N fails, stages 1–(N-1) succeed and retry next run
-- **Extensibility**: easy to insert new sources (RSS, arXiv feeds) or outputs (web UI, Slack)
-
-### Why prompt caching?
-- Saves ~90% on repeated system prompts (categorization rules, research context)
-- First run ~1.25× cost, subsequent runs ~0.1× cost
-- With 5-10 papers/day, ~3 cache hits per run = ~50% overall savings
-
-### Why two cron jobs?
-- Decouple processing (midnight) from delivery (6 AM)
-- If network outage kills midnight processing, 6 AM still sends whatever was successful
-- Allows manual dry-run processing without triggering email
-
-### Why gTTS instead of other TTS?
-- Free (after initial API quota)
-- No model/voice licensing complexity
-- Consistent quality for academic content
-- Direct MP3 output, no transcoding needed
-
-## Costs & Performance
-
-**API Costs:**
-- ~$0.01/day at Sonnet pricing (5-10 papers with prompt caching)
-- Varies: complex abstracts → higher token count
-
-**Storage:**
-- ~500 KB per summary markdown
-- ~1-3 MB per 3-5 minute MP3
-- 10 papers/day = ~5 MB storage/day
-
-**Compute:**
-- Ingest: <1s
-- Fetch: ~5s (network-bound, one URL per second)
-- Summarize: ~10s per paper (Claude API RTT)
-- Render: <1s
-- Audio: ~5s per paper (gTTS synthesis)
-- **Total: ~2-3 min for 10 papers**
-
-## Customization
-
-### Change email recipient:
-Edit `src/digest.py` line 40:
-```python
-GMAIL_USER_DEFAULT = "your-email@example.com"
-```
-
-### Change cron time:
-Edit `crontab -e`:
-```bash
-# 5:50 AM instead of midnight (sends digest by 6 AM)
-50 5 * * * /home/lex/Documents/Papers/PapersWiki/scripts/run_pipeline.sh
-```
-
-### Add research context:
-Edit `src/context.py` to include your papers/results, then update the system prompt in `src/summarize.py`.
-
-### Filter by category:
-In `src/pipeline.py`, add post-processing to skip categories:
-```python
-if category not in ("control", "robotics"):
-    continue  # skip ML papers
-```
-
-## Troubleshooting
-
-**Pipeline fails with "ANTHROPIC_API_KEY is not set":**
-- Ensure `ANTHROPIC_API_KEY` is in `~/.bashrc` or crontab
-- Test: `echo $ANTHROPIC_API_KEY` in your shell
-
-**arXiv API returns empty results:**
-- Check if arxiv_id is valid (format: `YYMM.NNNNN`)
-- Network timeout: retry next run (automatic)
-
-**Email not sending:**
-- Verify `SMTP_PASS` is set to Gmail App Password (not account password)
-- Ensure 2FA is enabled on Gmail account
-- Check `logs/digest_*.log`
-
-**Audio synthesis fails:**
-- Verify gTTS is installed: `pip list | grep gtts`
-- Check internet connectivity (gTTS requires network)
-- Confirm `ffmpeg` is available: `which ffmpeg`
-
-**Papers not being detected:**
-- Run `python pipeline.py --ingest-only` to see candidates
-- Check `.eml` file encoding (should be UTF-8)
-- Verify `papers_to_read.md` uses markdown link syntax: `[Title](URL)`
-
-## Contributing
-
-To extend the pipeline:
-
-1. **Add new input source**: Modify `src/ingest.py` with new parser
-2. **Change summarization logic**: Edit system prompt in `src/summarize.py`
-3. **Add output format**: Create new `render_*` function in `src/render.py`
-
-All stages are independent Python modules — feel free to refactor or parallelize.
-
-## License
-
-Internal use by Molux Labs.
+# PapersWiki — A Karpathy-style LLM Wiki that talks
+
+PapersWiki turns the firehose of Google Scholar alert emails into a
+**self-maintaining, linked knowledge graph** — and then *narrates it to you*.
+
+Every weekday morning it emails a small batch of **audio distillations**: single
+MP3s that don't read papers one-by-one, but take you on a spoken *tour of the
+connections* — how the papers that are new since your last digest thread into
+the topics, researchers, and prior work you already follow. It is modeled
+directly on Andrej Karpathy's
+[LLM Wiki / second brain](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f):
+the `wiki/` vault is the compiled, interlinked artifact; the distillation
+narrates its *shape*.
+
+**Timezone:** all timestamps are EDT (America/New_York).
 
 ---
 
-**Last updated:** 2026-05-02 (EDT)  
-**Maintainer:** Lekan Molu (you@example.com)  
-**Timezone:** EDT (Eastern Daylight Time, UTC-4)
+## The idea in one picture
+
+```
+  email_src/*.eml           src/wiki.py            wiki/  (Obsidian vault)
+  ─────────────────   ───────────────────────►   ────────────────────────
+  RAW, immutable       compile deterministically   papers/ researchers/
+  Scholar alerts       (stdlib-only, offline)      topics/ sources/ index.md
+  (source of truth)                                        │
+                                                           │  src/distill.py
+                                                           ▼  (graph → narration)
+                                            audio/digests/distill_<date>_b<n>.mp3
+                                                           │  src/wiki_digest.py
+                                                           ▼  (Gmail SMTP)
+                                                    📧 you@example.com
+```
+
+Two layers, cleanly separated (Karpathy's contract):
+
+- **`email_src/` is the raw source of truth** — your `.eml` alerts. *Never edited.*
+- **`wiki/` belongs to the compiler** — regenerated deterministically on every
+  run, so the graph never goes stale.
+
+This is **not RAG**. The alerts *compile once* into linked pages that compound
+over time, rather than being re-retrieved and re-summarized on every query.
+
+---
+
+## What lands in your inbox
+
+Monday–Friday at **5:00 AM ET**, a launchd agent runs the pipeline and sends
+**3 distillation emails per session** (configurable), draining your alert
+backlog in digestible tranches. Each email is self-contained:
+
+- **One MP3** — a ~1,100-word spoken briefing (~8–10 min) that:
+  - opens with the state of the graph (papers, topics, researchers),
+  - tours the new papers **grouped by topic cluster**, and for each narrates
+    *who wrote it, what it is in one line, and which existing papers it links
+    into* (shared researcher first, then shared topic),
+  - names the **most active researchers** in the batch,
+  - closes on the graph's **densest hubs**.
+- **Concise "show notes"** — a text table-of-contents of what the audio covers
+  (featured papers + URLs, topic clusters touched, active researchers, hubs),
+  plus a **backlog counter** so you can watch the queue drain.
+
+When the backlog is empty, the session simply sends nothing (no spurious
+"recap" emails).
+
+---
+
+## Backlog draining (why 3 emails/session)
+
+The alert backlog can be large, so PapersWiki serves it in bites instead of one
+overwhelming stream:
+
+- Each session sends `BATCH_COUNT` emails (default **3**), each featuring
+  `TRANCHE_SIZE` papers (default **12**).
+- A per-paper **seen-ledger** (`state/digest_seen.json`) records exactly which
+  papers have been narrated. Each tranche marks **only its own papers** seen, so
+  the next email/session picks up precisely where the last left off — **no
+  repeats, no gaps**.
+- At ~36 papers/session the backlog empties in roughly a work-week, after which
+  each morning's session only covers whatever genuinely new alerts arrived.
+
+Tune per run via environment variables:
+
+```bash
+BATCH_COUNT=4 TRANCHE_SIZE=10 BATCH_PAUSE=60 scripts/mwf_digest.sh
+```
+
+---
+
+## Text-to-speech & rate limits (important)
+
+Audio is synthesized with **gTTS (Google Text-to-Speech)**, which is limited to
+roughly **100 requests per hour per IP**. The architecture is designed around
+this:
+
+- **One distillation = exactly one gTTS request.** A whole session of 3–4 emails
+  is 3–4 requests — orders of magnitude under the ceiling.
+- **Never bulk-synthesize per-paper.** The legacy `scripts/generate_wiki_audio.py`
+  makes *one request per paper*; running it fresh over a large corpus **will**
+  trip the 100/hour wall and earn a multi-hour IP block. It is no longer part of
+  the delivery flow. If you must run it, use its built-in throttles
+  (`--sleep`, `--retry-429-sleep`).
+- **Backoff + offline fallback.** `synthesize()` retries gTTS 429s with
+  exponential backoff, then falls back to macOS's offline `/usr/bin/say`
+  (transcoded to MP3 via `ffmpeg` if present, otherwise `.aiff`) — so a
+  scheduled run **always produces audio** even if Google is throttling.
+
+> If you have been sending more than ~100 gTTS requests per hour, carefully
+> batch your requests so you don't get rate-limited. PapersWiki's one-request-
+> per-distillation design keeps you comfortably under that ceiling; the
+> per-paper generator is the only thing that can blow past it.
+
+---
+
+## Directory structure
+
+```
+.
+├── README.md                    # This file
+├── pipeline.py                  # Legacy orchestrator (wiki + Claude paper stages)
+├── scripts/
+│   ├── mwf_digest.sh            # launchd entry point: weekday backlog-drain sender
+│   ├── generate_wiki_audio.py   # Per-paper MP3s (NOT in delivery flow; rate-limit risk)
+│   └── regenerate_audio.sh      # Batch regen from summaries/ (legacy)
+├── src/
+│   ├── wiki.py                  # Compiles email_src/ → wiki/  (stdlib-only, offline)
+│   ├── distill.py               # Graph → single spoken distillation MP3  ★ core
+│   ├── wiki_digest.py           # Builds show-notes + emails the MP3 via Gmail SMTP
+│   ├── ingest.py                # Raw .eml parser + paper discovery
+│   ├── fetch.py summarize.py render.py audio.py digest.py context.py
+│   └── input_handler.py
+├── state/
+│   ├── digest_seen.json         # Seen-ledger — defines what counts as "new"
+│   └── processed.json           # Legacy dedup ledger (paper pipeline)
+├── wiki/                        # COMPILED knowledge base (open as an Obsidian vault)
+│   ├── index.md  papers/  researchers/  topics/  sources/
+├── audio/
+│   └── digests/                 # distill_<date>_b<n>.mp3 — the emailed distillations
+├── summaries/                   # Legacy per-paper Claude summaries (control/robotics/ml/other)
+├── logs/                        # Pipeline + session logs
+└── email_src/*.eml              # RAW source of truth — never edited
+```
+
+---
+
+## How the knowledge base is compiled (`src/wiki.py`)
+
+Fully offline, stdlib-only (no API key, no network, no BeautifulSoup) so it
+always runs. It:
+
+1. Parses every `.eml` in `email_src/` into structured records (title, URL,
+   authors, venue, year, snippet, followed researcher).
+2. Reconciles duplicate alerts into **unique papers**.
+3. Classifies each paper into **topic clusters** (CBFs, Hamilton-Jacobi
+   reachability, diffusion, RL, manipulation, locomotion, …) via the keyword
+   taxonomy in `src/wiki.py` (`TOPIC_KEYWORDS`) and coarse categories
+   (control / robotics / ml / other).
+4. Canonicalizes abbreviated author names (`D Rus` → `Daniela Rus`) to link
+   co-authored papers to the researchers you follow.
+5. Emits the linked vault — `papers/`, `researchers/`, `topics/`, `sources/`,
+   and an `index.md` Map-of-Content — using Obsidian wikilinks with backlinks.
+
+```bash
+python src/wiki.py            # rebuild wiki/ from email_src/
+```
+
+Retune the taxonomy by editing `TOPIC_KEYWORDS` in `src/wiki.py` (and research
+themes in `src/context.py`), then rebuild.
+
+---
+
+## How the distillation is composed (`src/distill.py`)
+
+1. `wiki.build_corpus()` → the in-memory linked graph.
+2. Diff against `state/digest_seen.json` → the **unseen** papers, ordered
+   deterministically (year desc, then title).
+3. Carve out this run's **tranche** (`--limit N`).
+4. Compose a flowing, connection-oriented narration (grouped by topic; each
+   paper narrated with its graph neighbours).
+5. Synthesize **one MP3** to `audio/digests/`, with gTTS-429 backoff and the
+   offline `say` fallback.
+6. Mark **only the tranche** seen (unless `--peek`).
+
+```bash
+# Preview the narration text without synthesizing or touching the ledger:
+python src/distill.py --script-only --limit 12
+
+# Build one tranche MP3 for real (advances the ledger):
+python src/distill.py --limit 12
+
+# Full-graph tour (everything at once):
+python src/distill.py --force-all
+```
+
+Key flags: `--limit N` (tranche size), `--peek` (don't advance ledger),
+`--skip-if-empty` (exit quietly when backlog is dry), `--force-all`,
+`--max-featured N`, `--tag SUFFIX`.
+
+---
+
+## Emailing (`src/wiki_digest.py`)
+
+Builds the show-notes body, attaches the single distilled MP3, and sends via
+**Gmail SMTP over SSL**. Credentials come from the environment
+(`SMTP_USER`, `SMTP_PASS`, `SMTP_HOST`, `SMTP_PORT`); the launchd wrapper loads
+them from `~/.zsh_aliases` (grepping only the four `SMTP_*` export lines so it
+never triggers interactive-zsh side effects). `SMTP_PASS` is a Gmail **App
+Password**, not the account password.
+
+```bash
+# Dry run — build MP3 + print the email body, send nothing, don't advance ledger:
+python src/wiki_digest.py --dry-run --limit 12
+
+# Send one tranche now:
+python src/wiki_digest.py --limit 12 --to you@example.com
+```
+
+---
+
+## Scheduling (macOS launchd)
+
+Delivery is driven by a LaunchAgent, **not** cron (more reliable on macOS across
+sleep/wake):
+
+- **Plist:** `~/Library/LaunchAgents/com.moluxlabs.paperswiki.mwf.plist`
+- **Schedule:** weekdays (Mon–Fri), **05:00** local, via `StartCalendarInterval`.
+- **Runs:** `scripts/mwf_digest.sh` → rebuild wiki → send up to `BATCH_COUNT`
+  tranche emails → stop when backlog empty.
+- **Logs:** `logs/mwf_digest_<timestamp>.log`, plus
+  `logs/launchd_mwf.{out,err}.log`.
+
+```bash
+# Install / reload:
+launchctl bootout   gui/$(id -u) ~/Library/LaunchAgents/com.moluxlabs.paperswiki.mwf.plist 2>/dev/null
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.moluxlabs.paperswiki.mwf.plist
+
+# Inspect:
+launchctl print gui/$(id -u)/com.moluxlabs.paperswiki.mwf
+
+# Fire once now (out of schedule):
+launchctl kickstart -k gui/$(id -u)/com.moluxlabs.paperswiki.mwf
+```
+
+---
+
+## Prerequisites
+
+- **Python 3.11+** with `gtts` (the compiler & distiller are otherwise
+  stdlib-only). Verify: `python -c "import gtts; print(gtts.__version__)"`.
+- **Gmail App Password** exported as `SMTP_PASS` in `~/.zsh_aliases`:
+  ```bash
+  export SMTP_USER="you@example.com"
+  export SMTP_PASS="xxxxxxxxxxxxxxxx"   # Gmail App Password (no spaces)
+  export SMTP_HOST="smtp.gmail.com"
+  export SMTP_PORT="465"
+  ```
+- **macOS** for launchd scheduling and the offline `say` TTS fallback.
+- *(Optional)* `ffmpeg` so the `say` fallback yields `.mp3` instead of `.aiff`:
+  `brew install ffmpeg`.
+
+---
+
+## Troubleshooting
+
+| Symptom | Cause / fix |
+|---|---|
+| `gTTSError: 429 (Too Many Requests)` | gTTS 100 req/hr IP limit — usually from running the per-paper generator. Wait for the quota to reset; the distiller's `say` fallback covers scheduled runs. |
+| Empty / duplicate emails | Inspect `state/digest_seen.json`. Delete it to re-drain the whole backlog from scratch; it advances one tranche per email. |
+| No email sent | `SMTP_PASS` unset — ensure `~/.zsh_aliases` exports it and 2FA + App Password are configured on the Gmail account. |
+| Job never fires | `launchctl print gui/$(id -u)/com.moluxlabs.paperswiki.mwf`; check `logs/launchd_mwf.err.log`. |
+| Wiki looks stale | Rebuild: `python src/wiki.py`. It's deterministic and safe to run anytime. |
+
+---
+
+## Legacy: the Claude paper pipeline
+
+Before the distillation model, `pipeline.py` fetched each paper, summarized it
+with the Claude API (`src/summarize.py`), rendered per-paper Markdown to
+`summaries/`, and synthesized per-paper MP3s. Those modules remain for reference
+and one-off use, but the **default delivery is now the offline, API-key-free
+knowledge-graph distillation** described above. (The Claude path also requires
+`ANTHROPIC_API_KEY` and is subject to its own credit limits.)
+
+---
+
+**Maintainer:** Lekan Molu (you@example.com) · **License:** internal use by
+Molux Labs · **Timezone:** EDT (UTC-4).
+```

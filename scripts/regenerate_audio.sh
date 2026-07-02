@@ -6,7 +6,16 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$SCRIPT_DIR"
 
-PYTHON_ENV="/home/lex/miniconda3/envs/311/bin/python"
+# Resolve a Python interpreter robustly (mirrors run_pipeline.sh).
+if [[ -z "${PYTHON_ENV:-}" ]]; then
+    if [[ -x "/home/lex/miniconda3/envs/311/bin/python" ]]; then
+        PYTHON_ENV="/home/lex/miniconda3/envs/311/bin/python"
+    elif command -v python3 >/dev/null 2>&1; then
+        PYTHON_ENV="$(command -v python3)"
+    else
+        PYTHON_ENV="$(command -v python)"
+    fi
+fi
 
 echo "========================================================================"
 echo "                    AUDIO REGENERATION SCRIPT"

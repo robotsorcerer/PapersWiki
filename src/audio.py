@@ -13,11 +13,12 @@ Audio narration script:
   6. Weaknesses (abbreviated)
   7. Connections to Lekan's work (InfDiff + HJ)
 
-At 150 WPM average, a 400-word script produces ~3 min of audio.
-A full-detail 800-word script produces ~5 min.
+At 150 WPM average, a 750-word script produces ~5 min of audio.
+A full-detail 1500-word script produces ~10 min.
 
-We target 3-5 minutes: include all sections but keep bullet lists
-to a single spoken sentence per bullet.
+We target 5-10 minutes: include every section in full (problem,
+methodology, results, strengths, weaknesses, related work and both
+research-connection sections), reading each bullet as a full sentence.
 
 Usage (CLI):
     python audio.py --paper-json '{...}'
@@ -85,10 +86,65 @@ def _bullets_to_sentences(text: str) -> str:
     return ' '.join(spoken)
 
 
+def _sections_from_markdown(md_text: str) -> list[str]:
+    """
+    Fallback narration builder: when only the rendered markdown is available
+    (e.g. regenerate_audio.sh or --md-file), reconstruct spoken sections from
+    the markdown headings instead of the structured summary fields. This is
+    what lets existing summaries narrate in full (5-10 min target) rather than
+    just reading the title header.
+    """
+    label_map = {
+        "problem statement": "Problem.",
+        "methodology": "Approach.",
+        "results & claims": "Results.",
+        "results": "Results.",
+        "strengths": "Strengths.",
+        "weaknesses": "Limitations.",
+        "related work placement": "Context in the literature.",
+        "related work": "Context in the literature.",
+    }
+    # Split the document into (heading, body) blocks on level-2+ headings.
+    sections: list[tuple[str, str]] = []
+    cur: str | None = None
+    buf: list[str] = []
+    for line in md_text.split("\n"):
+        m = re.match(r'^#{2,}\s+(.*)$', line)
+        if m:
+            if cur is not None:
+                sections.append((cur, "\n".join(buf)))
+            cur, buf = m.group(1).strip(), []
+        elif cur is not None:
+            buf.append(line)
+    if cur is not None:
+        sections.append((cur, "\n".join(buf)))
+
+    out: list[str] = []
+    for heading, body in sections:
+        key = heading.lower().strip()
+        label = label_map.get(key)
+        if label is None:
+            if "infdiff" in key:
+                label = "Connections to InfDiff."
+            elif "hj" in key or "hamilton" in key or "reachability" in key or "manufacturing" in key:
+                label = "Connections to Hamilton-Jacobi reachability."
+            else:
+                continue  # skip umbrella/unknown headings
+        text = _strip_markdown(body)
+        if label in ("Strengths.", "Limitations."):
+            text = _bullets_to_sentences(text)
+        low = text.lower()
+        if not text or low.startswith(("not available", "not analyzed", "not provided")):
+            continue
+        out.append(f"{label} {text}")
+    return out
+
+
 def _build_script(paper: dict) -> str:
     """
-    Build a 400-800 word spoken script from the paper summary.
-    Designed for 3-5 minutes of gTTS audio.
+    Build a ~750-1500 word spoken script from the paper summary.
+    Designed for 5-10 minutes of gTTS audio: every section is read in
+    full (no abbreviation), so longer summaries map to longer narration.
     """
     summary = paper.get("summary", {})
     title   = paper.get("title", "Untitled Paper")
@@ -116,52 +172,65 @@ def _build_script(paper: dict) -> str:
     parts: list[str] = []
 
     # --- Opening ---
+    category = summary.get("category", "")
+    cat_str = f" This work falls under {category}." if category and category != "other" else ""
     parts.append(
         f"Paper summary. Title: {title}. "
-        f"By {author_str}. Published in {venue_year}"
+        f"By {author_str}. Published in {venue_year}{cat_str}"
     )
 
-    # --- Problem ---
-    prob = _strip_markdown(summary.get("problem_statement", ""))
-    if prob:
-        parts.append(f"Problem. {prob}")
+    # --- Body sections ---
+    # Prefer structured summary fields; fall back to parsing the rendered
+    # markdown (so regenerate_audio.sh / --md-file narrate the full summary).
+    structured = any(summary.get(k) for k in (
+        "problem_statement", "methodology", "results", "strengths",
+        "weaknesses", "related_work", "connections_to_infdiff",
+        "connections_to_hj_safety"))
 
-    # --- Methodology ---
-    meth = _strip_markdown(summary.get("methodology", ""))
-    if meth:
-        parts.append(f"Approach. {meth}")
+    if not structured and summary.get("raw_markdown"):
+        parts.extend(_sections_from_markdown(summary["raw_markdown"]))
+    else:
+        # --- Problem ---
+        prob = _strip_markdown(summary.get("problem_statement", ""))
+        if prob:
+            parts.append(f"Problem. {prob}")
 
-    # --- Results ---
-    res = _strip_markdown(summary.get("results", ""))
-    if res:
-        parts.append(f"Results. {res}")
+        # --- Methodology ---
+        meth = _strip_markdown(summary.get("methodology", ""))
+        if meth:
+            parts.append(f"Approach. {meth}")
 
-    # --- Strengths (as sentences) ---
-    str_raw = _strip_markdown(summary.get("strengths", ""))
-    if str_raw:
-        str_spoken = _bullets_to_sentences(str_raw)
-        parts.append(f"Strengths. {str_spoken}")
+        # --- Results ---
+        res = _strip_markdown(summary.get("results", ""))
+        if res:
+            parts.append(f"Results. {res}")
 
-    # --- Weaknesses ---
-    weak_raw = _strip_markdown(summary.get("weaknesses", ""))
-    if weak_raw:
-        weak_spoken = _bullets_to_sentences(weak_raw)
-        parts.append(f"Limitations. {weak_spoken}")
+        # --- Strengths (as sentences) ---
+        str_raw = _strip_markdown(summary.get("strengths", ""))
+        if str_raw:
+            str_spoken = _bullets_to_sentences(str_raw)
+            parts.append(f"Strengths. {str_spoken}")
 
-    # --- Related Work ---
-    rw = _strip_markdown(summary.get("related_work", ""))
-    if rw:
-        parts.append(f"Context in the literature. {rw}")
+        # --- Weaknesses ---
+        weak_raw = _strip_markdown(summary.get("weaknesses", ""))
+        if weak_raw:
+            weak_spoken = _bullets_to_sentences(weak_raw)
+            parts.append(f"Limitations. {weak_spoken}")
 
-    # --- InfDiff connections ---
-    infdiff = _strip_markdown(summary.get("connections_to_infdiff", ""))
-    if infdiff and "not directly applicable" not in infdiff.lower():
-        parts.append(f"Connections to InfDiff. {infdiff}")
+        # --- Related Work ---
+        rw = _strip_markdown(summary.get("related_work", ""))
+        if rw:
+            parts.append(f"Context in the literature. {rw}")
 
-    # --- HJ connections ---
-    hj = _strip_markdown(summary.get("connections_to_hj_safety", ""))
-    if hj and "not directly applicable" not in hj.lower():
-        parts.append(f"Connections to Hamilton-Jacobi reachability. {hj}")
+        # --- InfDiff connections (read in full to lengthen narration) ---
+        infdiff = _strip_markdown(summary.get("connections_to_infdiff", ""))
+        if infdiff:
+            parts.append(f"Connections to InfDiff. {infdiff}")
+
+        # --- HJ connections ---
+        hj = _strip_markdown(summary.get("connections_to_hj_safety", ""))
+        if hj:
+            parts.append(f"Connections to Hamilton-Jacobi reachability. {hj}")
 
     # --- Closing ---
     parts.append("End of summary.")
