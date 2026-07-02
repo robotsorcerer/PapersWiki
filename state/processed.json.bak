@@ -1,0 +1,2499 @@
+{
+  "processed_ids": [
+    "arxiv:2603.24566"
+  ],
+  "candidates": [
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=DDxU35nOpD8J&citsig=ADQXK0wAAAAAa6uvZu5qjaKaNNQz-rw_f8j4bRU",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=DDxU35nOpD8J&citsig=ADQXK0wAAAAAa6uvZu5qjaKaNNQz-rw_f8j4bRU",
+      "title": "",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:26:01.397619+00:00"
+    },
+    {
+      "id": "arxiv:2603.18422",
+      "url": "https://arxiv.org/abs/2603.18422",
+      "title": "Topological Obstructions to the Existence of Control Barrier Functions",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:26:01.397642+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=GyHuCTCVO-QJ&citsig=ADQXK0wAAAAAa6uvZpLcL9Rx7pWrJKUiVr9xTJI",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=GyHuCTCVO-QJ&citsig=ADQXK0wAAAAAa6uvZpLcL9Rx7pWrJKUiVr9xTJI",
+      "title": "",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:26:01.397649+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=TjWwqmwAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=TjWwqmwAAAAJ",
+      "title": "Aaron D. Ames",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:26:01.397673+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en",
+      "title": "List alerts",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:26:01.397679+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAadzw5vXcpLrxvecRTv1djBm78Oo",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAadzw5vXcpLrxvecRTv1djBm78Oo",
+      "title": "Cancel alert",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:26:01.397685+00:00"
+    },
+    {
+      "id": "arxiv:2603.23995",
+      "url": "https://arxiv.org/abs/2603.23995",
+      "title": "MIRROR: Visual Motion Imitation via Real-time Retargeting and Teleoperation with Parallel Differential Inverse Kinematics",
+      "source": "ames_0331.eml",
+      "added": "2026-05-02T20:26:01.401510+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Ia_iW9lV2ZwJ&citsig=ADQXK0wAAAAAa61pnlYnp13eDrtwfN1xivyU5j0",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Ia_iW9lV2ZwJ&citsig=ADQXK0wAAAAAa61pnlYnp13eDrtwfN1xivyU5j0",
+      "title": "",
+      "source": "ames_0331.eml",
+      "added": "2026-05-02T20:26:01.401518+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAad6rHqqi5PnV8gdRU95dkVA3klw",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAad6rHqqi5PnV8gdRU95dkVA3klw",
+      "title": "Cancel\r\n alert",
+      "source": "ames_0331.eml",
+      "added": "2026-05-02T20:26:01.401536+00:00"
+    },
+    {
+      "id": "arxiv:2604.04234",
+      "url": "https://arxiv.org/abs/2604.04234",
+      "title": "Stability Margins of CBF-QP Safety Filters: Analysis and Synthesis",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403636+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=tHpPXNCQVx8J&citsig=ADQXK0wAAAAAa7oq13jPBjCYaXmaqf19Zf1xEcU",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=tHpPXNCQVx8J&citsig=ADQXK0wAAAAAa7oq13jPBjCYaXmaqf19Zf1xEcU",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403647+00:00"
+    },
+    {
+      "id": "arxiv:2604.04772",
+      "url": "https://arxiv.org/abs/2604.04772",
+      "title": "Collaborative Altruistic Safety in Coupled Multi-Agent Systems",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403660+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RaTErZkci0kJ&citsig=ADQXK0wAAAAAa7oq19ren-VAPqMeDCavsreX8NQ",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RaTErZkci0kJ&citsig=ADQXK0wAAAAAa7oq19ren-VAPqMeDCavsreX8NQ",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403663+00:00"
+    },
+    {
+      "id": "arxiv:2604.03536",
+      "url": "https://arxiv.org/abs/2604.03536",
+      "title": "SafeSpace: Aggregating Safe Sets from Backup Control Barrier Functions under Input Constraints",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403673+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=J4kAm1Uz3XoJ&citsig=ADQXK0wAAAAAa7oq107ydyufme_0i5tNeA6pfls",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=J4kAm1Uz3XoJ&citsig=ADQXK0wAAAAAa7oq107ydyufme_0i5tNeA6pfls",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403676+00:00"
+    },
+    {
+      "id": "arxiv:2604.04235",
+      "url": "https://arxiv.org/abs/2604.04235",
+      "title": "Structure, Feasibility, and Explicit Safety Filters for Linear Systems",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403686+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Mtc2svyMwtoJ&citsig=ADQXK0wAAAAAa7oq142_FiWL3CrYKBfWB8K53CA",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Mtc2svyMwtoJ&citsig=ADQXK0wAAAAAa7oq142_FiWL3CrYKBfWB8K53CA",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403689+00:00"
+    },
+    {
+      "id": "arxiv:2604.03450",
+      "url": "https://arxiv.org/abs/2604.03450",
+      "title": "High-Order Matrix Control Barrier Functions: Well-Posedness and Feasibility via Matrix Relative Degree",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403698+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Pgq3k62ZJvoJ&citsig=ADQXK0wAAAAAa7oq1xO4gSa_q0Hkd0OB7MLPA9Q",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Pgq3k62ZJvoJ&citsig=ADQXK0wAAAAAa7oq1xO4gSa_q0Hkd0OB7MLPA9Q",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403702+00:00"
+    },
+    {
+      "id": "arxiv:2604.03405",
+      "url": "https://arxiv.org/abs/2604.03405",
+      "title": "Steering with Contingencies: Combinatorial Stabilization and Reach-Avoid Filters",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403710+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=TqytVcGWRvwJ&citsig=ADQXK0wAAAAAa7oq12h1KJM-EyEnhcCSi77V1YI",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=TqytVcGWRvwJ&citsig=ADQXK0wAAAAAa7oq12h1KJM-EyEnhcCSi77V1YI",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403714+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAaetsV16O-6jqEbFCE3sMbmlTZCs",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAaetsV16O-6jqEbFCE3sMbmlTZCs",
+      "title": "Cancel alert",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:26:01.403729+00:00"
+    },
+    {
+      "id": "url:https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract",
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract",
+      "title": "Structure,\r\n Feasibility, and Explicit Safety Filters for Linear Systems",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405586+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=j3GKO6fM9lYJ&citsig=ADQXK0wAAAAAa8Nu3gYD0NPXxLUu_9gy5SXF3z4",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=j3GKO6fM9lYJ&citsig=ADQXK0wAAAAAa8Nu3gYD0NPXxLUu_9gy5SXF3z4",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405595+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405599+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405602+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405606+00:00"
+    },
+    {
+      "id": "arxiv:2604.08831",
+      "url": "https://arxiv.org/abs/2604.08831",
+      "title": "Probabilistic Control Barrier Functions for Systems with State Estimation Uncertainty using Sub-Gaussian Concentration",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405611+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=brcQ4LHv6roJ&citsig=ADQXK0wAAAAAa8Nu3ublKgAkiUvAlPZxtCSFROk",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=brcQ4LHv6roJ&citsig=ADQXK0wAAAAAa8Nu3ublKgAkiUvAlPZxtCSFROk",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405615+00:00"
+    },
+    {
+      "id": "url:https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract",
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract",
+      "title": "Stability\r\n Margins of CBF-QP Safety Filters: Analysis and Synthesis",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405626+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ajTirmT9U70J&citsig=ADQXK0wAAAAAa8Nu3hxD28lPHzoTtPL8sVcrf-Y",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ajTirmT9U70J&citsig=ADQXK0wAAAAAa8Nu3hxD28lPHzoTtPL8sVcrf-Y",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405629+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405632+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405634+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405637+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAafSwXkDBgZKfp6jiqxazKlUoG54",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAafSwXkDBgZKfp6jiqxazKlUoG54",
+      "title": "Cancel\r\n alert",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:26:01.405647+00:00"
+    },
+    {
+      "id": "arxiv:2604.15477",
+      "url": "https://arxiv.org/abs/2604.15477",
+      "title": "Safety Filtering with an Infinite Number of Constraints",
+      "source": "ames_0424.eml",
+      "added": "2026-05-02T20:26:01.406418+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=F0UmI2Bg2dMJ&citsig=ADQXK0wAAAAAa8w3Rq9J-cwz5iwQI_96D7BdxAU",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=F0UmI2Bg2dMJ&citsig=ADQXK0wAAAAAa8w3Rq9J-cwz5iwQI_96D7BdxAU",
+      "title": "",
+      "source": "ames_0424.eml",
+      "added": "2026-05-02T20:26:01.406426+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAaf14xr7IVMDJI7p-9ltiw_t4GgQ",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAaf14xr7IVMDJI7p-9ltiw_t4GgQ",
+      "title": "Cancel alert",
+      "source": "ames_0424.eml",
+      "added": "2026-05-02T20:26:01.406443+00:00"
+    },
+    {
+      "id": "arxiv:2603.19813",
+      "url": "https://arxiv.org/abs/2603.19813",
+      "title": "A Spectral Perspective on Stochastic Control Barrier Functions",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:26:01.408444+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=EkJRYzAwDRkJ&citsig=ADQXK0wAAAAAa61pnf0UT-HTauqq0Ldw04V9eWg",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=EkJRYzAwDRkJ&citsig=ADQXK0wAAAAAa61pnf0UT-HTauqq0Ldw04V9eWg",
+      "title": "",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:26:01.408454+00:00"
+    },
+    {
+      "id": "arxiv:2603.24894",
+      "url": "https://arxiv.org/abs/2603.24894",
+      "title": "Active Calibration of Reachable Sets Using Approximate Pick-to-Learn",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:26:01.408466+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=CxXRYy9w6kUJ&citsig=ADQXK0wAAAAAa61pndRTQgcDDGrKAd5dIROLw7w",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=CxXRYy9w6kUJ&citsig=ADQXK0wAAAAAa61pndRTQgcDDGrKAd5dIROLw7w",
+      "title": "",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:26:01.408469+00:00"
+    },
+    {
+      "id": "arxiv:2603.24990",
+      "url": "https://arxiv.org/abs/2603.24990",
+      "title": "From Global to Local: Hierarchical Probabilistic Verification for Reachability Learning",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:26:01.408478+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=NnwYg4UsebgJ&citsig=ADQXK0wAAAAAa61pnYOXU7lUDiX4b_TT-S7242M",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=NnwYg4UsebgJ&citsig=ADQXK0wAAAAAa61pnYOXU7lUDiX4b_TT-S7242M",
+      "title": "",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:26:01.408481+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=-5_ksIkAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=-5_ksIkAAAAJ",
+      "title": "Claire Tomlin",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:26:01.408490+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en",
+      "title": "List\r\n alerts",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:26:01.408493+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en&citsig=ADQXK0wAAAAAad6rHZg7TNJx4TQPRGhtvlj7AGA",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en&citsig=ADQXK0wAAAAAad6rHZg7TNJx4TQPRGhtvlj7AGA",
+      "title": "Cancel\r\n alert",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:26:01.408496+00:00"
+    },
+    {
+      "id": "arxiv:2604.02687",
+      "url": "https://arxiv.org/abs/2604.02687",
+      "title": "Inverse Safety Filtering: Inferring Constraints from Safety Filters for Decentralized Coordination",
+      "source": "claire_0410.eml",
+      "added": "2026-05-02T20:26:01.411247+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=GKA-ND8IREgJ&citsig=ADQXK0wAAAAAa7oq1WBCP9fwIe30FwKIxygugAI",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=GKA-ND8IREgJ&citsig=ADQXK0wAAAAAa7oq1WBCP9fwIe30FwKIxygugAI",
+      "title": "",
+      "source": "claire_0410.eml",
+      "added": "2026-05-02T20:26:01.411254+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en&citsig=ADQXK0wAAAAAaetsVWVcYJ_9t68TWK9kTUz8nrQ",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en&citsig=ADQXK0wAAAAAaetsVWVcYJ_9t68TWK9kTUz8nrQ",
+      "title": "Cancel alert",
+      "source": "claire_0410.eml",
+      "added": "2026-05-02T20:26:01.411270+00:00"
+    },
+    {
+      "id": "arxiv:2602.10111",
+      "url": "https://arxiv.org/abs/2602.10111",
+      "title": "Learning Agile Quadrotor Flight in the Real World",
+      "source": "davide_0217_26.eml",
+      "added": "2026-05-02T20:26:01.411932+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=_OgeVlNBgF4J&citsig=AF5TLtkAAAAAa3YgY7lpgVJnZRotBm-EF8CP7e8",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=_OgeVlNBgF4J&citsig=AF5TLtkAAAAAa3YgY7lpgVJnZRotBm-EF8CP7e8",
+      "title": "",
+      "source": "davide_0217_26.eml",
+      "added": "2026-05-02T20:26:01.411938+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=SC9wV2kAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=SC9wV2kAAAAJ",
+      "title": "Davide Scaramuzza",
+      "source": "davide_0217_26.eml",
+      "added": "2026-05-02T20:26:01.411947+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en",
+      "title": "List alerts",
+      "source": "davide_0217_26.eml",
+      "added": "2026-05-02T20:26:01.411950+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=AF5TLtkAAAAAaadh4w_6C-AgElA1N7tJUxMJlpM",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=AF5TLtkAAAAAaadh4w_6C-AgElA1N7tJUxMJlpM",
+      "title": "Cancel alert",
+      "source": "davide_0217_26.eml",
+      "added": "2026-05-02T20:26:01.411953+00:00"
+    },
+    {
+      "id": "arxiv:2603.06228",
+      "url": "https://arxiv.org/abs/2603.06228",
+      "title": "Low-latency Event-based Object Detection with Spatially-Sparse Linear Attention",
+      "source": "davide_0318_26.eml",
+      "added": "2026-05-02T20:26:01.412624+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=PnaW2vdZIZkJ&citsig=AF5TLtkAAAAAa5xa6W_cwLUcY6DQkkhcCp0VrbE",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=PnaW2vdZIZkJ&citsig=AF5TLtkAAAAAa5xa6W_cwLUcY6DQkkhcCp0VrbE",
+      "title": "",
+      "source": "davide_0318_26.eml",
+      "added": "2026-05-02T20:26:01.412631+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=AF5TLtkAAAAAac2caZF8Z5teSkHOSY2TlgAivTQ",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=AF5TLtkAAAAAac2caZF8Z5teSkHOSY2TlgAivTQ",
+      "title": "Cancel alert",
+      "source": "davide_0318_26.eml",
+      "added": "2026-05-02T20:26:01.412647+00:00"
+    },
+    {
+      "id": "arxiv:2603.21785",
+      "url": "https://arxiv.org/abs/2603.21785",
+      "title": "Image-Conditioned Adaptive Parameter Tuning for Visual Odometry Frontends",
+      "source": "davide_0328_26.eml",
+      "added": "2026-05-02T20:26:01.413713+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=UTxgaykGNRAJ&citsig=ADQXK0wAAAAAa6m3d4qDRHfblhzcsCb_7SAq0_I",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=UTxgaykGNRAJ&citsig=ADQXK0wAAAAAa6m3d4qDRHfblhzcsCb_7SAq0_I",
+      "title": "",
+      "source": "davide_0328_26.eml",
+      "added": "2026-05-02T20:26:01.413722+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=ADQXK0wAAAAAadr49yv25j4pZJwrVvZaOlhRnQ0",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=ADQXK0wAAAAAadr49yv25j4pZJwrVvZaOlhRnQ0",
+      "title": "Cancel\r\n alert",
+      "source": "davide_0328_26.eml",
+      "added": "2026-05-02T20:26:01.413739+00:00"
+    },
+    {
+      "id": "arxiv:2602.01439",
+      "url": "https://arxiv.org/abs/2602.01439",
+      "title": "TQL: Scaling Q-Functions with Transformers by Preventing Attention Collapse",
+      "source": "finn_0207.eml",
+      "added": "2026-05-02T20:26:01.414432+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RLaOkt9ITcAJ&citsig=APR7AgUAAAAAa2kIeKKjp6TprVML3vDWCVGNFe8",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RLaOkt9ITcAJ&citsig=APR7AgUAAAAAa2kIeKKjp6TprVML3vDWCVGNFe8",
+      "title": "",
+      "source": "finn_0207.eml",
+      "added": "2026-05-02T20:26:01.414439+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=vfPE6hgAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=vfPE6hgAAAAJ",
+      "title": "Chelsea Finn",
+      "source": "finn_0207.eml",
+      "added": "2026-05-02T20:26:01.414450+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en",
+      "title": "List alerts",
+      "source": "finn_0207.eml",
+      "added": "2026-05-02T20:26:01.414454+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en&citsig=APR7AgUAAAAAaZpJ-FD5735hYSoy4DrGHtzl7SA",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en&citsig=APR7AgUAAAAAaZpJ-FD5735hYSoy4DrGHtzl7SA",
+      "title": "Cancel alert",
+      "source": "finn_0207.eml",
+      "added": "2026-05-02T20:26:01.414457+00:00"
+    },
+    {
+      "id": "arxiv:2604.01985",
+      "url": "https://arxiv.org/abs/2604.01985",
+      "title": "World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry",
+      "source": "finn_0406.eml",
+      "added": "2026-05-02T20:26:01.415125+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=4IT6d0tBYd4J&citsig=ADQXK0wAAAAAa7R3FXC1ePTi3dxVpF93WF69KcI",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=4IT6d0tBYd4J&citsig=ADQXK0wAAAAAa7R3FXC1ePTi3dxVpF93WF69KcI",
+      "title": "",
+      "source": "finn_0406.eml",
+      "added": "2026-05-02T20:26:01.415133+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en&citsig=ADQXK0wAAAAAaeW4lTQr4Hr0BAHhuCDZjJpzXCA",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en&citsig=ADQXK0wAAAAAaeW4lTQr4Hr0BAHhuCDZjJpzXCA",
+      "title": "Cancel alert",
+      "source": "finn_0406.eml",
+      "added": "2026-05-02T20:26:01.415150+00:00"
+    },
+    {
+      "id": "arxiv:2604.01169",
+      "url": "https://arxiv.org/abs/2604.01169",
+      "title": "Bridging the Simulation-to-Experiment Gap with Generative Models using Adversarial Distribution Alignment",
+      "source": "levine_0426.eml",
+      "added": "2026-05-02T20:26:01.415878+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=UfV8jKGwexEJ&citsig=ADQXK0wAAAAAa7R3FKF2Yxz0P6KsPLKRcVQrZ1Y",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=UfV8jKGwexEJ&citsig=ADQXK0wAAAAAa7R3FKF2Yxz0P6KsPLKRcVQrZ1Y",
+      "title": "",
+      "source": "levine_0426.eml",
+      "added": "2026-05-02T20:26:01.415886+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=8R35rCwAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=8R35rCwAAAAJ",
+      "title": "Sergey Levine",
+      "source": "levine_0426.eml",
+      "added": "2026-05-02T20:26:01.415896+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en",
+      "title": "List alerts",
+      "source": "levine_0426.eml",
+      "added": "2026-05-02T20:26:01.415899+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=ADQXK0wAAAAAaeW4lBoxdVbJMABZzojmSxbzvXg",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=ADQXK0wAAAAAaeW4lBoxdVbJMABZzojmSxbzvXg",
+      "title": "Cancel alert",
+      "source": "levine_0426.eml",
+      "added": "2026-05-02T20:26:01.415903+00:00"
+    },
+    {
+      "id": "arxiv:2604.23073",
+      "url": "https://arxiv.org/abs/2604.23073",
+      "title": "RL Token: Bootstrapping Online RL with Vision-Language-Action Models",
+      "source": "levine_0502.eml",
+      "added": "2026-05-02T20:26:01.416681+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=rx3VFI2O5lwJ&citsig=AFPfF8cAAAAAa9dKIB0s9G3s8KlzzrNrQJc-V-Y",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=rx3VFI2O5lwJ&citsig=AFPfF8cAAAAAa9dKIB0s9G3s8KlzzrNrQJc-V-Y",
+      "title": "",
+      "source": "levine_0502.eml",
+      "added": "2026-05-02T20:26:01.416693+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=AFPfF8cAAAAAagiLoN3zs_GQ83lPqteeRg3IFM4",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=AFPfF8cAAAAAagiLoN3zs_GQ83lPqteeRg3IFM4",
+      "title": "Cancel alert",
+      "source": "levine_0502.eml",
+      "added": "2026-05-02T20:26:01.416710+00:00"
+    },
+    {
+      "id": "arxiv:2604.24442",
+      "url": "https://arxiv.org/abs/2604.24442",
+      "title": "The Fragility of Learning LQG Controllers",
+      "source": "manfred_0502.eml",
+      "added": "2026-05-02T20:26:01.417433+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RlplZ9lIRMkJ&citsig=AFPfF8cAAAAAa9dKIKtjqKcZnNT5v7pwKLzU7Jk",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RlplZ9lIRMkJ&citsig=AFPfF8cAAAAAa9dKIKtjqKcZnNT5v7pwKLzU7Jk",
+      "title": "",
+      "source": "manfred_0502.eml",
+      "added": "2026-05-02T20:26:01.417440+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=JiW8z50AAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=JiW8z50AAAAJ",
+      "title": "Manfred Morari",
+      "source": "manfred_0502.eml",
+      "added": "2026-05-02T20:26:01.417450+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=U6AKHGBZL7gJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=U6AKHGBZL7gJ&hl=en",
+      "title": "List alerts",
+      "source": "manfred_0502.eml",
+      "added": "2026-05-02T20:26:01.417455+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=U6AKHGBZL7gJ&hl=en&citsig=AFPfF8cAAAAAagiLoFOxxorMq7zH4MKd42zSJNQ",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=U6AKHGBZL7gJ&hl=en&citsig=AFPfF8cAAAAAagiLoFOxxorMq7zH4MKd42zSJNQ",
+      "title": "Cancel alert",
+      "source": "manfred_0502.eml",
+      "added": "2026-05-02T20:26:01.417458+00:00"
+    },
+    {
+      "id": "arxiv:2602.00921",
+      "url": "https://arxiv.org/abs/2602.00921",
+      "title": "On the Convergence of Jacobian-Free Backpropagation for Optimal Control Problems with Implicit Hamiltonians",
+      "source": "osher_0206.eml",
+      "added": "2026-05-02T20:26:01.418120+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=LE0KCrB4XI0J&citsig=APR7AgUAAAAAa2kIeC1AOtmKByIPUniZtDxmaHU",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=LE0KCrB4XI0J&citsig=APR7AgUAAAAAa2kIeC1AOtmKByIPUniZtDxmaHU",
+      "title": "",
+      "source": "osher_0206.eml",
+      "added": "2026-05-02T20:26:01.418127+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=d3UtiX8AAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=d3UtiX8AAAAJ",
+      "title": "S osher",
+      "source": "osher_0206.eml",
+      "added": "2026-05-02T20:26:01.418137+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en",
+      "title": "List alerts",
+      "source": "osher_0206.eml",
+      "added": "2026-05-02T20:26:01.418141+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en&citsig=APR7AgUAAAAAaZpJ-FaHLwxMcPIKOkv3AB8yP6U",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en&citsig=APR7AgUAAAAAaZpJ-FaHLwxMcPIKOkv3AB8yP6U",
+      "title": "Cancel alert",
+      "source": "osher_0206.eml",
+      "added": "2026-05-02T20:26:01.418145+00:00"
+    },
+    {
+      "id": "arxiv:2602.05124",
+      "url": "https://arxiv.org/abs/2602.05124",
+      "title": "Scalable Fixed-Point Framework for High-Dimensional Hamilton-Jacobi Equations",
+      "source": "osher_0210.eml",
+      "added": "2026-05-02T20:26:01.418864+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=-5rS068IO_AJ&citsig=APR7AgUAAAAAa2zHf69X528O--gRPYBck3pbErQ",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=-5rS068IO_AJ&citsig=APR7AgUAAAAAa2zHf69X528O--gRPYBck3pbErQ",
+      "title": "",
+      "source": "osher_0210.eml",
+      "added": "2026-05-02T20:26:01.418870+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en&citsig=APR7AgUAAAAAaZ4I_20odmBEjuLH56P2WDp2igc",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en&citsig=APR7AgUAAAAAaZ4I_20odmBEjuLH56P2WDp2igc",
+      "title": "Cancel alert",
+      "source": "osher_0210.eml",
+      "added": "2026-05-02T20:26:01.418885+00:00"
+    },
+    {
+      "id": "arxiv:2602.08965",
+      "url": "https://arxiv.org/abs/2602.08965",
+      "title": "Learning to Coordinate via Quantum Entanglement in Multi-Agent Reinforcement Learning",
+      "source": "pappas_0216.eml",
+      "added": "2026-05-02T20:26:01.419526+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=OgfPMRnyf7EJ&citsig=AF5TLtkAAAAAa3RauGPdH9apayGVfyjtlum8kw4",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=OgfPMRnyf7EJ&citsig=AF5TLtkAAAAAa3RauGPdH9apayGVfyjtlum8kw4",
+      "title": "",
+      "source": "pappas_0216.eml",
+      "added": "2026-05-02T20:26:01.419532+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=Kia-4B0AAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=Kia-4B0AAAAJ",
+      "title": "George Pappas",
+      "source": "pappas_0216.eml",
+      "added": "2026-05-02T20:26:01.419543+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en",
+      "title": "List alerts",
+      "source": "pappas_0216.eml",
+      "added": "2026-05-02T20:26:01.419546+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en&citsig=AF5TLtkAAAAAaaWcOEA4ZfR1TnPRNM6btXUZVQE",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en&citsig=AF5TLtkAAAAAaaWcOEA4ZfR1TnPRNM6btXUZVQE",
+      "title": "Cancel alert",
+      "source": "pappas_0216.eml",
+      "added": "2026-05-02T20:26:01.419549+00:00"
+    },
+    {
+      "id": "arxiv:2602.08813",
+      "url": "https://arxiv.org/abs/2602.08813",
+      "title": "Robust Policy Optimization to Prevent Catastrophic Forgetting",
+      "source": "pappas_0217.eml",
+      "added": "2026-05-02T20:26:01.420178+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=DM1mbftaLBsJ&citsig=AF5TLtkAAAAAa3YgYz1QZK4Eqirk1azUrUcnzp0",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=DM1mbftaLBsJ&citsig=AF5TLtkAAAAAa3YgYz1QZK4Eqirk1azUrUcnzp0",
+      "title": "",
+      "source": "pappas_0217.eml",
+      "added": "2026-05-02T20:26:01.420184+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en&citsig=AF5TLtkAAAAAaadh4-Rcrs3aZAWB6M7QfYkevzc",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en&citsig=AF5TLtkAAAAAaadh4-Rcrs3aZAWB6M7QfYkevzc",
+      "title": "Cancel alert",
+      "source": "pappas_0217.eml",
+      "added": "2026-05-02T20:26:01.420202+00:00"
+    },
+    {
+      "id": "arxiv:2601.03100",
+      "url": "https://arxiv.org/abs/2601.03100",
+      "title": "Text-Guided Layer Fusion Mitigates Hallucination in Multimodal LLMs",
+      "source": "pavone_0110_26.eml",
+      "added": "2026-05-02T20:26:01.421203+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=74VXrTDDZ8QJ&citsig=APR7AgUAAAAAa0MvhvygLYwAO2GX-x6vvdw5Zbc",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=74VXrTDDZ8QJ&citsig=APR7AgUAAAAAa0MvhvygLYwAO2GX-x6vvdw5Zbc",
+      "title": "",
+      "source": "pavone_0110_26.eml",
+      "added": "2026-05-02T20:26:01.421212+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=RhOpyXcAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=RhOpyXcAAAAJ",
+      "title": "Marco Pavone",
+      "source": "pavone_0110_26.eml",
+      "added": "2026-05-02T20:26:01.421223+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en",
+      "title": "List alerts",
+      "source": "pavone_0110_26.eml",
+      "added": "2026-05-02T20:26:01.421227+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=APR7AgUAAAAAaXRxBqw1SkjUU8Kv1c7a6_bNOc8",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=APR7AgUAAAAAaXRxBqw1SkjUU8Kv1c7a6_bNOc8",
+      "title": "Cancel alert",
+      "source": "pavone_0110_26.eml",
+      "added": "2026-05-02T20:26:01.421230+00:00"
+    },
+    {
+      "id": "arxiv:2602.02864",
+      "url": "https://arxiv.org/abs/2602.02864",
+      "title": "Accelerating Structured Chain-of-Thought in Autonomous Vehicles",
+      "source": "pavone_0207_26.eml",
+      "added": "2026-05-02T20:26:01.421893+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=9yX7iJ7kryMJ&citsig=APR7AgUAAAAAa2kId76whSbbHaCuICVRY0kbr-k",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=9yX7iJ7kryMJ&citsig=APR7AgUAAAAAa2kId76whSbbHaCuICVRY0kbr-k",
+      "title": "",
+      "source": "pavone_0207_26.eml",
+      "added": "2026-05-02T20:26:01.421900+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=APR7AgUAAAAAaZpJ9xm0H10ZebHP-JXVPsJyKeU",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=APR7AgUAAAAAaZpJ9xm0H10ZebHP-JXVPsJyKeU",
+      "title": "Cancel alert",
+      "source": "pavone_0207_26.eml",
+      "added": "2026-05-02T20:26:01.421918+00:00"
+    },
+    {
+      "id": "arxiv:2602.08167",
+      "url": "https://arxiv.org/abs/2602.08167",
+      "title": "Self-Supervised Bootstrapping of Action-Predictive Embodied Reasoning",
+      "source": "pavone_0216.eml",
+      "added": "2026-05-02T20:26:01.422559+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=XXer-ZLSI_8J&citsig=AF5TLtkAAAAAa3Rat5M-moRP5FU44Ord1OFQS0E",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=XXer-ZLSI_8J&citsig=AF5TLtkAAAAAa3Rat5M-moRP5FU44Ord1OFQS0E",
+      "title": "",
+      "source": "pavone_0216.eml",
+      "added": "2026-05-02T20:26:01.422565+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AF5TLtkAAAAAaaWcN8xe5zwJ5xqqu63WV4VxUgY",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AF5TLtkAAAAAaaWcN8xe5zwJ5xqqu63WV4VxUgY",
+      "title": "Cancel alert",
+      "source": "pavone_0216.eml",
+      "added": "2026-05-02T20:26:01.422584+00:00"
+    },
+    {
+      "id": "arxiv:2602.12281",
+      "url": "https://arxiv.org/abs/2602.12281",
+      "title": "Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment",
+      "source": "pavone_0217.eml",
+      "added": "2026-05-02T20:26:01.423305+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=jVRRugTAV9sJ&citsig=AF5TLtkAAAAAa3YgYlY65afOjrkSaALfcD4nUMM",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=jVRRugTAV9sJ&citsig=AF5TLtkAAAAAa3YgYlY65afOjrkSaALfcD4nUMM",
+      "title": "",
+      "source": "pavone_0217.eml",
+      "added": "2026-05-02T20:26:01.423311+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AF5TLtkAAAAAaadh4r0kNEhSNVi5Cd7DgiGsroc",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AF5TLtkAAAAAaadh4r0kNEhSNVi5Cd7DgiGsroc",
+      "title": "Cancel alert",
+      "source": "pavone_0217.eml",
+      "added": "2026-05-02T20:26:01.423329+00:00"
+    },
+    {
+      "id": "url:https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract",
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract",
+      "title": "Graph Neural Model Predictive Control for High-Dimensional Systems",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:26:01.423962+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=y1gm2rfZuWoJ&citsig=ADQXK0wAAAAAa6WcsKyGy4Z9zeqzD14YMmkoiKg",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=y1gm2rfZuWoJ&citsig=ADQXK0wAAAAAa6WcsKyGy4Z9zeqzD14YMmkoiKg",
+      "title": "",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:26:01.423967+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "title": "",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:26:01.423971+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "title": "",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:26:01.423974+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "title": "",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:26:01.423977+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAadbeMM9QxFP6hU1b8y5IE2hetTg",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAadbeMM9QxFP6hU1b8y5IE2hetTg",
+      "title": "Cancel alert",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:26:01.423986+00:00"
+    },
+    {
+      "id": "arxiv:2603.23044",
+      "url": "https://arxiv.org/abs/2603.23044",
+      "title": "Learning Actuator-Aware Spectral Submanifolds for Precise Control of Continuum Robots",
+      "source": "pavone_0328.eml",
+      "added": "2026-05-02T20:26:01.424606+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=SRoqyJm5cLQJ&citsig=ADQXK0wAAAAAa6m3d3_8n4498HCYN67jT0oAFik",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=SRoqyJm5cLQJ&citsig=ADQXK0wAAAAAa6m3d3_8n4498HCYN67jT0oAFik",
+      "title": "",
+      "source": "pavone_0328.eml",
+      "added": "2026-05-02T20:26:01.424612+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAadr499AP9cmfKryfNY-0fPwq9pQ",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAadr499AP9cmfKryfNY-0fPwq9pQ",
+      "title": "Cancel alert",
+      "source": "pavone_0328.eml",
+      "added": "2026-05-02T20:26:01.424630+00:00"
+    },
+    {
+      "id": "arxiv:2604.04310",
+      "url": "https://arxiv.org/abs/2604.04310",
+      "title": "frax: Fast Robot Kinematics and Dynamics in JAX",
+      "source": "pavone_0410.eml",
+      "added": "2026-05-02T20:26:01.425287+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ATDbb4bJROYJ&citsig=ADQXK0wAAAAAa7oq1IJJnObTDr2aNUD70d3DXcQ",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ATDbb4bJROYJ&citsig=ADQXK0wAAAAAa7oq1IJJnObTDr2aNUD70d3DXcQ",
+      "title": "",
+      "source": "pavone_0410.eml",
+      "added": "2026-05-02T20:26:01.425293+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAaetsVEqBPA_aDcsYRBhqXsdZZbk",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAaetsVEqBPA_aDcsYRBhqXsdZZbk",
+      "title": "Cancel alert",
+      "source": "pavone_0410.eml",
+      "added": "2026-05-02T20:26:01.425310+00:00"
+    },
+    {
+      "id": "url:https://openreview.net/forum?id=774K6D5Ttn",
+      "url": "https://openreview.net/forum?id=774K6D5Ttn",
+      "title": "Semantic Constraint Synthesis for Adaptive Trajectory Optimization via Large Language Models",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:26:01.426080+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=InObk4Q4aK8J&citsig=AFPfF8cAAAAAa9dKIHAMxFbP_KXTVHoTok3TP44",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=InObk4Q4aK8J&citsig=AFPfF8cAAAAAa9dKIHAMxFbP_KXTVHoTok3TP44",
+      "title": "",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:26:01.426089+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "title": "",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:26:01.426094+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "title": "",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:26:01.426098+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "title": "",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:26:01.426101+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AFPfF8cAAAAAagiLoIYFtOKohf9veUTYBUfQT0E",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AFPfF8cAAAAAagiLoIYFtOKohf9veUTYBUfQT0E",
+      "title": "Cancel alert",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:26:01.426111+00:00"
+    },
+    {
+      "id": "arxiv:2604.15483",
+      "url": "https://arxiv.org/abs/2604.15483",
+      "title": "${\\pi} _ {0.7} $: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
+      "source": "pi_0,7.eml",
+      "added": "2026-05-02T20:26:01.427240+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=qkeu_Wdo0aMJ&citsig=ADQXK0wAAAAAa8w3RUMzlE0vzoEuoAoW7A63Ers",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=qkeu_Wdo0aMJ&citsig=ADQXK0wAAAAAa8w3RUMzlE0vzoEuoAoW7A63Ers",
+      "title": "",
+      "source": "pi_0,7.eml",
+      "added": "2026-05-02T20:26:01.427250+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=ADQXK0wAAAAAaf14xdZL4PBHKkdV5XJ8y2Bzqeo",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=ADQXK0wAAAAAaf14xdZL4PBHKkdV5XJ8y2Bzqeo",
+      "title": "Cancel\r\n alert",
+      "source": "pi_0,7.eml",
+      "added": "2026-05-02T20:26:01.427267+00:00"
+    },
+    {
+      "id": "arxiv:2601.22356",
+      "url": "https://arxiv.org/abs/2601.22356",
+      "title": "PoSafeNet: Safe Learning with Poset-Structured Neural Nets",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:26:01.428216+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=7-UaNBG1-mgJ&citsig=APR7AgUAAAAAa2kIeFmQttsnlrkMRJv3mDz3tx4",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=7-UaNBG1-mgJ&citsig=APR7AgUAAAAAa2kIeFmQttsnlrkMRJv3mDz3tx4",
+      "title": "",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:26:01.428223+00:00"
+    },
+    {
+      "id": "arxiv:2602.02236",
+      "url": "https://arxiv.org/abs/2602.02236",
+      "title": "Online Fine-Tuning of Pretrained Controllers for Autonomous Driving via Real-Time Recurrent RL",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:26:01.428235+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=T9raSAhnTagJ&citsig=APR7AgUAAAAAa2kIeJCJhAX8a6FYR2N8JsPyhJc",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=T9raSAhnTagJ&citsig=APR7AgUAAAAAa2kIeJCJhAX8a6FYR2N8JsPyhJc",
+      "title": "",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:26:01.428239+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=910z20QAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=910z20QAAAAJ",
+      "title": "Daniela Rus",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:26:01.428248+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en",
+      "title": "List alerts",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:26:01.428252+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=APR7AgUAAAAAaZpJ-IuxDuBVR2OvFcstPWczKs4",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=APR7AgUAAAAAaZpJ-IuxDuBVR2OvFcstPWczKs4",
+      "title": "Cancel alert",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:26:01.428256+00:00"
+    },
+    {
+      "id": "url:https://patents.google.com/patent/US20260037897A1/en",
+      "url": "https://patents.google.com/patent/US20260037897A1/en",
+      "title": "Model training framework for generating modified executable risk-aware variant of models",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:26:01.429304+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ytziOAlAOSYJ&citsig=AF5TLtkAAAAAa3YgYuyQGkWD90kIaBDa7m8SQxM",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ytziOAlAOSYJ&citsig=AF5TLtkAAAAAa3YgYuyQGkWD90kIaBDa7m8SQxM",
+      "title": "",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:26:01.429313+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "title": "",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:26:01.429317+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "title": "",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:26:01.429320+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "title": "",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:26:01.429322+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=AF5TLtkAAAAAaadh4nbIntLbTZDXZVmYLqaMDDM",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=AF5TLtkAAAAAaadh4nbIntLbTZDXZVmYLqaMDDM",
+      "title": "Cancel alert",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:26:01.429332+00:00"
+    },
+    {
+      "id": "url:https://www.ijcbs.org/index.php/IJCBS/article/download/61/72",
+      "url": "https://www.ijcbs.org/index.php/IJCBS/article/download/61/72",
+      "title": "Graph-Theoretic Modeling of Memory Poisoning Diffusion in Multi-Agent Communication Networks",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:26:01.429992+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=YYcKNes_HDMJ&citsig=ADQXK0wAAAAAa7oq1br-b7dJ8IzK8lH_AO11I1A",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=YYcKNes_HDMJ&citsig=ADQXK0wAAAAAa7oq1br-b7dJ8IzK8lH_AO11I1A",
+      "title": "",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:26:01.429999+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "title": "",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:26:01.430003+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "title": "",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:26:01.430006+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "title": "",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:26:01.430009+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=ADQXK0wAAAAAaetsVTxPeRNnHyFNDUZS5J3VOYg",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=ADQXK0wAAAAAaetsVTxPeRNnHyFNDUZS5J3VOYg",
+      "title": "Cancel alert",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:26:01.430018+00:00"
+    },
+    {
+      "id": "arxiv:2602.09153",
+      "url": "https://arxiv.org/abs/2602.09153",
+      "title": "SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes",
+      "source": "tedrake_0216_26.eml",
+      "added": "2026-05-02T20:26:01.431807+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.co.jp/citations?hl=en&update_op=email_library_add&info=HDf1qJ4uYH8J&citsig=AF5TLtkAAAAAa3RauCsT2nrE7caUI_KcCY6whG4",
+      "url": "https://scholar.google.co.jp/citations?hl=en&update_op=email_library_add&info=HDf1qJ4uYH8J&citsig=AF5TLtkAAAAAa3RauCsT2nrE7caUI_KcCY6whG4",
+      "title": "",
+      "source": "tedrake_0216_26.eml",
+      "added": "2026-05-02T20:26:01.431814+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.co.jp/citations?hl=en&user=nxNkEiYAAAAJ",
+      "url": "https://scholar.google.co.jp/citations?hl=en&user=nxNkEiYAAAAJ",
+      "title": "Russ Tedrake",
+      "source": "tedrake_0216_26.eml",
+      "added": "2026-05-02T20:26:01.431824+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.co.jp/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=6UY-UJHhe7UJ&hl=en",
+      "url": "https://scholar.google.co.jp/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=6UY-UJHhe7UJ&hl=en",
+      "title": "List alerts",
+      "source": "tedrake_0216_26.eml",
+      "added": "2026-05-02T20:26:01.431828+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.co.jp/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=6UY-UJHhe7UJ&hl=en&citsig=AF5TLtkAAAAAaaWcOK1WdDykuKPLqOGX9KkrE0Y",
+      "url": "https://scholar.google.co.jp/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=6UY-UJHhe7UJ&hl=en&citsig=AF5TLtkAAAAAaaWcOK1WdDykuKPLqOGX9KkrE0Y",
+      "title": "Cancel alert",
+      "source": "tedrake_0216_26.eml",
+      "added": "2026-05-02T20:26:01.431831+00:00"
+    },
+    {
+      "id": "arxiv:2604.04499",
+      "url": "https://arxiv.org/abs/2604.04499",
+      "title": "Distributed Covariance Steering via Non-Convex ADMM for Large-Scale Multi-Agent Systems",
+      "source": "theodorou_0110.eml",
+      "added": "2026-05-02T20:26:01.432466+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=yZRi-0R37TsJ&citsig=ADQXK0wAAAAAa7oq1Ugm5zhaBxiXYLesBqK5oi8",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=yZRi-0R37TsJ&citsig=ADQXK0wAAAAAa7oq1Ugm5zhaBxiXYLesBqK5oi8",
+      "title": "",
+      "source": "theodorou_0110.eml",
+      "added": "2026-05-02T20:26:01.432472+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=dG9MV7oAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=dG9MV7oAAAAJ",
+      "title": "Evangelos Theodorou",
+      "source": "theodorou_0110.eml",
+      "added": "2026-05-02T20:26:01.432482+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en",
+      "title": "List alerts",
+      "source": "theodorou_0110.eml",
+      "added": "2026-05-02T20:26:01.432486+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en&citsig=ADQXK0wAAAAAaetsVXPEytJs5RlO3tQQxo9LgT0",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en&citsig=ADQXK0wAAAAAaetsVXPEytJs5RlO3tQQxo9LgT0",
+      "title": "Cancel alert",
+      "source": "theodorou_0110.eml",
+      "added": "2026-05-02T20:26:01.432489+00:00"
+    },
+    {
+      "id": "arxiv:2603.02642",
+      "url": "https://arxiv.org/abs/2603.02642",
+      "title": "cuNRTO: GPU-Accelerated Nonlinear Robust Trajectory Optimization",
+      "source": "theodorou_0327.eml",
+      "added": "2026-05-02T20:26:01.433114+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=8kuH1QEynR0J&citsig=AF5TLtkAAAAAa44UNelklIvJX5j4-ug5Ar6JEiw",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=8kuH1QEynR0J&citsig=AF5TLtkAAAAAa44UNelklIvJX5j4-ug5Ar6JEiw",
+      "title": "",
+      "source": "theodorou_0327.eml",
+      "added": "2026-05-02T20:26:01.433119+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en&citsig=AF5TLtkAAAAAab9VtTnvsNu3jjSpDeH6TqSl-9c",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en&citsig=AF5TLtkAAAAAab9VtTnvsNu3jjSpDeH6TqSl-9c",
+      "title": "Cancel alert",
+      "source": "theodorou_0327.eml",
+      "added": "2026-05-02T20:26:01.433136+00:00"
+    },
+    {
+      "id": "arxiv:2604.21017",
+      "url": "https://arxiv.org/abs/2604.21017",
+      "title": "Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434265+00:00"
+    },
+    {
+      "id": "arxiv:2604.21100",
+      "url": "https://arxiv.org/abs/2604.21100",
+      "title": "Preconditioned DeltaNet: Curvature-aware Sequence Modeling for Linear Recurrences",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434267+00:00"
+    },
+    {
+      "id": "arxiv:2604.21189",
+      "url": "https://arxiv.org/abs/2604.21189",
+      "title": "Full-Body Dynamic Safety for Robot Manipulators: 3D Poisson Safety Functions for CBF-Based Safety Filters",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434269+00:00"
+    },
+    {
+      "id": "arxiv:2604.19893",
+      "url": "https://arxiv.org/abs/2604.19893",
+      "title": "Output Feedback Backup Control Barrier Functions: Safety Guarantees Under Input Bounds and State Estimation Error",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434271+00:00"
+    },
+    {
+      "id": "url:https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.70363",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.70363",
+      "title": "Myoelectric Origami\u2010Based Soft Robotic Knee Exoskeleton to Enhance Sit\u2010to\u2010Stand Assistance in Elderly Populations (Adv. Intell. Syst. 4/2026)",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434273+00:00"
+    },
+    {
+      "id": "arxiv:2604.16730",
+      "url": "https://arxiv.org/abs/2604.16730",
+      "title": "Multitask LQG Control: Performance and Generalization Bounds",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434274+00:00"
+    },
+    {
+      "id": "arxiv:2604.17654",
+      "url": "https://arxiv.org/abs/2604.17654",
+      "title": "Poly-EPO: Training Exploratory Reasoning Models",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434278+00:00"
+    },
+    {
+      "id": "arxiv:2604.19730",
+      "url": "https://arxiv.org/abs/2604.19730",
+      "title": "FASTER: Value-Guided Sampling for Fast RL",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434280+00:00"
+    },
+    {
+      "id": "arxiv:2604.18887",
+      "url": "https://arxiv.org/abs/2604.18887",
+      "title": "HALO",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434282+00:00"
+    },
+    {
+      "id": "url:https://quantum-journal.org/papers/q-2026-04-21-2076/",
+      "url": "https://quantum-journal.org/papers/q-2026-04-21-2076/",
+      "title": "Elevating Variational Quantum Semidefinite Programs for Polynomial Objectives",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434284+00:00"
+    },
+    {
+      "id": "arxiv:2604.15682",
+      "url": "https://arxiv.org/abs/2604.15682",
+      "title": "When structure does not imply symmetry",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434286+00:00"
+    },
+    {
+      "id": "arxiv:2603.21635",
+      "url": "https://arxiv.org/abs/2603.21635",
+      "title": "RTD-RAX",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434295+00:00"
+    },
+    {
+      "id": "arxiv:2603.19312",
+      "url": "https://arxiv.org/abs/2603.19312",
+      "title": "LeWorldModel",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:26:01.434301+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=DDxU35nOpD8J&citsig=ADQXK0wAAAAAa6uvZu5qjaKaNNQz-rw_f8j4bRU",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=DDxU35nOpD8J&citsig=ADQXK0wAAAAAa6uvZu5qjaKaNNQz-rw_f8j4bRU",
+      "title": "",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:32:51.974222+00:00"
+    },
+    {
+      "id": "arxiv:2603.18422",
+      "url": "https://arxiv.org/abs/2603.18422",
+      "title": "Topological Obstructions to the Existence of Control Barrier Functions",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:32:51.974238+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=GyHuCTCVO-QJ&citsig=ADQXK0wAAAAAa6uvZpLcL9Rx7pWrJKUiVr9xTJI",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=GyHuCTCVO-QJ&citsig=ADQXK0wAAAAAa6uvZpLcL9Rx7pWrJKUiVr9xTJI",
+      "title": "",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:32:51.974242+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=TjWwqmwAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=TjWwqmwAAAAJ",
+      "title": "Aaron D. Ames",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:32:51.974258+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en",
+      "title": "List alerts",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:32:51.974262+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAadzw5vXcpLrxvecRTv1djBm78Oo",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAadzw5vXcpLrxvecRTv1djBm78Oo",
+      "title": "Cancel alert",
+      "source": "ames_0330.eml",
+      "added": "2026-05-02T20:32:51.974266+00:00"
+    },
+    {
+      "id": "arxiv:2603.23995",
+      "url": "https://arxiv.org/abs/2603.23995",
+      "title": "MIRROR: Visual Motion Imitation via Real-time Retargeting and Teleoperation with Parallel Differential Inverse Kinematics",
+      "source": "ames_0331.eml",
+      "added": "2026-05-02T20:32:51.976948+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Ia_iW9lV2ZwJ&citsig=ADQXK0wAAAAAa61pnlYnp13eDrtwfN1xivyU5j0",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Ia_iW9lV2ZwJ&citsig=ADQXK0wAAAAAa61pnlYnp13eDrtwfN1xivyU5j0",
+      "title": "",
+      "source": "ames_0331.eml",
+      "added": "2026-05-02T20:32:51.976955+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAad6rHqqi5PnV8gdRU95dkVA3klw",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAad6rHqqi5PnV8gdRU95dkVA3klw",
+      "title": "Cancel\r\n alert",
+      "source": "ames_0331.eml",
+      "added": "2026-05-02T20:32:51.976973+00:00"
+    },
+    {
+      "id": "arxiv:2604.04234",
+      "url": "https://arxiv.org/abs/2604.04234",
+      "title": "Stability Margins of CBF-QP Safety Filters: Analysis and Synthesis",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979105+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=tHpPXNCQVx8J&citsig=ADQXK0wAAAAAa7oq13jPBjCYaXmaqf19Zf1xEcU",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=tHpPXNCQVx8J&citsig=ADQXK0wAAAAAa7oq13jPBjCYaXmaqf19Zf1xEcU",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979113+00:00"
+    },
+    {
+      "id": "arxiv:2604.04772",
+      "url": "https://arxiv.org/abs/2604.04772",
+      "title": "Collaborative Altruistic Safety in Coupled Multi-Agent Systems",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979124+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RaTErZkci0kJ&citsig=ADQXK0wAAAAAa7oq19ren-VAPqMeDCavsreX8NQ",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RaTErZkci0kJ&citsig=ADQXK0wAAAAAa7oq19ren-VAPqMeDCavsreX8NQ",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979127+00:00"
+    },
+    {
+      "id": "arxiv:2604.03536",
+      "url": "https://arxiv.org/abs/2604.03536",
+      "title": "SafeSpace: Aggregating Safe Sets from Backup Control Barrier Functions under Input Constraints",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979136+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=J4kAm1Uz3XoJ&citsig=ADQXK0wAAAAAa7oq107ydyufme_0i5tNeA6pfls",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=J4kAm1Uz3XoJ&citsig=ADQXK0wAAAAAa7oq107ydyufme_0i5tNeA6pfls",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979138+00:00"
+    },
+    {
+      "id": "arxiv:2604.04235",
+      "url": "https://arxiv.org/abs/2604.04235",
+      "title": "Structure, Feasibility, and Explicit Safety Filters for Linear Systems",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979148+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Mtc2svyMwtoJ&citsig=ADQXK0wAAAAAa7oq142_FiWL3CrYKBfWB8K53CA",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Mtc2svyMwtoJ&citsig=ADQXK0wAAAAAa7oq142_FiWL3CrYKBfWB8K53CA",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979150+00:00"
+    },
+    {
+      "id": "arxiv:2604.03450",
+      "url": "https://arxiv.org/abs/2604.03450",
+      "title": "High-Order Matrix Control Barrier Functions: Well-Posedness and Feasibility via Matrix Relative Degree",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979159+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Pgq3k62ZJvoJ&citsig=ADQXK0wAAAAAa7oq1xO4gSa_q0Hkd0OB7MLPA9Q",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=Pgq3k62ZJvoJ&citsig=ADQXK0wAAAAAa7oq1xO4gSa_q0Hkd0OB7MLPA9Q",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979162+00:00"
+    },
+    {
+      "id": "arxiv:2604.03405",
+      "url": "https://arxiv.org/abs/2604.03405",
+      "title": "Steering with Contingencies: Combinatorial Stabilization and Reach-Avoid Filters",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979170+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=TqytVcGWRvwJ&citsig=ADQXK0wAAAAAa7oq12h1KJM-EyEnhcCSi77V1YI",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=TqytVcGWRvwJ&citsig=ADQXK0wAAAAAa7oq12h1KJM-EyEnhcCSi77V1YI",
+      "title": "",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979173+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAaetsV16O-6jqEbFCE3sMbmlTZCs",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAaetsV16O-6jqEbFCE3sMbmlTZCs",
+      "title": "Cancel alert",
+      "source": "ames_0410.eml",
+      "added": "2026-05-02T20:32:51.979188+00:00"
+    },
+    {
+      "id": "url:https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract",
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract",
+      "title": "Structure,\r\n Feasibility, and Explicit Safety Filters for Linear Systems",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.980960+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=j3GKO6fM9lYJ&citsig=ADQXK0wAAAAAa8Nu3gYD0NPXxLUu_9gy5SXF3z4",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=j3GKO6fM9lYJ&citsig=ADQXK0wAAAAAa8Nu3gYD0NPXxLUu_9gy5SXF3z4",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.980966+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.980971+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.980974+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404235S/abstract&rt=Structure,+Feasibility,+and+Explicit+Safety+Filters+for+Linear+Systems&scisig=ADi0EEWTh5bI68dWIduvqvD0TABK",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.980976+00:00"
+    },
+    {
+      "id": "arxiv:2604.08831",
+      "url": "https://arxiv.org/abs/2604.08831",
+      "title": "Probabilistic Control Barrier Functions for Systems with State Estimation Uncertainty using Sub-Gaussian Concentration",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.980982+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=brcQ4LHv6roJ&citsig=ADQXK0wAAAAAa8Nu3ublKgAkiUvAlPZxtCSFROk",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=brcQ4LHv6roJ&citsig=ADQXK0wAAAAAa8Nu3ublKgAkiUvAlPZxtCSFROk",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.980985+00:00"
+    },
+    {
+      "id": "url:https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract",
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract",
+      "title": "Stability\r\n Margins of CBF-QP Safety Filters: Analysis and Synthesis",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.980996+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ajTirmT9U70J&citsig=ADQXK0wAAAAAa8Nu3hxD28lPHzoTtPL8sVcrf-Y",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ajTirmT9U70J&citsig=ADQXK0wAAAAAa8Nu3hxD28lPHzoTtPL8sVcrf-Y",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.980999+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.981001+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.981004+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260404234S/abstract&rt=Stability+Margins+of+CBF-QP+Safety+Filters:+Analysis+and+Synthesis&scisig=ADi0EEXqE_TDGnJttxnkevHuDFgZ",
+      "title": "",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.981007+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAafSwXkDBgZKfp6jiqxazKlUoG54",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAafSwXkDBgZKfp6jiqxazKlUoG54",
+      "title": "Cancel\r\n alert",
+      "source": "ames_0417.eml",
+      "added": "2026-05-02T20:32:51.981017+00:00"
+    },
+    {
+      "id": "arxiv:2604.15477",
+      "url": "https://arxiv.org/abs/2604.15477",
+      "title": "Safety Filtering with an Infinite Number of Constraints",
+      "source": "ames_0424.eml",
+      "added": "2026-05-02T20:32:51.981757+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=F0UmI2Bg2dMJ&citsig=ADQXK0wAAAAAa8w3Rq9J-cwz5iwQI_96D7BdxAU",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=F0UmI2Bg2dMJ&citsig=ADQXK0wAAAAAa8w3Rq9J-cwz5iwQI_96D7BdxAU",
+      "title": "",
+      "source": "ames_0424.eml",
+      "added": "2026-05-02T20:32:51.981763+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAaf14xr7IVMDJI7p-9ltiw_t4GgQ",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=GpkuJKXktL8J&hl=en&citsig=ADQXK0wAAAAAaf14xr7IVMDJI7p-9ltiw_t4GgQ",
+      "title": "Cancel alert",
+      "source": "ames_0424.eml",
+      "added": "2026-05-02T20:32:51.981780+00:00"
+    },
+    {
+      "id": "arxiv:2603.19813",
+      "url": "https://arxiv.org/abs/2603.19813",
+      "title": "A Spectral Perspective on Stochastic Control Barrier Functions",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:32:51.983591+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=EkJRYzAwDRkJ&citsig=ADQXK0wAAAAAa61pnf0UT-HTauqq0Ldw04V9eWg",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=EkJRYzAwDRkJ&citsig=ADQXK0wAAAAAa61pnf0UT-HTauqq0Ldw04V9eWg",
+      "title": "",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:32:51.983598+00:00"
+    },
+    {
+      "id": "arxiv:2603.24894",
+      "url": "https://arxiv.org/abs/2603.24894",
+      "title": "Active Calibration of Reachable Sets Using Approximate Pick-to-Learn",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:32:51.983610+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=CxXRYy9w6kUJ&citsig=ADQXK0wAAAAAa61pndRTQgcDDGrKAd5dIROLw7w",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=CxXRYy9w6kUJ&citsig=ADQXK0wAAAAAa61pndRTQgcDDGrKAd5dIROLw7w",
+      "title": "",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:32:51.983613+00:00"
+    },
+    {
+      "id": "arxiv:2603.24990",
+      "url": "https://arxiv.org/abs/2603.24990",
+      "title": "From Global to Local: Hierarchical Probabilistic Verification for Reachability Learning",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:32:51.983622+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=NnwYg4UsebgJ&citsig=ADQXK0wAAAAAa61pnYOXU7lUDiX4b_TT-S7242M",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=NnwYg4UsebgJ&citsig=ADQXK0wAAAAAa61pnYOXU7lUDiX4b_TT-S7242M",
+      "title": "",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:32:51.983626+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=-5_ksIkAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=-5_ksIkAAAAJ",
+      "title": "Claire Tomlin",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:32:51.983634+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en",
+      "title": "List\r\n alerts",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:32:51.983638+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en&citsig=ADQXK0wAAAAAad6rHZg7TNJx4TQPRGhtvlj7AGA",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en&citsig=ADQXK0wAAAAAad6rHZg7TNJx4TQPRGhtvlj7AGA",
+      "title": "Cancel\r\n alert",
+      "source": "claire_0331.eml",
+      "added": "2026-05-02T20:32:51.983642+00:00"
+    },
+    {
+      "id": "arxiv:2604.02687",
+      "url": "https://arxiv.org/abs/2604.02687",
+      "title": "Inverse Safety Filtering: Inferring Constraints from Safety Filters for Decentralized Coordination",
+      "source": "claire_0410.eml",
+      "added": "2026-05-02T20:32:51.986202+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=GKA-ND8IREgJ&citsig=ADQXK0wAAAAAa7oq1WBCP9fwIe30FwKIxygugAI",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=GKA-ND8IREgJ&citsig=ADQXK0wAAAAAa7oq1WBCP9fwIe30FwKIxygugAI",
+      "title": "",
+      "source": "claire_0410.eml",
+      "added": "2026-05-02T20:32:51.986208+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en&citsig=ADQXK0wAAAAAaetsVWVcYJ_9t68TWK9kTUz8nrQ",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Dg0PnjFcczAJ&hl=en&citsig=ADQXK0wAAAAAaetsVWVcYJ_9t68TWK9kTUz8nrQ",
+      "title": "Cancel alert",
+      "source": "claire_0410.eml",
+      "added": "2026-05-02T20:32:51.986223+00:00"
+    },
+    {
+      "id": "arxiv:2602.10111",
+      "url": "https://arxiv.org/abs/2602.10111",
+      "title": "Learning Agile Quadrotor Flight in the Real World",
+      "source": "davide_0217_26.eml",
+      "added": "2026-05-02T20:32:51.986877+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=_OgeVlNBgF4J&citsig=AF5TLtkAAAAAa3YgY7lpgVJnZRotBm-EF8CP7e8",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=_OgeVlNBgF4J&citsig=AF5TLtkAAAAAa3YgY7lpgVJnZRotBm-EF8CP7e8",
+      "title": "",
+      "source": "davide_0217_26.eml",
+      "added": "2026-05-02T20:32:51.986883+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=SC9wV2kAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=SC9wV2kAAAAJ",
+      "title": "Davide Scaramuzza",
+      "source": "davide_0217_26.eml",
+      "added": "2026-05-02T20:32:51.986893+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en",
+      "title": "List alerts",
+      "source": "davide_0217_26.eml",
+      "added": "2026-05-02T20:32:51.986897+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=AF5TLtkAAAAAaadh4w_6C-AgElA1N7tJUxMJlpM",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=AF5TLtkAAAAAaadh4w_6C-AgElA1N7tJUxMJlpM",
+      "title": "Cancel alert",
+      "source": "davide_0217_26.eml",
+      "added": "2026-05-02T20:32:51.986901+00:00"
+    },
+    {
+      "id": "arxiv:2603.06228",
+      "url": "https://arxiv.org/abs/2603.06228",
+      "title": "Low-latency Event-based Object Detection with Spatially-Sparse Linear Attention",
+      "source": "davide_0318_26.eml",
+      "added": "2026-05-02T20:32:51.987606+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=PnaW2vdZIZkJ&citsig=AF5TLtkAAAAAa5xa6W_cwLUcY6DQkkhcCp0VrbE",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=PnaW2vdZIZkJ&citsig=AF5TLtkAAAAAa5xa6W_cwLUcY6DQkkhcCp0VrbE",
+      "title": "",
+      "source": "davide_0318_26.eml",
+      "added": "2026-05-02T20:32:51.987613+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=AF5TLtkAAAAAac2caZF8Z5teSkHOSY2TlgAivTQ",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=AF5TLtkAAAAAac2caZF8Z5teSkHOSY2TlgAivTQ",
+      "title": "Cancel alert",
+      "source": "davide_0318_26.eml",
+      "added": "2026-05-02T20:32:51.987630+00:00"
+    },
+    {
+      "id": "arxiv:2603.21785",
+      "url": "https://arxiv.org/abs/2603.21785",
+      "title": "Image-Conditioned Adaptive Parameter Tuning for Visual Odometry Frontends",
+      "source": "davide_0328_26.eml",
+      "added": "2026-05-02T20:32:51.988603+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=UTxgaykGNRAJ&citsig=ADQXK0wAAAAAa6m3d4qDRHfblhzcsCb_7SAq0_I",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=UTxgaykGNRAJ&citsig=ADQXK0wAAAAAa6m3d4qDRHfblhzcsCb_7SAq0_I",
+      "title": "",
+      "source": "davide_0328_26.eml",
+      "added": "2026-05-02T20:32:51.988610+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=ADQXK0wAAAAAadr49yv25j4pZJwrVvZaOlhRnQ0",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=fffAZUWi5OQJ&hl=en&citsig=ADQXK0wAAAAAadr49yv25j4pZJwrVvZaOlhRnQ0",
+      "title": "Cancel\r\n alert",
+      "source": "davide_0328_26.eml",
+      "added": "2026-05-02T20:32:51.988626+00:00"
+    },
+    {
+      "id": "arxiv:2602.01439",
+      "url": "https://arxiv.org/abs/2602.01439",
+      "title": "TQL: Scaling Q-Functions with Transformers by Preventing Attention Collapse",
+      "source": "finn_0207.eml",
+      "added": "2026-05-02T20:32:51.989307+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RLaOkt9ITcAJ&citsig=APR7AgUAAAAAa2kIeKKjp6TprVML3vDWCVGNFe8",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RLaOkt9ITcAJ&citsig=APR7AgUAAAAAa2kIeKKjp6TprVML3vDWCVGNFe8",
+      "title": "",
+      "source": "finn_0207.eml",
+      "added": "2026-05-02T20:32:51.989314+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=vfPE6hgAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=vfPE6hgAAAAJ",
+      "title": "Chelsea Finn",
+      "source": "finn_0207.eml",
+      "added": "2026-05-02T20:32:51.989324+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en",
+      "title": "List alerts",
+      "source": "finn_0207.eml",
+      "added": "2026-05-02T20:32:51.989327+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en&citsig=APR7AgUAAAAAaZpJ-FD5735hYSoy4DrGHtzl7SA",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en&citsig=APR7AgUAAAAAaZpJ-FD5735hYSoy4DrGHtzl7SA",
+      "title": "Cancel alert",
+      "source": "finn_0207.eml",
+      "added": "2026-05-02T20:32:51.989330+00:00"
+    },
+    {
+      "id": "arxiv:2604.01985",
+      "url": "https://arxiv.org/abs/2604.01985",
+      "title": "World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry",
+      "source": "finn_0406.eml",
+      "added": "2026-05-02T20:32:51.990042+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=4IT6d0tBYd4J&citsig=ADQXK0wAAAAAa7R3FXC1ePTi3dxVpF93WF69KcI",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=4IT6d0tBYd4J&citsig=ADQXK0wAAAAAa7R3FXC1ePTi3dxVpF93WF69KcI",
+      "title": "",
+      "source": "finn_0406.eml",
+      "added": "2026-05-02T20:32:51.990048+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en&citsig=ADQXK0wAAAAAaeW4lTQr4Hr0BAHhuCDZjJpzXCA",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=XQxZ0cEFFEEJ&hl=en&citsig=ADQXK0wAAAAAaeW4lTQr4Hr0BAHhuCDZjJpzXCA",
+      "title": "Cancel alert",
+      "source": "finn_0406.eml",
+      "added": "2026-05-02T20:32:51.990065+00:00"
+    },
+    {
+      "id": "arxiv:2604.01169",
+      "url": "https://arxiv.org/abs/2604.01169",
+      "title": "Bridging the Simulation-to-Experiment Gap with Generative Models using Adversarial Distribution Alignment",
+      "source": "levine_0426.eml",
+      "added": "2026-05-02T20:32:51.990702+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=UfV8jKGwexEJ&citsig=ADQXK0wAAAAAa7R3FKF2Yxz0P6KsPLKRcVQrZ1Y",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=UfV8jKGwexEJ&citsig=ADQXK0wAAAAAa7R3FKF2Yxz0P6KsPLKRcVQrZ1Y",
+      "title": "",
+      "source": "levine_0426.eml",
+      "added": "2026-05-02T20:32:51.990708+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=8R35rCwAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=8R35rCwAAAAJ",
+      "title": "Sergey Levine",
+      "source": "levine_0426.eml",
+      "added": "2026-05-02T20:32:51.990719+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en",
+      "title": "List alerts",
+      "source": "levine_0426.eml",
+      "added": "2026-05-02T20:32:51.990723+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=ADQXK0wAAAAAaeW4lBoxdVbJMABZzojmSxbzvXg",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=ADQXK0wAAAAAaeW4lBoxdVbJMABZzojmSxbzvXg",
+      "title": "Cancel alert",
+      "source": "levine_0426.eml",
+      "added": "2026-05-02T20:32:51.990727+00:00"
+    },
+    {
+      "id": "arxiv:2604.23073",
+      "url": "https://arxiv.org/abs/2604.23073",
+      "title": "RL Token: Bootstrapping Online RL with Vision-Language-Action Models",
+      "source": "levine_0502.eml",
+      "added": "2026-05-02T20:32:51.991390+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=rx3VFI2O5lwJ&citsig=AFPfF8cAAAAAa9dKIB0s9G3s8KlzzrNrQJc-V-Y",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=rx3VFI2O5lwJ&citsig=AFPfF8cAAAAAa9dKIB0s9G3s8KlzzrNrQJc-V-Y",
+      "title": "",
+      "source": "levine_0502.eml",
+      "added": "2026-05-02T20:32:51.991396+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=AFPfF8cAAAAAagiLoN3zs_GQ83lPqteeRg3IFM4",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=AFPfF8cAAAAAagiLoN3zs_GQ83lPqteeRg3IFM4",
+      "title": "Cancel alert",
+      "source": "levine_0502.eml",
+      "added": "2026-05-02T20:32:51.991412+00:00"
+    },
+    {
+      "id": "arxiv:2604.24442",
+      "url": "https://arxiv.org/abs/2604.24442",
+      "title": "The Fragility of Learning LQG Controllers",
+      "source": "manfred_0502.eml",
+      "added": "2026-05-02T20:32:51.992113+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RlplZ9lIRMkJ&citsig=AFPfF8cAAAAAa9dKIKtjqKcZnNT5v7pwKLzU7Jk",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=RlplZ9lIRMkJ&citsig=AFPfF8cAAAAAa9dKIKtjqKcZnNT5v7pwKLzU7Jk",
+      "title": "",
+      "source": "manfred_0502.eml",
+      "added": "2026-05-02T20:32:51.992120+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=JiW8z50AAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=JiW8z50AAAAJ",
+      "title": "Manfred Morari",
+      "source": "manfred_0502.eml",
+      "added": "2026-05-02T20:32:51.992130+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=U6AKHGBZL7gJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=U6AKHGBZL7gJ&hl=en",
+      "title": "List alerts",
+      "source": "manfred_0502.eml",
+      "added": "2026-05-02T20:32:51.992134+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=U6AKHGBZL7gJ&hl=en&citsig=AFPfF8cAAAAAagiLoFOxxorMq7zH4MKd42zSJNQ",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=U6AKHGBZL7gJ&hl=en&citsig=AFPfF8cAAAAAagiLoFOxxorMq7zH4MKd42zSJNQ",
+      "title": "Cancel alert",
+      "source": "manfred_0502.eml",
+      "added": "2026-05-02T20:32:51.992137+00:00"
+    },
+    {
+      "id": "arxiv:2602.00921",
+      "url": "https://arxiv.org/abs/2602.00921",
+      "title": "On the Convergence of Jacobian-Free Backpropagation for Optimal Control Problems with Implicit Hamiltonians",
+      "source": "osher_0206.eml",
+      "added": "2026-05-02T20:32:51.992765+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=LE0KCrB4XI0J&citsig=APR7AgUAAAAAa2kIeC1AOtmKByIPUniZtDxmaHU",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=LE0KCrB4XI0J&citsig=APR7AgUAAAAAa2kIeC1AOtmKByIPUniZtDxmaHU",
+      "title": "",
+      "source": "osher_0206.eml",
+      "added": "2026-05-02T20:32:51.992771+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=d3UtiX8AAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=d3UtiX8AAAAJ",
+      "title": "S osher",
+      "source": "osher_0206.eml",
+      "added": "2026-05-02T20:32:51.992781+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en",
+      "title": "List alerts",
+      "source": "osher_0206.eml",
+      "added": "2026-05-02T20:32:51.992784+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en&citsig=APR7AgUAAAAAaZpJ-FaHLwxMcPIKOkv3AB8yP6U",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en&citsig=APR7AgUAAAAAaZpJ-FaHLwxMcPIKOkv3AB8yP6U",
+      "title": "Cancel alert",
+      "source": "osher_0206.eml",
+      "added": "2026-05-02T20:32:51.992788+00:00"
+    },
+    {
+      "id": "arxiv:2602.05124",
+      "url": "https://arxiv.org/abs/2602.05124",
+      "title": "Scalable Fixed-Point Framework for High-Dimensional Hamilton-Jacobi Equations",
+      "source": "osher_0210.eml",
+      "added": "2026-05-02T20:32:51.993435+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=-5rS068IO_AJ&citsig=APR7AgUAAAAAa2zHf69X528O--gRPYBck3pbErQ",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=-5rS068IO_AJ&citsig=APR7AgUAAAAAa2zHf69X528O--gRPYBck3pbErQ",
+      "title": "",
+      "source": "osher_0210.eml",
+      "added": "2026-05-02T20:32:51.993441+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en&citsig=APR7AgUAAAAAaZ4I_20odmBEjuLH56P2WDp2igc",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=RJYVdSg9X7AJ&hl=en&citsig=APR7AgUAAAAAaZ4I_20odmBEjuLH56P2WDp2igc",
+      "title": "Cancel alert",
+      "source": "osher_0210.eml",
+      "added": "2026-05-02T20:32:51.993459+00:00"
+    },
+    {
+      "id": "arxiv:2602.08965",
+      "url": "https://arxiv.org/abs/2602.08965",
+      "title": "Learning to Coordinate via Quantum Entanglement in Multi-Agent Reinforcement Learning",
+      "source": "pappas_0216.eml",
+      "added": "2026-05-02T20:32:51.994106+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=OgfPMRnyf7EJ&citsig=AF5TLtkAAAAAa3RauGPdH9apayGVfyjtlum8kw4",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=OgfPMRnyf7EJ&citsig=AF5TLtkAAAAAa3RauGPdH9apayGVfyjtlum8kw4",
+      "title": "",
+      "source": "pappas_0216.eml",
+      "added": "2026-05-02T20:32:51.994112+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=Kia-4B0AAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=Kia-4B0AAAAJ",
+      "title": "George Pappas",
+      "source": "pappas_0216.eml",
+      "added": "2026-05-02T20:32:51.994122+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en",
+      "title": "List alerts",
+      "source": "pappas_0216.eml",
+      "added": "2026-05-02T20:32:51.994125+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en&citsig=AF5TLtkAAAAAaaWcOEA4ZfR1TnPRNM6btXUZVQE",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en&citsig=AF5TLtkAAAAAaaWcOEA4ZfR1TnPRNM6btXUZVQE",
+      "title": "Cancel alert",
+      "source": "pappas_0216.eml",
+      "added": "2026-05-02T20:32:51.994129+00:00"
+    },
+    {
+      "id": "arxiv:2602.08813",
+      "url": "https://arxiv.org/abs/2602.08813",
+      "title": "Robust Policy Optimization to Prevent Catastrophic Forgetting",
+      "source": "pappas_0217.eml",
+      "added": "2026-05-02T20:32:51.994851+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=DM1mbftaLBsJ&citsig=AF5TLtkAAAAAa3YgYz1QZK4Eqirk1azUrUcnzp0",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=DM1mbftaLBsJ&citsig=AF5TLtkAAAAAa3YgYz1QZK4Eqirk1azUrUcnzp0",
+      "title": "",
+      "source": "pappas_0217.eml",
+      "added": "2026-05-02T20:32:51.994857+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en&citsig=AF5TLtkAAAAAaadh4-Rcrs3aZAWB6M7QfYkevzc",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=igWHJi0DkUAJ&hl=en&citsig=AF5TLtkAAAAAaadh4-Rcrs3aZAWB6M7QfYkevzc",
+      "title": "Cancel alert",
+      "source": "pappas_0217.eml",
+      "added": "2026-05-02T20:32:51.994874+00:00"
+    },
+    {
+      "id": "arxiv:2601.03100",
+      "url": "https://arxiv.org/abs/2601.03100",
+      "title": "Text-Guided Layer Fusion Mitigates Hallucination in Multimodal LLMs",
+      "source": "pavone_0110_26.eml",
+      "added": "2026-05-02T20:32:51.995660+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=74VXrTDDZ8QJ&citsig=APR7AgUAAAAAa0MvhvygLYwAO2GX-x6vvdw5Zbc",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=74VXrTDDZ8QJ&citsig=APR7AgUAAAAAa0MvhvygLYwAO2GX-x6vvdw5Zbc",
+      "title": "",
+      "source": "pavone_0110_26.eml",
+      "added": "2026-05-02T20:32:51.995667+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=RhOpyXcAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=RhOpyXcAAAAJ",
+      "title": "Marco Pavone",
+      "source": "pavone_0110_26.eml",
+      "added": "2026-05-02T20:32:51.995677+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en",
+      "title": "List alerts",
+      "source": "pavone_0110_26.eml",
+      "added": "2026-05-02T20:32:51.995681+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=APR7AgUAAAAAaXRxBqw1SkjUU8Kv1c7a6_bNOc8",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=APR7AgUAAAAAaXRxBqw1SkjUU8Kv1c7a6_bNOc8",
+      "title": "Cancel alert",
+      "source": "pavone_0110_26.eml",
+      "added": "2026-05-02T20:32:51.995685+00:00"
+    },
+    {
+      "id": "arxiv:2602.02864",
+      "url": "https://arxiv.org/abs/2602.02864",
+      "title": "Accelerating Structured Chain-of-Thought in Autonomous Vehicles",
+      "source": "pavone_0207_26.eml",
+      "added": "2026-05-02T20:32:51.996329+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=9yX7iJ7kryMJ&citsig=APR7AgUAAAAAa2kId76whSbbHaCuICVRY0kbr-k",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=9yX7iJ7kryMJ&citsig=APR7AgUAAAAAa2kId76whSbbHaCuICVRY0kbr-k",
+      "title": "",
+      "source": "pavone_0207_26.eml",
+      "added": "2026-05-02T20:32:51.996335+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=APR7AgUAAAAAaZpJ9xm0H10ZebHP-JXVPsJyKeU",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=APR7AgUAAAAAaZpJ9xm0H10ZebHP-JXVPsJyKeU",
+      "title": "Cancel alert",
+      "source": "pavone_0207_26.eml",
+      "added": "2026-05-02T20:32:51.996353+00:00"
+    },
+    {
+      "id": "arxiv:2602.08167",
+      "url": "https://arxiv.org/abs/2602.08167",
+      "title": "Self-Supervised Bootstrapping of Action-Predictive Embodied Reasoning",
+      "source": "pavone_0216.eml",
+      "added": "2026-05-02T20:32:51.997066+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=XXer-ZLSI_8J&citsig=AF5TLtkAAAAAa3Rat5M-moRP5FU44Ord1OFQS0E",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=XXer-ZLSI_8J&citsig=AF5TLtkAAAAAa3Rat5M-moRP5FU44Ord1OFQS0E",
+      "title": "",
+      "source": "pavone_0216.eml",
+      "added": "2026-05-02T20:32:51.997073+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AF5TLtkAAAAAaaWcN8xe5zwJ5xqqu63WV4VxUgY",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AF5TLtkAAAAAaaWcN8xe5zwJ5xqqu63WV4VxUgY",
+      "title": "Cancel alert",
+      "source": "pavone_0216.eml",
+      "added": "2026-05-02T20:32:51.997094+00:00"
+    },
+    {
+      "id": "arxiv:2602.12281",
+      "url": "https://arxiv.org/abs/2602.12281",
+      "title": "Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment",
+      "source": "pavone_0217.eml",
+      "added": "2026-05-02T20:32:51.997739+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=jVRRugTAV9sJ&citsig=AF5TLtkAAAAAa3YgYlY65afOjrkSaALfcD4nUMM",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=jVRRugTAV9sJ&citsig=AF5TLtkAAAAAa3YgYlY65afOjrkSaALfcD4nUMM",
+      "title": "",
+      "source": "pavone_0217.eml",
+      "added": "2026-05-02T20:32:51.997746+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AF5TLtkAAAAAaadh4r0kNEhSNVi5Cd7DgiGsroc",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AF5TLtkAAAAAaadh4r0kNEhSNVi5Cd7DgiGsroc",
+      "title": "Cancel alert",
+      "source": "pavone_0217.eml",
+      "added": "2026-05-02T20:32:51.997763+00:00"
+    },
+    {
+      "id": "url:https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract",
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract",
+      "title": "Graph Neural Model Predictive Control for High-Dimensional Systems",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:32:51.998415+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=y1gm2rfZuWoJ&citsig=ADQXK0wAAAAAa6WcsKyGy4Z9zeqzD14YMmkoiKg",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=y1gm2rfZuWoJ&citsig=ADQXK0wAAAAAa6WcsKyGy4Z9zeqzD14YMmkoiKg",
+      "title": "",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:32:51.998422+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "title": "",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:32:51.998426+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "title": "",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:32:51.998428+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://ui.adsabs.harvard.edu/abs/2026arXiv260217601B/abstract&rt=Graph+Neural+Model+Predictive+Control+for+High-Dimensional+Systems&scisig=ADi0EEVtAezH3oa-746tq_0vWU7A",
+      "title": "",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:32:51.998432+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAadbeMM9QxFP6hU1b8y5IE2hetTg",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAadbeMM9QxFP6hU1b8y5IE2hetTg",
+      "title": "Cancel alert",
+      "source": "pavone_0325.eml",
+      "added": "2026-05-02T20:32:51.998442+00:00"
+    },
+    {
+      "id": "arxiv:2603.23044",
+      "url": "https://arxiv.org/abs/2603.23044",
+      "title": "Learning Actuator-Aware Spectral Submanifolds for Precise Control of Continuum Robots",
+      "source": "pavone_0328.eml",
+      "added": "2026-05-02T20:32:51.999081+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=SRoqyJm5cLQJ&citsig=ADQXK0wAAAAAa6m3d3_8n4498HCYN67jT0oAFik",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=SRoqyJm5cLQJ&citsig=ADQXK0wAAAAAa6m3d3_8n4498HCYN67jT0oAFik",
+      "title": "",
+      "source": "pavone_0328.eml",
+      "added": "2026-05-02T20:32:51.999090+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAadr499AP9cmfKryfNY-0fPwq9pQ",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAadr499AP9cmfKryfNY-0fPwq9pQ",
+      "title": "Cancel alert",
+      "source": "pavone_0328.eml",
+      "added": "2026-05-02T20:32:51.999108+00:00"
+    },
+    {
+      "id": "arxiv:2604.04310",
+      "url": "https://arxiv.org/abs/2604.04310",
+      "title": "frax: Fast Robot Kinematics and Dynamics in JAX",
+      "source": "pavone_0410.eml",
+      "added": "2026-05-02T20:32:51.999827+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ATDbb4bJROYJ&citsig=ADQXK0wAAAAAa7oq1IJJnObTDr2aNUD70d3DXcQ",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ATDbb4bJROYJ&citsig=ADQXK0wAAAAAa7oq1IJJnObTDr2aNUD70d3DXcQ",
+      "title": "",
+      "source": "pavone_0410.eml",
+      "added": "2026-05-02T20:32:51.999833+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAaetsVEqBPA_aDcsYRBhqXsdZZbk",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=ADQXK0wAAAAAaetsVEqBPA_aDcsYRBhqXsdZZbk",
+      "title": "Cancel alert",
+      "source": "pavone_0410.eml",
+      "added": "2026-05-02T20:32:51.999850+00:00"
+    },
+    {
+      "id": "url:https://openreview.net/forum?id=774K6D5Ttn",
+      "url": "https://openreview.net/forum?id=774K6D5Ttn",
+      "title": "Semantic Constraint Synthesis for Adaptive Trajectory Optimization via Large Language Models",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:32:52.000557+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=InObk4Q4aK8J&citsig=AFPfF8cAAAAAa9dKIHAMxFbP_KXTVHoTok3TP44",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=InObk4Q4aK8J&citsig=AFPfF8cAAAAAa9dKIHAMxFbP_KXTVHoTok3TP44",
+      "title": "",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:32:52.000565+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "title": "",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:32:52.000569+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "title": "",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:32:52.000571+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://openreview.net/forum%3Fid%3D774K6D5Ttn&rt=Semantic+Constraint+Synthesis+for+Adaptive+Trajectory+Optimization+via+Large+Language+Models&scisig=AFyMTJUt7pAPCytAgW52rGzhGYD7",
+      "title": "",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:32:52.000574+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AFPfF8cAAAAAagiLoIYFtOKohf9veUTYBUfQT0E",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=KpJQz0jDyCQJ&hl=en&citsig=AFPfF8cAAAAAagiLoIYFtOKohf9veUTYBUfQT0E",
+      "title": "Cancel alert",
+      "source": "pavone_p5p2.eml",
+      "added": "2026-05-02T20:32:52.000584+00:00"
+    },
+    {
+      "id": "arxiv:2604.15483",
+      "url": "https://arxiv.org/abs/2604.15483",
+      "title": "${\\pi} _ {0.7} $: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
+      "source": "pi_0,7.eml",
+      "added": "2026-05-02T20:32:52.001576+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=qkeu_Wdo0aMJ&citsig=ADQXK0wAAAAAa8w3RUMzlE0vzoEuoAoW7A63Ers",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=qkeu_Wdo0aMJ&citsig=ADQXK0wAAAAAa8w3RUMzlE0vzoEuoAoW7A63Ers",
+      "title": "",
+      "source": "pi_0,7.eml",
+      "added": "2026-05-02T20:32:52.001583+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=ADQXK0wAAAAAaf14xdZL4PBHKkdV5XJ8y2Bzqeo",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=DGwoWHWHmjkJ&hl=en&citsig=ADQXK0wAAAAAaf14xdZL4PBHKkdV5XJ8y2Bzqeo",
+      "title": "Cancel\r\n alert",
+      "source": "pi_0,7.eml",
+      "added": "2026-05-02T20:32:52.001601+00:00"
+    },
+    {
+      "id": "arxiv:2601.22356",
+      "url": "https://arxiv.org/abs/2601.22356",
+      "title": "PoSafeNet: Safe Learning with Poset-Structured Neural Nets",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:32:52.002983+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=7-UaNBG1-mgJ&citsig=APR7AgUAAAAAa2kIeFmQttsnlrkMRJv3mDz3tx4",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=7-UaNBG1-mgJ&citsig=APR7AgUAAAAAa2kIeFmQttsnlrkMRJv3mDz3tx4",
+      "title": "",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:32:52.002991+00:00"
+    },
+    {
+      "id": "arxiv:2602.02236",
+      "url": "https://arxiv.org/abs/2602.02236",
+      "title": "Online Fine-Tuning of Pretrained Controllers for Autonomous Driving via Real-Time Recurrent RL",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:32:52.003003+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=T9raSAhnTagJ&citsig=APR7AgUAAAAAa2kIeJCJhAX8a6FYR2N8JsPyhJc",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=T9raSAhnTagJ&citsig=APR7AgUAAAAAa2kIeJCJhAX8a6FYR2N8JsPyhJc",
+      "title": "",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:32:52.003006+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=910z20QAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=910z20QAAAAJ",
+      "title": "Daniela Rus",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:32:52.003014+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en",
+      "title": "List alerts",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:32:52.003018+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=APR7AgUAAAAAaZpJ-IuxDuBVR2OvFcstPWczKs4",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=APR7AgUAAAAAaZpJ-IuxDuBVR2OvFcstPWczKs4",
+      "title": "Cancel alert",
+      "source": "rus_0207.eml",
+      "added": "2026-05-02T20:32:52.003021+00:00"
+    },
+    {
+      "id": "url:https://patents.google.com/patent/US20260037897A1/en",
+      "url": "https://patents.google.com/patent/US20260037897A1/en",
+      "title": "Model training framework for generating modified executable risk-aware variant of models",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:32:52.003671+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ytziOAlAOSYJ&citsig=AF5TLtkAAAAAa3YgYuyQGkWD90kIaBDa7m8SQxM",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=ytziOAlAOSYJ&citsig=AF5TLtkAAAAAa3YgYuyQGkWD90kIaBDa7m8SQxM",
+      "title": "",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:32:52.003677+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "title": "",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:32:52.003681+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "title": "",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:32:52.003684+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://patents.google.com/patent/US20260037897A1/en&rt=Model+training+framework+for+generating+modified+executable+risk-aware+variant+of+models&scisig=AFtJQiwmv27cXLChDArPhc5b4tpl",
+      "title": "",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:32:52.003687+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=AF5TLtkAAAAAaadh4nbIntLbTZDXZVmYLqaMDDM",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=AF5TLtkAAAAAaadh4nbIntLbTZDXZVmYLqaMDDM",
+      "title": "Cancel alert",
+      "source": "rus_0217.eml",
+      "added": "2026-05-02T20:32:52.003697+00:00"
+    },
+    {
+      "id": "url:https://www.ijcbs.org/index.php/IJCBS/article/download/61/72",
+      "url": "https://www.ijcbs.org/index.php/IJCBS/article/download/61/72",
+      "title": "Graph-Theoretic Modeling of Memory Poisoning Diffusion in Multi-Agent Communication Networks",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:32:52.004326+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=YYcKNes_HDMJ&citsig=ADQXK0wAAAAAa7oq1br-b7dJ8IzK8lH_AO11I1A",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=YYcKNes_HDMJ&citsig=ADQXK0wAAAAAa7oq1br-b7dJ8IzK8lH_AO11I1A",
+      "title": "",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:32:52.004332+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=tw&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "title": "",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:32:52.004335+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=in&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "title": "",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:32:52.004338+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "url": "https://scholar.google.com/scholar_share?hl=en&oi=scholaralrt&ss=fb&url=https://www.ijcbs.org/index.php/IJCBS/article/download/61/72&rt=Graph-Theoretic+Modeling+of+Memory+Poisoning+Diffusion+in+Multi-Agent+Communication+Networks&scisig=ADi0EEWkAo2hj5vn_fu_gWMpWsQp",
+      "title": "",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:32:52.004341+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=ADQXK0wAAAAAaetsVTxPeRNnHyFNDUZS5J3VOYg",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=Mgu4XW0tLyUJ&hl=en&citsig=ADQXK0wAAAAAaetsVTxPeRNnHyFNDUZS5J3VOYg",
+      "title": "Cancel alert",
+      "source": "rus_0410.eml",
+      "added": "2026-05-02T20:32:52.004350+00:00"
+    },
+    {
+      "id": "arxiv:2602.09153",
+      "url": "https://arxiv.org/abs/2602.09153",
+      "title": "SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes",
+      "source": "tedrake_0216_26.eml",
+      "added": "2026-05-02T20:32:52.006073+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.co.jp/citations?hl=en&update_op=email_library_add&info=HDf1qJ4uYH8J&citsig=AF5TLtkAAAAAa3RauCsT2nrE7caUI_KcCY6whG4",
+      "url": "https://scholar.google.co.jp/citations?hl=en&update_op=email_library_add&info=HDf1qJ4uYH8J&citsig=AF5TLtkAAAAAa3RauCsT2nrE7caUI_KcCY6whG4",
+      "title": "",
+      "source": "tedrake_0216_26.eml",
+      "added": "2026-05-02T20:32:52.006079+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.co.jp/citations?hl=en&user=nxNkEiYAAAAJ",
+      "url": "https://scholar.google.co.jp/citations?hl=en&user=nxNkEiYAAAAJ",
+      "title": "Russ Tedrake",
+      "source": "tedrake_0216_26.eml",
+      "added": "2026-05-02T20:32:52.006092+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.co.jp/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=6UY-UJHhe7UJ&hl=en",
+      "url": "https://scholar.google.co.jp/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=6UY-UJHhe7UJ&hl=en",
+      "title": "List alerts",
+      "source": "tedrake_0216_26.eml",
+      "added": "2026-05-02T20:32:52.006096+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.co.jp/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=6UY-UJHhe7UJ&hl=en&citsig=AF5TLtkAAAAAaaWcOK1WdDykuKPLqOGX9KkrE0Y",
+      "url": "https://scholar.google.co.jp/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=6UY-UJHhe7UJ&hl=en&citsig=AF5TLtkAAAAAaaWcOK1WdDykuKPLqOGX9KkrE0Y",
+      "title": "Cancel alert",
+      "source": "tedrake_0216_26.eml",
+      "added": "2026-05-02T20:32:52.006099+00:00"
+    },
+    {
+      "id": "arxiv:2604.04499",
+      "url": "https://arxiv.org/abs/2604.04499",
+      "title": "Distributed Covariance Steering via Non-Convex ADMM for Large-Scale Multi-Agent Systems",
+      "source": "theodorou_0110.eml",
+      "added": "2026-05-02T20:32:52.006725+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=yZRi-0R37TsJ&citsig=ADQXK0wAAAAAa7oq1Ugm5zhaBxiXYLesBqK5oi8",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=yZRi-0R37TsJ&citsig=ADQXK0wAAAAAa7oq1Ugm5zhaBxiXYLesBqK5oi8",
+      "title": "",
+      "source": "theodorou_0110.eml",
+      "added": "2026-05-02T20:32:52.006730+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&user=dG9MV7oAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=dG9MV7oAAAAJ",
+      "title": "Evangelos Theodorou",
+      "source": "theodorou_0110.eml",
+      "added": "2026-05-02T20:32:52.006740+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=list_alerts&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en",
+      "title": "List alerts",
+      "source": "theodorou_0110.eml",
+      "added": "2026-05-02T20:32:52.006743+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en&citsig=ADQXK0wAAAAAaetsVXPEytJs5RlO3tQQxo9LgT0",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en&citsig=ADQXK0wAAAAAaetsVXPEytJs5RlO3tQQxo9LgT0",
+      "title": "Cancel alert",
+      "source": "theodorou_0110.eml",
+      "added": "2026-05-02T20:32:52.006746+00:00"
+    },
+    {
+      "id": "arxiv:2603.02642",
+      "url": "https://arxiv.org/abs/2603.02642",
+      "title": "cuNRTO: GPU-Accelerated Nonlinear Robust Trajectory Optimization",
+      "source": "theodorou_0327.eml",
+      "added": "2026-05-02T20:32:52.007445+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=8kuH1QEynR0J&citsig=AF5TLtkAAAAAa44UNelklIvJX5j4-ug5Ar6JEiw",
+      "url": "https://scholar.google.com/citations?hl=en&update_op=email_library_add&info=8kuH1QEynR0J&citsig=AF5TLtkAAAAAa44UNelklIvJX5j4-ug5Ar6JEiw",
+      "title": "",
+      "source": "theodorou_0327.eml",
+      "added": "2026-05-02T20:32:52.007453+00:00"
+    },
+    {
+      "id": "url:https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en&citsig=AF5TLtkAAAAAab9VtTnvsNu3jjSpDeH6TqSl-9c",
+      "url": "https://scholar.google.com/scholar_alerts?view_op=cancel_alert_options&email_for_op=you%40example.com&alert_id=YLfLknWeoDMJ&hl=en&citsig=AF5TLtkAAAAAab9VtTnvsNu3jjSpDeH6TqSl-9c",
+      "title": "Cancel alert",
+      "source": "theodorou_0327.eml",
+      "added": "2026-05-02T20:32:52.007470+00:00"
+    },
+    {
+      "id": "arxiv:2604.21017",
+      "url": "https://arxiv.org/abs/2604.21017",
+      "title": "Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008541+00:00"
+    },
+    {
+      "id": "arxiv:2604.21100",
+      "url": "https://arxiv.org/abs/2604.21100",
+      "title": "Preconditioned DeltaNet: Curvature-aware Sequence Modeling for Linear Recurrences",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008542+00:00"
+    },
+    {
+      "id": "arxiv:2604.21189",
+      "url": "https://arxiv.org/abs/2604.21189",
+      "title": "Full-Body Dynamic Safety for Robot Manipulators: 3D Poisson Safety Functions for CBF-Based Safety Filters",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008544+00:00"
+    },
+    {
+      "id": "arxiv:2604.19893",
+      "url": "https://arxiv.org/abs/2604.19893",
+      "title": "Output Feedback Backup Control Barrier Functions: Safety Guarantees Under Input Bounds and State Estimation Error",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008546+00:00"
+    },
+    {
+      "id": "url:https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.70363",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.70363",
+      "title": "Myoelectric Origami\u2010Based Soft Robotic Knee Exoskeleton to Enhance Sit\u2010to\u2010Stand Assistance in Elderly Populations (Adv. Intell. Syst. 4/2026)",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008548+00:00"
+    },
+    {
+      "id": "arxiv:2604.16730",
+      "url": "https://arxiv.org/abs/2604.16730",
+      "title": "Multitask LQG Control: Performance and Generalization Bounds",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008550+00:00"
+    },
+    {
+      "id": "arxiv:2604.17654",
+      "url": "https://arxiv.org/abs/2604.17654",
+      "title": "Poly-EPO: Training Exploratory Reasoning Models",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008554+00:00"
+    },
+    {
+      "id": "arxiv:2604.19730",
+      "url": "https://arxiv.org/abs/2604.19730",
+      "title": "FASTER: Value-Guided Sampling for Fast RL",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008556+00:00"
+    },
+    {
+      "id": "arxiv:2604.18887",
+      "url": "https://arxiv.org/abs/2604.18887",
+      "title": "HALO",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008558+00:00"
+    },
+    {
+      "id": "url:https://quantum-journal.org/papers/q-2026-04-21-2076/",
+      "url": "https://quantum-journal.org/papers/q-2026-04-21-2076/",
+      "title": "Elevating Variational Quantum Semidefinite Programs for Polynomial Objectives",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008560+00:00"
+    },
+    {
+      "id": "arxiv:2604.15682",
+      "url": "https://arxiv.org/abs/2604.15682",
+      "title": "When structure does not imply symmetry",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008561+00:00"
+    },
+    {
+      "id": "arxiv:2603.21635",
+      "url": "https://arxiv.org/abs/2603.21635",
+      "title": "RTD-RAX",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008571+00:00"
+    },
+    {
+      "id": "arxiv:2603.19312",
+      "url": "https://arxiv.org/abs/2603.19312",
+      "title": "LeWorldModel",
+      "source": "papers_to_read.md",
+      "added": "2026-05-02T20:32:52.008576+00:00"
+    }
+  ]
+}

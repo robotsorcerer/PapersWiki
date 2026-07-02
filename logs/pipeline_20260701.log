@@ -1,0 +1,31 @@
+2026-07-01 06:00:02,200 [INFO] pipeline: ============================================================
+2026-07-01 06:00:02,200 [INFO] pipeline: PapersWiki pipeline starting — 2026-07-01T06:00:02.200794-04:00
+2026-07-01 06:00:02,200 [INFO] pipeline: Stage 1: Ingest
+2026-07-01 06:00:02,201 [INFO] ingest: Found 163 .eml files
+2026-07-01 06:00:02,264 [INFO] ingest: papers_to_read.md -> 0 candidates
+2026-07-01 06:00:02,264 [INFO] ingest: Total unique candidates: 57 | Already processed: 206 | New: 57
+2026-07-01 06:00:02,264 [INFO] pipeline: Candidates to process: 57
+2026-07-01 06:00:02,264 [INFO] pipeline: Limiting to 0 papers this run
+2026-07-01 06:00:02,264 [INFO] pipeline: No new papers. Sending digest with 0 papers.
+2026-07-01 06:00:03,608 [INFO] digest: Email sent to you@example.com
+2026-07-01 22:30:21,489 [INFO] pipeline: ============================================================
+2026-07-01 22:30:21,489 [INFO] pipeline: PapersWiki pipeline starting — 2026-07-01T22:30:21.489141-04:00
+2026-07-01 22:30:21,489 [INFO] pipeline: Stage 1: Ingest
+2026-07-01 22:30:21,489 [INFO] ingest: Found 170 .eml files
+2026-07-01 22:30:21,553 [INFO] ingest: papers_to_read.md -> 0 candidates
+2026-07-01 22:30:21,553 [INFO] ingest: Total unique candidates: 67 | Already processed: 206 | New: 67
+2026-07-01 22:30:21,553 [INFO] pipeline: Candidates to process: 67
+2026-07-01 22:31:36,353 [INFO] pipeline: ============================================================
+2026-07-01 22:31:36,354 [INFO] pipeline: PapersWiki pipeline starting — 2026-07-01T22:31:36.354063-04:00
+2026-07-01 22:31:36,354 [INFO] pipeline: Stage 1: Ingest
+2026-07-01 22:31:36,354 [INFO] ingest: Found 170 .eml files
+2026-07-01 22:31:36,417 [INFO] ingest: papers_to_read.md -> 4 candidates
+2026-07-01 22:31:36,417 [INFO] ingest: Total unique candidates: 71 | Already processed: 206 | New: 71
+2026-07-01 22:31:36,417 [INFO] pipeline: Candidates to process: 71
+2026-07-01 22:32:16,033 [INFO] pipeline: ============================================================
+2026-07-01 22:32:16,034 [INFO] pipeline: PapersWiki pipeline starting — 2026-07-01T22:32:16.034037-04:00
+2026-07-01 22:32:16,034 [INFO] pipeline: Stage 1: Ingest
+2026-07-01 22:32:16,034 [INFO] ingest: Found 170 .eml files
+2026-07-01 22:32:16,097 [INFO] ingest: papers_to_read.md -> 4 candidates
+2026-07-01 22:32:16,097 [INFO] ingest: Total unique candidates: 71 | Already processed: 206 | New: 71
+2026-07-01 22:32:16,097 [INFO] pipeline: Candidates to process: 71

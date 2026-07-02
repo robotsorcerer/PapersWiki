@@ -48,7 +48,11 @@ log = logging.getLogger("summarize")
 # Model configuration
 # ---------------------------------------------------------------------------
 
+<<<<<<< HEAD
 CLAUDE_MODEL = "claude-opus-4-7"
+=======
+CLAUDE_MODEL = "claude-sonnet-4-6"
+>>>>>>> 853cc73 (pulled new papwers that dropped on Jun 29/30 and Jul 1)
 MAX_TOKENS   = 4096
 
 # ---------------------------------------------------------------------------
