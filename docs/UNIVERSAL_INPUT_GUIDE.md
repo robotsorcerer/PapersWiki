@@ -25,7 +25,7 @@ All sources go through the same pipeline and produce audio + markdown.
 paper-to-audio.sh 2605.17232
 ```
 Output:
-- Markdown: `summaries/ml/dimension_free_convergence_of_discrete_diffusion_m.md`
+- Knowledge graph entry: `wiki/papers/2605.17232.md`
 - Audio: `audio/ml/dimension_free_convergence_of_discrete_diffusion_m.mp3`
 
 ### 2️⃣ arXiv URL
@@ -243,20 +243,10 @@ audio/
 ├── ml/               ← Deep learning, diffusion, LLMs, transformers
 └── other/            ← Miscellaneous
 
-summaries/            ← Markdown versions (same structure as audio/)
-├── control/
-├── robotics/
-├── ml/
-└── other/
+wiki/papers/          ← Knowledge graph entries (authoritative source)
 ```
 
-**Automatic categorization** based on keywords in title + abstract:
-- Control theory keywords → `control/`
-- Robotics keywords → `robotics/`
-- ML/AI keywords → `ml/`
-- Everything else → `other/`
-
-You can manually move files if auto-categorization is wrong.
+**Note**: Per-paper summaries are no longer generated. The knowledge graph in `wiki/papers/` serves as the authoritative source.
 
 ---
 
@@ -453,17 +443,17 @@ paper-to-audio.sh --stdin < reading_queue.txt &
 
 ## What's Different from Before
 
-**Before**: Only arXiv papers via URL/ID  
+**Before**: Only arXiv papers via URL/ID
 **Now**: arXiv + PDFs + Websites + Emails + Text
 
-**Before**: Single script for one input type  
+**Before**: Single script for one input type
 **Now**: Universal script handles all types automatically
 
-**Before**: Manual metadata entry for non-arXiv  
+**Before**: Manual metadata entry for non-arXiv
 **Now**: Automatic extraction from any source
 
-**Before**: ~200 lines of code to add new input type  
-**Now**: Extensible `input_handler.py` for easy additions
+**Before**: Per-paper summaries in `summaries/` folder (now removed)
+**Now**: Knowledge graph in `wiki/papers/` compiled from email alerts
 
 ---
 

@@ -136,7 +136,10 @@ this:
 │   ├── index.md  papers/  researchers/  topics/  sources/
 ├── audio/
 │   └── digests/                 # distill_<date>_b<n>.mp3 — the emailed distillations
-├── summaries/                   # Legacy per-paper Claude summaries (control/robotics/ml/other)
+├── docs/
+│   ├── AUDIO_GUIDE.md           # Guide for audio generation
+│   ├── SKILLS.md                # Skills documentation
+│   └── UNIVERSAL_INPUT_GUIDE.md # Universal input handling guide
 ├── logs/                        # Pipeline + session logs
 └── email_src/*.eml              # RAW source of truth — never edited
 ```

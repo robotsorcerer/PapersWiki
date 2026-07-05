@@ -28,13 +28,12 @@ Both modes produce **MP3 audio files** (~20-25 minutes) suitable for leisure lis
 
 **Using the full Claude pipeline:**
 ```bash
-cd /home/lex/Documents/Papers/PapersWiki
-/home/lex/miniconda3/envs/311/bin/python process_paper.py --arxiv-id 2605.17232
+python process_paper.py --arxiv-id 2605.17232
 ```
 
 **Using abstract-only (no API needed):**
 ```bash
-/home/lex/miniconda3/envs/311/bin/python process_paper_no_api.py --arxiv-id 2605.17232
+python process_paper_no_api.py --arxiv-id 2605.17232
 ```
 
 **With a full arXiv URL:**
@@ -54,15 +53,7 @@ audio/<category>/<arxiv_id>_<title_slug>.mp3
 
 Categories: `control`, `robotics`, `ml`, `other`
 
-Markdown summaries are saved in:
-```
-summaries/<category>/<arxiv_id>_<title_slug>.md
-```
-
-### Example Output for Your Paper
-
-- **Audio**: `audio/ml/dimension_free_convergence_of_discrete_diffusion_m.mp3` (1.5 MB, ~18 min)
-- **Markdown**: `summaries/ml/dimension_free_convergence_of_discrete_diffusion_m.md`
+Per-paper markdown summaries are no longer generated. Instead, papers are compiled into a knowledge graph in `wiki/papers/` via `src/wiki.py`. The distillation pipeline (`src/distill.py`) produces spoken tours of the knowledge graph connections.
 
 ---
 
@@ -233,6 +224,6 @@ The system is fully generalizable — no paper-specific configuration needed.
 **Published**: May 2026  
 
 **Audio File**: `audio/ml/dimension_free_convergence_of_discrete_diffusion_m.mp3` (1.5 MB, ~18 min)  
-**Markdown**: `summaries/ml/dimension_free_convergence_of_discrete_diffusion_m.md`
+**Knowledge Graph Entry**: `wiki/papers/2605.17232.md`
 
 The paper develops a unified adjoint-equation-based framework for establishing dimension-free convergence guarantees in discrete diffusion models. It addresses fundamental limitations in existing KL-based and TV-based convergence analyses.
