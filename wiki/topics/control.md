@@ -51,4 +51,4 @@ Coarse category bucket (mirrors `summaries/control/`). 45 paper(s), classified f
 - [[papers/semantic-constraint-synthesis-for-adaptive-trajectory-optimi|Semantic Constraint Synthesis for Adaptive Trajectory Optimization via Large Language Models]] — [[topics/navigation-and-planning|Navigation And Planning]], [[topics/optimization|Optimization]], [[topics/language-and-foundation-models|Language And Foundation Models]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

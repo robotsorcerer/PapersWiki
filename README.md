@@ -29,7 +29,7 @@ narrates its *shape*.
                                             audio/digests/distill_<date>_b<n>.mp3
                                                            │  src/wiki_digest.py
                                                            ▼  (Gmail SMTP)
-                                                    📧 you@example.com
+                                                    📧 $SMTP_USER
 ```
 
 Two layers, cleanly separated (Karpathy's contract):
@@ -286,6 +286,6 @@ knowledge-graph distillation** described above. (The Claude path also requires
 
 ---
 
-**Maintainer:** Lekan Molu (you@example.com) · **License:** internal use by
+**Maintainer:** Lekan Molu · **License:** internal use by
 Molux Labs · **Timezone:** EDT (UTC-4).
 ```

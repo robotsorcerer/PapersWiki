@@ -27,4 +27,4 @@
 - [[papers/2508.13446|CAST: Counterfactual Labels Improve Instruction Following in Vision-Language-Action Models]] (2025)
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

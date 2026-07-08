@@ -11,4 +11,4 @@
 - [[papers/advancing-ai-challenges-for-the-united-states-department-of|Advancing AI Challenges for the United States Department of the Air Force]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

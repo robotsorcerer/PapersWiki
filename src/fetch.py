@@ -60,7 +60,7 @@ def _fetch_arxiv_api(arxiv_id: str) -> dict:
     url = f"{ARXIV_API}?{params}"
     log.debug("ArXiv API: %s", url)
 
-    req = Request(url, headers={"User-Agent": "PapersWiki-fetcher/1.0 (you@example.com)"})
+    req = Request(url, headers={"User-Agent": "PapersWiki-fetcher/1.0"})
     try:
         with urlopen(req, timeout=TIMEOUT) as resp:
             xml = resp.read().decode("utf-8", errors="replace")

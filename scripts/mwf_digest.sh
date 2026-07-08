@@ -3,7 +3,7 @@
 #
 # Drains the paper backlog in digestible tranches. Each session:
 #   1. Rebuilds the wiki knowledge base from email_src/ (offline, no API key).
-#   2. Sends BATCH_COUNT separate distillation emails to you@example.com,
+#   2. Sends BATCH_COUNT separate distillation emails to $DIGEST_TO (default $SMTP_USER),
 #      each a self-contained Karpathy-style audio tour of the next TRANCHE_SIZE
 #      papers that are new since the last email. Only those papers are marked
 #      seen, so the next email/session picks up where this one left off.
@@ -74,7 +74,7 @@ sent=0
 for i in $(seq 1 "$BATCH_COUNT"); do
     log "[INFO] Tranche $i/$BATCH_COUNT: distilling next $TRANCHE_SIZE papers"
     out="$("$PY" "$ROOT/src/wiki_digest.py" \
-              --to you@example.com \
+              --to "${DIGEST_TO:-${SMTP_USER}}" \
               --limit "$TRANCHE_SIZE" \
               --max-featured "$TRANCHE_SIZE" \
               --skip-if-empty \

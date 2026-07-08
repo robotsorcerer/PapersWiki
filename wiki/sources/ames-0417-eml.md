@@ -13,4 +13,4 @@
 - [[papers/2604.08831|Probabilistic Control Barrier Functions for Systems with State Estimation Uncertainty using Sub-Gaussian Concentration]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

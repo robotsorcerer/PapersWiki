@@ -11,4 +11,4 @@
 - [[papers/2602.12281|Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

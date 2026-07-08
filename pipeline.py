@@ -8,7 +8,7 @@ Runs all five stages end-to-end for every unprocessed paper:
   Stage 3 (summarize) — Claude CLI → structured 1-2 page analysis JSON
   Stage 4 (render)    — Markdown files in summaries/<category>/
   Stage 5 (audio)     — MP3 files in audio/<category>/
-  Digest              — morning email to you@example.com
+  Digest              — morning email to $SMTP_USER
 
 Designed to run unattended from cron (EDT):
     0 0 * * * /home/lex/miniconda3/envs/311/bin/python \

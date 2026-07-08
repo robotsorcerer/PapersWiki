@@ -1,7 +1,7 @@
 """
 digest.py — Morning Digest Email
 
-Sends a daily 6 AM EDT summary email to you@example.com listing the papers
+Sends a daily 6 AM EDT summary email to $GMAIL_USER/$SMTP_USER listing the papers
 processed in the past 24 hours. For each paper includes:
   - Title, venue, category
   - 2-sentence lead (problem statement)
@@ -14,7 +14,7 @@ Transport: Gmail SMTP via App Password stored in environment variable.
 Required environment variables:
     SMTP_PASS        — Gmail App Password (not the account password)
                        Generate at: myaccount.google.com/apppasswords
-    GMAIL_USER       — (optional) sender address, default you@example.com
+    GMAIL_USER       — (optional) sender address, default $SMTP_USER
 
 All times are in EDT (Eastern Daylight Time, UTC-4).
 
@@ -40,7 +40,7 @@ from zoneinfo import ZoneInfo
 
 log = logging.getLogger("digest")
 
-GMAIL_USER_DEFAULT = "you@example.com"
+GMAIL_USER_DEFAULT = os.getenv("SMTP_USER", "")
 SMTP_HOST          = "smtp.gmail.com"
 SMTP_PORT          = 465   # SSL
 WIKI_DIR           = Path(__file__).parent.parent

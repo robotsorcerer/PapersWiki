@@ -11,4 +11,4 @@
 - [[papers/2602.08167|Self-Supervised Bootstrapping of Action-Predictive Embodied Reasoning]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

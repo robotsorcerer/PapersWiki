@@ -28,4 +28,4 @@ Concept cluster compiled from `email_src/`. 20 paper(s).
 - [[papers/semantic-constraint-synthesis-for-adaptive-trajectory-optimi|Semantic Constraint Synthesis for Adaptive Trajectory Optimization via Large Language Models]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

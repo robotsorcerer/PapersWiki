@@ -11,4 +11,4 @@
 - [[papers/pdf-learning-to-move-in-rhythm-task-conditioned-motion-polic|(PDF) Learning to Move in Rhythm: Task-Conditioned Motion Policies with Orbital Stability Guarantees]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

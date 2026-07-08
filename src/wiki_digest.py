@@ -10,7 +10,7 @@ Transport: Gmail SMTP over SSL. Credentials come from the environment
 (SMTP_USER, SMTP_PASS, SMTP_HOST, SMTP_PORT) — the launchd wrapper loads them
 from ~/.zsh_aliases.
 
-Recipient: you@example.com
+Recipient: $DIGEST_TO or $SMTP_USER (override with --to)
 
 Usage:
     python src/wiki_digest.py                 # distill new papers + email MP3
@@ -41,7 +41,7 @@ log = logging.getLogger("wiki_digest")
 
 EDT = ZoneInfo("America/New_York")
 
-DEFAULT_RECIPIENT = "you@example.com"
+DEFAULT_RECIPIENT = os.getenv("DIGEST_TO") or os.getenv("SMTP_USER") or ""
 SMTP_HOST_DEFAULT = "smtp.gmail.com"
 SMTP_PORT_DEFAULT = 465
 

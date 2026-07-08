@@ -5,7 +5,7 @@ A self-maintaining, linked knowledge base in the style of Karpathy's *LLM Wiki /
 - **`email_src/`** — the **raw** source of truth (Google Scholar alerts). Never edited.
 - **`wiki/`** — **compiled** by `src/wiki.py` into the linked pages below. Rebuilt deterministically on every run, so the graph never rots.
 
-_Last compiled: 2026-07-08 10:59 EDT_
+_Last compiled: 2026-07-08 11:34 EDT_
 
 ## At a glance
 
@@ -256,4 +256,4 @@ _Last compiled: 2026-07-08 10:59 EDT_
 - [[sources/willcox-0928-eml|willcox_0928.eml]] (1 paper(s))
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

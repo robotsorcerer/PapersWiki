@@ -11,4 +11,4 @@
 - [[papers/director-a-user-interface-designed-for-robot-operation-with|Director: A User Interface Designed for Robot Operation With Shared Autonomy]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

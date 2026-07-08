@@ -11,4 +11,4 @@
 - [[papers/2605.25371|FOUND-IT: Foundation-model-first Task-driven 3D Scene Graphs with Granularity on Demand]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

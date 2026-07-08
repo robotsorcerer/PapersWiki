@@ -1,3 +1,9 @@
+# Raw alert emails — personal source of truth, never published
+email_src/
+
+# Local Claude Code config/agents (contain personal addresses)
+.claude/
+
 # Audio artifacts (regenerated; large binaries)
 audio/*.mp3
 audio/**/*.mp3

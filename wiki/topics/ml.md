@@ -50,4 +50,4 @@ Coarse category bucket (mirrors `summaries/ml/`). 44 paper(s), classified from t
 - [[papers/governorvla-adaptive-embodied-reasoning-for-long-tail-autono|GovernorVLA: Adaptive Embodied Reasoning for Long-tail Autonomous Driving]] — [[topics/language-and-foundation-models|Language And Foundation Models]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

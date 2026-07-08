@@ -11,4 +11,4 @@
 - [[papers/pdf-ego-pi-vla-fine-tuning-for-ego-centric-human-and-robot-d|(PDF) Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*

@@ -15,4 +15,4 @@ Concept cluster compiled from `email_src/`. 7 paper(s).
 - [[papers/2510.18211|Distributed Stochastic Search for Multi-Agent Model Predictive Control]] (2025)
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 11:34 EDT. Do not hand-edit; edit the raw emails instead.*
