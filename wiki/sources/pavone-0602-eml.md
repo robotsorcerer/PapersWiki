@@ -11,4 +11,4 @@
 - [[papers/governorvla-adaptive-embodied-reasoning-for-long-tail-autono|GovernorVLA: Adaptive Embodied Reasoning for Long-tail Autonomous Driving]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

@@ -22,8 +22,8 @@ The prolonged insurgency of Boko Haram in northeastern Nigeria has resulted in d
 - [[papers/2604.01985|World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry]]
 - [[papers/2605.05812|Long-Horizon Q-Learning: Accurate Value Learning via n-Step Inequalities]]
 - [[papers/2606.23595|SPIRAL: Learning to Search and Aggregate]]
+- [[papers/2606.32027|Freeform Preference Learning for Robotic Manipulation]]
 - [[papers/meta-harness-post-training-reliable-agent-systems-via-harnes|Meta-Harness: Post-Training Reliable Agent Systems via Harness Search]]
-- [[papers/pdf-direct-when-and-where-should-you-allocate-test-time-comp|(PDF) DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?]]
 
 ## Source (raw)
 
@@ -32,4 +32,4 @@ The prolonged insurgency of Boko Haram in northeastern Nigeria has resulted in d
 > The raw alert email is the source of truth and is never edited. This page is compiled from it.
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

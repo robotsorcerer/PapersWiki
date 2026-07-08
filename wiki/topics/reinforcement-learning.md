@@ -1,6 +1,6 @@
 # Reinforcement Learning
 
-Concept cluster compiled from `email_src/`. 16 paper(s).
+Concept cluster compiled from `email_src/`. 18 paper(s).
 
 **Researchers**: [[researchers/aaron-d-ames|Aaron D. Ames]], [[researchers/chelsea-finn|Chelsea Finn]], [[researchers/george-pappas|George Pappas]], [[researchers/marco-pavone|Marco Pavone]], [[researchers/sergey-levine|Sergey Levine]]
 
@@ -14,6 +14,8 @@ Concept cluster compiled from `email_src/`. 16 paper(s).
 - [[papers/2605.05812|Long-Horizon Q-Learning: Accurate Value Learning via n-Step Inequalities]] (2026)
 - [[papers/2602.08965|Learning to Coordinate via Quantum Entanglement in Multi-Agent Reinforcement Learning]] (2026)
 - [[papers/2606.23640|Learning Process Rewards via Success Visitation Matching for Efficient RL]] (2026)
+- [[papers/2606.32027|Freeform Preference Learning for Robotic Manipulation]] (2026)
+- [[papers/2606.31958|Adapting Generalist Robot Policies with Semantic Reinforcement Learning]] (2026)
 - [[papers/2606.05687|Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation]] (2026)
 - [[papers/pdf-your-reward-function-for-rl-is-your-best-prm-for-search|(PDF) Your Reward Function for RL is Your Best PRM for Search: Unifying RL and Search-Based TTS]] (2025)
 - [[papers/pdf-policy-gradient-bounds-in-multitask-lqr|(PDF) Policy Gradient Bounds in Multitask LQR]] (2025)
@@ -24,4 +26,4 @@ Concept cluster compiled from `email_src/`. 16 paper(s).
 - [[papers/2605.01978|Stability of Control Lyapunov Function Guided Reinforcement Learning]] (1978)
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

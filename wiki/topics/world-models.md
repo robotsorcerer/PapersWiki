@@ -14,4 +14,4 @@ Concept cluster compiled from `email_src/`. 6 paper(s).
 - [[papers/pdf-supplementary-material-for-pointworld-scaling-3d-world-m|(PDF) Supplementary Material for POINTWORLD: Scaling 3D World Models for In-The-Wild Robotic Manipulation]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

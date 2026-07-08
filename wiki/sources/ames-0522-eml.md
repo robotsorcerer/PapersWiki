@@ -11,4 +11,4 @@
 - [[papers/2505.11495|Bracing for Impact: Robust Humanoid Push Recovery and Locomotion with Reduced Order Models]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

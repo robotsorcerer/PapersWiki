@@ -11,4 +11,4 @@
 - [[papers/txt-multi-crease-self-folding-by-global-heating|(TXT) Multi-crease Self-folding by Global Heating]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

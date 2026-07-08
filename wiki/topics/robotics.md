@@ -1,6 +1,6 @@
 # Category: ROBOTICS
 
-Coarse category bucket (mirrors `summaries/robotics/`). 34 paper(s), classified from title + snippet keywords.
+Coarse category bucket (mirrors `summaries/robotics/`). 36 paper(s), classified from title + snippet keywords.
 
 ## Papers
 
@@ -13,12 +13,14 @@ Coarse category bucket (mirrors `summaries/robotics/`). 34 paper(s), classified 
 - [[papers/2602.08167|Self-Supervised Bootstrapping of Action-Predictive Embodied Reasoning]] (2026) — [[topics/perception-and-slam|Perception And Slam]], [[topics/language-and-foundation-models|Language And Foundation Models]]
 - [[papers/2602.09153|SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes]] (2026) — [[topics/perception-and-slam|Perception And Slam]]
 - [[papers/2606.21148|Pose-Agnostic Robotic Functional Grasping via Observation-Action Canonicalization]] (2026) — [[topics/manipulation|Manipulation]]
+- [[papers/2606.30988|Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force]] (2026) — [[topics/manipulation|Manipulation]]
 - [[papers/2606.00985|Make Your VLA More Robust Without More Data By Interleaving Motion Planning]] (2026) — [[topics/navigation-and-planning|Navigation And Planning]], [[topics/language-and-foundation-models|Language And Foundation Models]]
 - [[papers/2603.23995|MIRROR: Visual Motion Imitation via Real-time Retargeting and Teleoperation with Parallel Differential Inverse Kinematics]] (2026) — [[topics/imitation-learning|Imitation Learning]], [[topics/locomotion|Locomotion]], [[topics/perception-and-slam|Perception And Slam]]
 - [[papers/2603.06228|Low-latency Event-based Object Detection with Spatially-Sparse Linear Attention]] (2026) — [[topics/perception-and-slam|Perception And Slam]]
 - [[papers/2605.16048|Looped SSMs: Depth-Recurrence and Input Reshaping for Time Series Classification]] (2026) — [[topics/perception-and-slam|Perception And Slam]]
 - [[papers/2606.08666|Language as a Sensor: Calibrated Spatial Belief Estimation in 3D Scenes from Natural Language]] (2026) — [[topics/perception-and-slam|Perception And Slam]]
 - [[papers/2603.21785|Image-Conditioned Adaptive Parameter Tuning for Visual Odometry Frontends]] (2026) — [[topics/perception-and-slam|Perception And Slam]]
+- [[papers/2606.32027|Freeform Preference Learning for Robotic Manipulation]] (2026) — [[topics/reinforcement-learning|Reinforcement Learning]], [[topics/manipulation|Manipulation]]
 - [[papers/2605.25371|FOUND-IT: Foundation-model-first Task-driven 3D Scene Graphs with Granularity on Demand]] (2026) — [[topics/perception-and-slam|Perception And Slam]]
 - [[papers/2604.24033|Event-based SLAM Benchmark for High-Speed Maneuvers]] (2026) — [[topics/perception-and-slam|Perception And Slam]]
 - [[papers/applied-theatre-and-techno-scenery-as-tools-for-peacebuildin|Applied Theatre and Techno Scenery as Tools for Peacebuilding and Trauma Awareness among Communities Affected by Boko Haram Insurgency]] (2026) — [[topics/perception-and-slam|Perception And Slam]]
@@ -40,4 +42,4 @@ Coarse category bucket (mirrors `summaries/robotics/`). 34 paper(s), classified 
 - [[papers/pdf-accelerating-large-scale-temporal-logic-based-task-and-m|(PDF) Accelerating Large-scale Temporal-Logic-based Task and Motion Planning with Logic Network Flow]] — [[topics/navigation-and-planning|Navigation And Planning]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

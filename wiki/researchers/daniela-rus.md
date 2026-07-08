@@ -4,7 +4,7 @@
 
 **Active topics**: [[topics/diffusion-models|Diffusion Models]], [[topics/multi-agent-and-games|Multi Agent And Games]], [[topics/navigation-and-planning|Navigation And Planning]], [[topics/optimization|Optimization]], [[topics/perception-and-slam|Perception And Slam]], [[topics/safe-control|Safe Control]], [[topics/uncertainty-and-bayesian|Uncertainty And Bayesian]]
 
-## Papers (25)
+## Papers (26)
 
 - [[papers/pdf-memo-memory-as-a-model|(PDF) MeMo: Memory as a Model]] (2026)
 - [[papers/2601.22356|PoSafeNet: Safe Learning with Poset-Structured Neural Nets]] (2026)
@@ -29,8 +29,9 @@
 - [[papers/txt-multi-crease-self-folding-by-global-heating|(TXT) Multi-crease Self-folding by Global Heating]]
 - [[papers/pdf-biconvex-optimization-for-smooth-minimum-time-trajectori|(PDF) Biconvex Optimization for Smooth Minimum-Time Trajectories around Convex Obstacles]]
 - [[papers/master-of-science-in-architecture-studies-at-the|MASTER OF SCIENCE IN ARCHITECTURE STUDIES at the]]
+- [[papers/m-blocks-three-dimensional-modular-self-reconfigurable-robot|M-Blocks: Three Dimensional Modular Self-Reconfigurable Robots]]
 - [[papers/chainqueen-a-real-time-differentiable-physical-simulator-for|ChainQueen: A Real-Time Differentiable Physical Simulator for Soft Robotics Yuanming Hu, Jiancheng Liu, Andrew Spielberg]]
 - [[papers/asking-for-help-using-inverse-semantics-stefanie-tellex1-bro|Asking for Help Using Inverse Semantics Stefanie Tellex1 Brown University Box 1910 Providence, RI 02912, USA]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

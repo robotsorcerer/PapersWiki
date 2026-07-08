@@ -22,8 +22,8 @@ _No snippet available in the source alert._
 - [[papers/advances-in-contraction-theory-for-robust-optimization-contr|Advances in Contraction Theory for Robust Optimization, Control, and Neural Computation]]
 - [[papers/pdf-accelerating-signal-temporal-logic-based-task-and-motion|(PDF) Accelerating Signal-Temporal-Logic-Based Task and Motion Planning of Bipedal Navigation using Benders Decomposition]]
 - [[papers/pdf-seeing-saying-solving-an-llm-to-tl-framework-for-coopera|(PDF) Seeing, Saying, Solving: An LLM-to-TL Framework for Cooperative Robots]]
-- [[papers/2509.19480|OmniVLA: An Omni-Modal Vision-Language-Action Model for Robot Navigation]]
-- [[papers/2511.18703|Asynchronous Distributed Multi-Robot Motion Planning Under Imperfect Communication]]
+- [[papers/arch-comp26-category-report-artificial-intelligence-and-neur|ARCH-COMP26 Category Report: Artificial Intelligence and Neural Network Control Systems (AINNCS) for Continuous and Hybrid Systems Plants]]
+- [[papers/low-discrepancy-perturbation-design-for-numerically-stable-g|Low-Discrepancy Perturbation Design for Numerically Stable Gradient Estimation in Feedback Optimization]]
 
 ## Source (raw)
 
@@ -32,4 +32,4 @@ _No snippet available in the source alert._
 > The raw alert email is the source of truth and is never edited. This page is compiled from it.
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

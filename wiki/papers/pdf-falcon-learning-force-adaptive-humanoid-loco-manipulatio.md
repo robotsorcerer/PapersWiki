@@ -22,8 +22,8 @@ _No snippet available in the source alert._
 - [[papers/2606.06218|TAM: Torque Adaptation Module for Robust Motion Transfer in Manipulation]]
 - [[papers/2606.18610|SC3-Eval: Evaluating Robot Foundation Models via Self-Consistent Video Generation]]
 - [[papers/2606.21148|Pose-Agnostic Robotic Functional Grasping via Observation-Action Canonicalization]]
-- [[papers/pdf-supplementary-material-for-pointworld-scaling-3d-world-m|(PDF) Supplementary Material for POINTWORLD: Scaling 3D World Models for In-The-Wild Robotic Manipulation]]
-- [[papers/universal-manipulation-interface-us-patent-app-18-731745|Universal manipulation interface (US Patent App. 18/731745)]]
+- [[papers/2606.30988|Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force]]
+- [[papers/2606.32027|Freeform Preference Learning for Robotic Manipulation]]
 
 ## Source (raw)
 
@@ -32,4 +32,4 @@ _No snippet available in the source alert._
 > The raw alert email is the source of truth and is never edited. This page is compiled from it.
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

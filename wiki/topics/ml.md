@@ -1,6 +1,6 @@
 # Category: ML
 
-Coarse category bucket (mirrors `summaries/ml/`). 40 paper(s), classified from title + snippet keywords.
+Coarse category bucket (mirrors `summaries/ml/`). 44 paper(s), classified from title + snippet keywords.
 
 ## Papers
 
@@ -11,6 +11,7 @@ Coarse category bucket (mirrors `summaries/ml/`). 40 paper(s), classified from t
 - [[papers/pdf-ego-pi-vla-fine-tuning-for-ego-centric-human-and-robot-d|(PDF) Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data]] (2026) — [[topics/language-and-foundation-models|Language And Foundation Models]]
 - [[papers/pdf-direct-when-and-where-should-you-allocate-test-time-comp|(PDF) DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?]] (2026) — [[topics/language-and-foundation-models|Language And Foundation Models]]
 - [[papers/2606.20008|VIMPO: Value-Implicit Policy Optimization for LLMs]] (2026) — [[topics/reinforcement-learning|Reinforcement Learning]], [[topics/optimization|Optimization]], [[topics/language-and-foundation-models|Language And Foundation Models]]
+- [[papers/2607.01520|The risk of KV cache compression]] (2026) — [[topics/language-and-foundation-models|Language And Foundation Models]]
 - [[papers/2602.01439|TQL: Scaling Q-Functions with Transformers by Preventing Attention Collapse]] (2026) — [[topics/reinforcement-learning|Reinforcement Learning]], [[topics/language-and-foundation-models|Language And Foundation Models]]
 - [[papers/2602.12281|Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment]] (2026) — [[topics/language-and-foundation-models|Language And Foundation Models]]
 - [[papers/2606.23595|SPIRAL: Learning to Search and Aggregate]] (2026) — [[topics/language-and-foundation-models|Language And Foundation Models]]
@@ -24,8 +25,11 @@ Coarse category bucket (mirrors `summaries/ml/`). 40 paper(s), classified from t
 - [[papers/2606.23640|Learning Process Rewards via Success Visitation Matching for Efficient RL]] (2026) — [[topics/reinforcement-learning|Reinforcement Learning]]
 - [[papers/graph-theoretic-modeling-of-memory-poisoning-diffusion-in-mu|Graph-Theoretic Modeling of Memory Poisoning Diffusion in Multi-Agent Communication Networks]] (2026) — [[topics/diffusion-models|Diffusion Models]], [[topics/multi-agent-and-games|Multi Agent And Games]]
 - [[papers/2606.14728|FUSE: Quantifying Uncertainty in Vision-Language Models by Bayesian Fusing Epistemic and Aleatoric Uncertainty]] (2026) — [[topics/language-and-foundation-models|Language And Foundation Models]], [[topics/uncertainty-and-bayesian|Uncertainty And Bayesian]]
+- [[papers/execution-delay-balanced-pipeline-parallelism-based-distribu|Execution-delay-balanced Pipeline-parallelism-based Distributed Model Training for Artificial Intelligence Data Centers Interconnected by Optical Networks]] (2026) — [[topics/language-and-foundation-models|Language And Foundation Models]]
 - [[papers/dimension-free-convergence-of-discrete-diffusion|DIMENSION-FREE CONVERGENCE OF DISCRETE DIFFUSION]] (2026) — [[topics/imitation-learning|Imitation Learning]]
+- [[papers/2606.31958|Adapting Generalist Robot Policies with Semantic Reinforcement Learning]] (2026) — [[topics/reinforcement-learning|Reinforcement Learning]]
 - [[papers/2602.02864|Accelerating Structured Chain-of-Thought in Autonomous Vehicles]] (2026) — [[topics/language-and-foundation-models|Language And Foundation Models]]
+- [[papers/2607.01693|A Mathematical Introduction to Diffusion Models]] (2026) — [[topics/diffusion-models|Diffusion Models]]
 - [[papers/2604.15483|${\pi} _ {0.7} $: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities]] (2026) — [[topics/language-and-foundation-models|Language And Foundation Models]]
 - [[papers/pdf-pi-0-6-a-vla-that-learns-from-experience|(PDF) pi*_0.6: a VLA That Learns From Experience]] (2025) — [[topics/language-and-foundation-models|Language And Foundation Models]]
 - [[papers/pdf-your-reward-function-for-rl-is-your-best-prm-for-search|(PDF) Your Reward Function for RL is Your Best PRM for Search: Unifying RL and Search-Based TTS]] (2025) — [[topics/reinforcement-learning|Reinforcement Learning]]
@@ -46,4 +50,4 @@ Coarse category bucket (mirrors `summaries/ml/`). 40 paper(s), classified from t
 - [[papers/governorvla-adaptive-embodied-reasoning-for-long-tail-autono|GovernorVLA: Adaptive Embodied Reasoning for Long-tail Autonomous Driving]] — [[topics/language-and-foundation-models|Language And Foundation Models]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

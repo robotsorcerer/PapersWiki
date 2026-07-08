@@ -11,4 +11,4 @@
 - [[papers/2605.05812|Long-Horizon Q-Learning: Accurate Value Learning via n-Step Inequalities]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

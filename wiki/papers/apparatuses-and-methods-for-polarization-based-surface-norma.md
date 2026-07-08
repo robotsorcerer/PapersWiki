@@ -19,6 +19,7 @@ _No snippet available in the source alert._
 - [[papers/2603.21785|Image-Conditioned Adaptive Parameter Tuning for Visual Odometry Frontends]]
 - [[papers/2604.24033|Event-based SLAM Benchmark for High-Speed Maneuvers]]
 - [[papers/2605.23717|Vision-Based Agile Landing on Turbulent Waters]]
+- [[papers/2606.27353|Continual Robot Policy Learning via Variational Neural Dynamics]]
 
 ## Source (raw)
 
@@ -27,4 +28,4 @@ _No snippet available in the source alert._
 > The raw alert email is the source of truth and is never edited. This page is compiled from it.
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

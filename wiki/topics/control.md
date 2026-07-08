@@ -1,6 +1,6 @@
 # Category: CONTROL
 
-Coarse category bucket (mirrors `summaries/control/`). 44 paper(s), classified from title + snippet keywords.
+Coarse category bucket (mirrors `summaries/control/`). 45 paper(s), classified from title + snippet keywords.
 
 ## Papers
 
@@ -21,6 +21,7 @@ Coarse category bucket (mirrors `summaries/control/`). 44 paper(s), classified f
 - [[papers/2601.22356|PoSafeNet: Safe Learning with Poset-Structured Neural Nets]] (2026) — [[topics/safe-control|Safe Control]]
 - [[papers/2602.00921|On the Convergence of Jacobian-Free Backpropagation for Optimal Control Problems with Implicit Hamiltonians]] (2026) — [[topics/model-predictive-control|Model Predictive Control]]
 - [[papers/2605.03065|OGPO: Sample Efficient Full-Finetuning of Generative Control Policies]] (2026) — [[topics/optimization|Optimization]]
+- [[papers/low-discrepancy-perturbation-design-for-numerically-stable-g|Low-Discrepancy Perturbation Design for Numerically Stable Gradient Estimation in Feedback Optimization]] (2026) — [[topics/optimization|Optimization]]
 - [[papers/2604.02687|Inverse Safety Filtering: Inferring Constraints from Safety Filters for Decentralized Coordination]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]], [[topics/safe-control|Safe Control]], [[topics/multi-agent-and-games|Multi Agent And Games]]
 - [[papers/2603.24566|Integral Control Barrier Functions with Input Delay: Prediction, Feasibility, and Robustness]] (2026) — [[topics/control-barrier-functions|Control Barrier Functions]]
 - [[papers/2605.10792|Implicit Neural Optimal Transport via Fixed-Point Optimization]] (2026) — [[topics/optimization|Optimization]]
@@ -50,4 +51,4 @@ Coarse category bucket (mirrors `summaries/control/`). 44 paper(s), classified f
 - [[papers/semantic-constraint-synthesis-for-adaptive-trajectory-optimi|Semantic Constraint Synthesis for Adaptive Trajectory Optimization via Large Language Models]] — [[topics/navigation-and-planning|Navigation And Planning]], [[topics/optimization|Optimization]], [[topics/language-and-foundation-models|Language And Foundation Models]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

@@ -11,4 +11,4 @@
 - [[papers/2601.03100|Text-Guided Layer Fusion Mitigates Hallucination in Multimodal LLMs]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

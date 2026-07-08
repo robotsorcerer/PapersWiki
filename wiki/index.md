@@ -5,66 +5,67 @@ A self-maintaining, linked knowledge base in the style of Karpathy's *LLM Wiki /
 - **`email_src/`** — the **raw** source of truth (Google Scholar alerts). Never edited.
 - **`wiki/`** — **compiled** by `src/wiki.py` into the linked pages below. Rebuilt deterministically on every run, so the graph never rots.
 
-_Last compiled: 2026-07-02 15:09 EDT_
+_Last compiled: 2026-07-08 10:59 EDT_
 
 ## At a glance
 
-- **Papers**: 183
-- **Researchers followed**: 23
+- **Papers**: 201
+- **Researchers followed**: 24
 - **Topics**: 16
-- **Source emails**: 174
+- **Source emails**: 185
 
 ## Researchers
 
-- [[researchers/daniela-rus|Daniela Rus]] — 25 paper(s)
+- [[researchers/daniela-rus|Daniela Rus]] — 26 paper(s)
 - [[researchers/aaron-d-ames|Aaron D. Ames]] — 24 paper(s)
-- [[researchers/marco-pavone|Marco Pavone]] — 18 paper(s)
-- [[researchers/sergey-levine|Sergey Levine]] — 18 paper(s)
-- [[researchers/chelsea-finn|Chelsea Finn]] — 12 paper(s)
+- [[researchers/marco-pavone|Marco Pavone]] — 19 paper(s)
+- [[researchers/sergey-levine|Sergey Levine]] — 19 paper(s)
+- [[researchers/chelsea-finn|Chelsea Finn]] — 13 paper(s)
 - [[researchers/evangelos-theodorou|Evangelos Theodorou]] — 10 paper(s)
 - [[researchers/george-pappas|George Pappas]] — 10 paper(s)
 - [[researchers/russ-tedrake|Russ Tedrake]] — 10 paper(s)
+- [[researchers/samuel-coogan|Samuel Coogan]] — 9 paper(s)
 - [[researchers/luca-carlone|Luca Carlone]] — 8 paper(s)
+- [[researchers/srikanth-kandula|Srikanth Kandula]] — 8 paper(s)
 - [[researchers/claire-tomlin|Claire Tomlin]] — 7 paper(s)
-- [[researchers/samuel-coogan|Samuel Coogan]] — 7 paper(s)
-- [[researchers/davide-scaramuzza|Davide Scaramuzza]] — 6 paper(s)
+- [[researchers/davide-scaramuzza|Davide Scaramuzza]] — 7 paper(s)
 - [[researchers/s-osher|S osher]] — 6 paper(s)
 - [[researchers/dieter-fox|Dieter Fox]] — 5 paper(s)
 - [[researchers/karen-willcox|Karen Willcox]] — 4 paper(s)
+- [[researchers/mark-cutkosky|Mark Cutkosky]] — 4 paper(s)
 - [[researchers/ali-agha|Ali Agha]] — 2 paper(s)
 - [[researchers/ellen-kuhl|Ellen Kuhl]] — 2 paper(s)
 - [[researchers/ishai-menache|Ishai Menache]] — 2 paper(s)
 - [[researchers/manfred-morari|Manfred Morari]] — 2 paper(s)
-- [[researchers/mark-cutkosky|Mark Cutkosky]] — 2 paper(s)
 - [[researchers/moritz-b-cher|Moritz Bächer]] — 2 paper(s)
 - [[researchers/lennart-ljung|Lennart Ljung]] — 1 paper(s)
 - [[researchers/ray-ogden|Ray Ogden]] — 1 paper(s)
 
 ## Topics
 
-- [[topics/language-and-foundation-models|Language And Foundation Models]] — 27 paper(s)
-- [[topics/optimization|Optimization]] — 19 paper(s)
+- [[topics/language-and-foundation-models|Language And Foundation Models]] — 29 paper(s)
+- [[topics/optimization|Optimization]] — 20 paper(s)
+- [[topics/reinforcement-learning|Reinforcement Learning]] — 18 paper(s)
 - [[topics/safe-control|Safe Control]] — 17 paper(s)
 - [[topics/control-barrier-functions|Control Barrier Functions]] — 16 paper(s)
 - [[topics/perception-and-slam|Perception And Slam]] — 16 paper(s)
-- [[topics/reinforcement-learning|Reinforcement Learning]] — 16 paper(s)
 - [[topics/uncertainty-and-bayesian|Uncertainty And Bayesian]] — 12 paper(s)
 - [[topics/navigation-and-planning|Navigation And Planning]] — 11 paper(s)
 - [[topics/locomotion|Locomotion]] — 10 paper(s)
+- [[topics/manipulation|Manipulation]] — 10 paper(s)
 - [[topics/multi-agent-and-games|Multi Agent And Games]] — 10 paper(s)
-- [[topics/manipulation|Manipulation]] — 8 paper(s)
 - [[topics/model-predictive-control|Model Predictive Control]] — 7 paper(s)
 - [[topics/world-models|World Models]] — 6 paper(s)
-- [[topics/diffusion-models|Diffusion Models]] — 4 paper(s)
+- [[topics/diffusion-models|Diffusion Models]] — 5 paper(s)
 - [[topics/hamilton-jacobi-reachability|Hamilton Jacobi Reachability]] — 4 paper(s)
 - [[topics/imitation-learning|Imitation Learning]] — 4 paper(s)
 
 ## Categories
 
-- [[topics/control|CONTROL]] — 44 paper(s)
-- [[topics/robotics|ROBOTICS]] — 34 paper(s)
-- [[topics/ml|ML]] — 40 paper(s)
-- **OTHER** — 65 paper(s)
+- [[topics/control|CONTROL]] — 45 paper(s)
+- [[topics/robotics|ROBOTICS]] — 36 paper(s)
+- [[topics/ml|ML]] — 44 paper(s)
+- **OTHER** — 76 paper(s)
 
 ## Sources
 
@@ -107,9 +108,13 @@ _Last compiled: 2026-07-02 15:09 EDT_
 - [[sources/coogan-0527-eml|coogan_0527.eml]] (1 paper(s))
 - [[sources/coogan-0606-eml|coogan_0606.eml]] (1 paper(s))
 - [[sources/coogan-0623-eml|coogan_0623.eml]] (1 paper(s))
+- [[sources/coogan-0705-eml|coogan_0705.eml]] (1 paper(s))
+- [[sources/coogan-0708-eml|coogan_0708.eml]] (1 paper(s))
 - [[sources/coogan-0824-eml|coogan_0824.eml]] (1 paper(s))
 - [[sources/coogan-0928-eml|coogan_0928.eml]] (1 paper(s))
 - [[sources/cutkosky-0607-eml|cutkosky_0607.eml]] (1 paper(s))
+- [[sources/cutkosky-0705-eml|cutkosky_0705.eml]] (1 paper(s))
+- [[sources/cutkosky-0708-eml|cutkosky_0708.eml]] (1 paper(s))
 - [[sources/cutkosky-1228-eml|cutkosky_1228.eml]] (1 paper(s))
 - [[sources/davide-0217-26-eml|davide_0217_26.eml]] (1 paper(s))
 - [[sources/davide-0318-26-eml|davide_0318_26.eml]] (1 paper(s))
@@ -124,6 +129,7 @@ _Last compiled: 2026-07-02 15:09 EDT_
 - [[sources/finn-0602-eml|finn_0602.eml]] (1 paper(s))
 - [[sources/finn-0615-eml|finn_0615.eml]] (1 paper(s))
 - [[sources/finn-0629-eml|finn_0629.eml]] (2 paper(s))
+- [[sources/finn-0705-eml|finn_0705.eml]] (1 paper(s))
 - [[sources/finn-1006-eml|finn_1006.eml]] (1 paper(s))
 - [[sources/finn-1010-eml|finn_1010.eml]] (1 paper(s))
 - [[sources/finn-1211-eml|finn_1211.eml]] (1 paper(s))
@@ -132,6 +138,7 @@ _Last compiled: 2026-07-02 15:09 EDT_
 - [[sources/fox-0607-eml|fox_0607.eml]] (1 paper(s))
 - [[sources/fox-0609-eml|fox_0609.eml]] (1 paper(s))
 - [[sources/fox-0610-eml|fox_0610.eml]] (1 paper(s))
+- [[sources/kandula-0708-eml|kandula_0708.eml]] (8 paper(s))
 - [[sources/karen-wilcox-infinite-simulations-eml|karen_wilcox_infinite_simulations.eml]] (2 paper(s))
 - [[sources/kuhl-0124-eml|kuhl_0124.eml]] (1 paper(s))
 - [[sources/kuhl-0403-eml|kuhl_0403.eml]] (1 paper(s))
@@ -142,6 +149,7 @@ _Last compiled: 2026-07-02 15:09 EDT_
 - [[sources/levine-0621-eml|levine_0621.eml]] (1 paper(s))
 - [[sources/levine-0623-eml|levine_0623.eml]] (2 paper(s))
 - [[sources/levine-0629-eml|levine_0629.eml]] (1 paper(s))
+- [[sources/levine-0705-eml|levine_0705.eml]] (1 paper(s))
 - [[sources/levine-0824-eml|levine_0824.eml]] (1 paper(s))
 - [[sources/levine-0928-eml|levine_0928.eml]] (1 paper(s))
 - [[sources/levine-1012-eml|levine_1012.eml]] (1 paper(s))
@@ -188,6 +196,7 @@ _Last compiled: 2026-07-02 15:09 EDT_
 - [[sources/pavone-0619-eml|pavone_0619.eml]] (1 paper(s))
 - [[sources/pavone-0627-eml|pavone_0627.eml]] (1 paper(s))
 - [[sources/pavone-0629-eml|pavone_0629.eml]] (1 paper(s))
+- [[sources/pavone-0706-eml|pavone_0706.eml]] (1 paper(s))
 - [[sources/pavone-0824-eml|pavone_0824.eml]] (1 paper(s))
 - [[sources/pavone-p5p2-eml|pavone_p5p2.eml]] (1 paper(s))
 - [[sources/pavone-road-eml|pavone_road.eml]] (1 paper(s))
@@ -207,6 +216,7 @@ _Last compiled: 2026-07-02 15:09 EDT_
 - [[sources/rus-0627-eml|rus_0627.eml]] (1 paper(s))
 - [[sources/rus-062725-eml|rus_062725.eml]] (1 paper(s))
 - [[sources/rus-0701-eml|rus_0701.eml]] (2 paper(s))
+- [[sources/rus-0706-eml|rus_0706.eml]] (1 paper(s))
 - [[sources/rus-0720-eml|rus_0720.eml]] (1 paper(s))
 - [[sources/rus-0722-eml|rus_0722.eml]] (1 paper(s))
 - [[sources/rus-0825-eml|rus_0825.eml]] (1 paper(s))
@@ -216,6 +226,8 @@ _Last compiled: 2026-07-02 15:09 EDT_
 - [[sources/rus-1113-eml|rus_1113.eml]] (1 paper(s))
 - [[sources/rus-1204-eml|rus_1204.eml]] (1 paper(s))
 - [[sources/safety-infcontraints-eml|safety_infcontraints.eml]] (1 paper(s))
+- [[sources/scaramuzza-0702-eml|scaramuzza_0702.eml]] (1 paper(s))
+- [[sources/selfnotes-0704-eml|selfnotes_0704.eml]] (1 paper(s))
 - [[sources/tedrake-0216-26-eml|tedrake_0216_26.eml]] (1 paper(s))
 - [[sources/tedrake-0525-eml|tedrake_0525.eml]] (1 paper(s))
 - [[sources/tedrake-0609-eml|tedrake_0609.eml]] (1 paper(s))
@@ -244,4 +256,4 @@ _Last compiled: 2026-07-02 15:09 EDT_
 - [[sources/willcox-0928-eml|willcox_0928.eml]] (1 paper(s))
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*

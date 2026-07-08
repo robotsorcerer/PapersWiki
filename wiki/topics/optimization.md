@@ -1,6 +1,6 @@
 # Optimization
 
-Concept cluster compiled from `email_src/`. 19 paper(s).
+Concept cluster compiled from `email_src/`. 20 paper(s).
 
 **Researchers**: [[researchers/aaron-d-ames|Aaron D. Ames]], [[researchers/chelsea-finn|Chelsea Finn]], [[researchers/daniela-rus|Daniela Rus]], [[researchers/ellen-kuhl|Ellen Kuhl]], [[researchers/evangelos-theodorou|Evangelos Theodorou]], [[researchers/george-pappas|George Pappas]], [[researchers/marco-pavone|Marco Pavone]], [[researchers/moritz-b-cher|Moritz Bächer]], [[researchers/russ-tedrake|Russ Tedrake]], [[researchers/s-osher|S osher]], [[researchers/samuel-coogan|Samuel Coogan]], [[researchers/sergey-levine|Sergey Levine]]
 
@@ -13,6 +13,7 @@ Concept cluster compiled from `email_src/`. 19 paper(s).
 - [[papers/2605.02147|Sampling-Based Control via Entropy-Regularized Optimal Transport]] (2026)
 - [[papers/2602.08813|Robust Policy Optimization to Prevent Catastrophic Forgetting]] (2026)
 - [[papers/2605.03065|OGPO: Sample Efficient Full-Finetuning of Generative Control Policies]] (2026)
+- [[papers/low-discrepancy-perturbation-design-for-numerically-stable-g|Low-Discrepancy Perturbation Design for Numerically Stable Gradient Estimation in Feedback Optimization]] (2026)
 - [[papers/2605.10792|Implicit Neural Optimal Transport via Fixed-Point Optimization]] (2026)
 - [[papers/implicit-graphs-of-convex-sets|Implicit Graphs of Convex Sets]] (2026)
 - [[papers/2604.04499|Distributed Covariance Steering via Non-Convex ADMM for Large-Scale Multi-Agent Systems]] (2026)
@@ -27,4 +28,4 @@ Concept cluster compiled from `email_src/`. 19 paper(s).
 - [[papers/semantic-constraint-synthesis-for-adaptive-trajectory-optimi|Semantic Constraint Synthesis for Adaptive Trajectory Optimization via Large Language Models]]
 
 ---
-*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-02 15:09 EDT. Do not hand-edit; edit the raw emails instead.*
+*Compiled by `src/wiki.py` from the raw `email_src/` alerts — 2026-07-08 10:59 EDT. Do not hand-edit; edit the raw emails instead.*
